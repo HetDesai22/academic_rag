@@ -47,3 +47,7 @@ chartCategoricalColors = ["#7FB0E0", "#4FC1B1", "#A68BD1", "#E07A5F", "#E3AE3C",
 backgroundColor = "#161B22"
 secondaryBackgroundColor = "#1F2630"
 borderColor = "#2B323D"
+
+[server]
+# No auto-reload file watching (not needed when deployed; avoids scanning torch/transformers modules).
+fileWatcherType = "none"

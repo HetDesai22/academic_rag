@@ -510,11 +510,11 @@ def evaluation():
             c1, c2 = st.columns(2)
             with c1:
                 st.markdown("**Deterministic checks**")
-                table(pd.DataFrame([{"check": k.replace("_", " "), "value": v} for k, v in det.items()]))
+                table(pd.DataFrame([{"check": k.replace("_", " "), "value": str(v)} for k, v in det.items()]))
             with c2:
                 st.markdown("**Automatic LLM judge** " + ui.chip("silver", "forecast"), unsafe_allow_html=True)
                 j = {k: v for k, v in rg.get("llm_judge", {}).items() if k != "type"}
-                table(pd.DataFrame([{"metric": k.replace("_", " "), "value": v} for k, v in j.items()]))
+                table(pd.DataFrame([{"metric": k.replace("_", " "), "value": str(v)} for k, v in j.items()]))
             table(pd.DataFrame(rg["per_query"]), ["id", "query", "insufficient", "expect_insufficient", "best_similarity",
                                                   "context_keyword_precision", "citation_coverage", "grounded"])
     with t4:

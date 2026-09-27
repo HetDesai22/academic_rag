@@ -267,6 +267,39 @@ This was verified by holding out one paper and adding it back: `vector DB increm
   - Charts: `figures/*.html`
   - Log: `pipeline.log`
 
+## Deploying on Streamlit Community Cloud
+
+The repository includes everything the deployed app needs:
+- the pipeline outputs: `data/final`, `data/review`, `reports`, `vector_db`, `evaluation`;
+- the cached LLM answers in `data/cache/*.jsonl`, so the example questions answer instantly;
+- `app/requirements.txt`, a lean CPU-only dependency set that Streamlit Cloud uses because it sits next to the entrypoint.
+
+The pipeline does not run on the cloud. Run `python pipeline.py` locally and push the updated outputs.
+
+1. Push this repository to GitHub (a private repository is fine):
+   ```bash
+   git remote add origin https://github.com/<you>/academic-question-intelligence.git
+   git push -u origin main
+   ```
+2. Go to https://share.streamlit.io → **Create app** → *Deploy a public app from GitHub*, and set:
+   - repository `<you>/academic-question-intelligence`
+   - branch `main`
+   - main file `app/app.py`
+3. Open **Advanced settings**:
+   - Choose **Python 3.11 or newer**.
+   - Paste your secrets (see `.streamlit/secrets.toml.example`):
+     ```toml
+     ANTHROPIC_API_KEY = "sk-ant-..."
+     ```
+   Without a key, the app still works: answers are built from the retrieved questions (extractive).
+4. Click **Deploy**.
+   - The first start installs dependencies and downloads the embedding model (about 440 MB), so it takes a few minutes.
+   - The app runs on CPU.
+
+Notes:
+- Decisions saved in the *Review queue* on the cloud last only until the app restarts (the cloud file system is not persistent). Make review decisions locally and push them.
+- To update the deployed app, re-run the pipeline locally, commit and push; Streamlit Cloud redeploys automatically.
+
 ## Web application
 
 The app has eight sections:
