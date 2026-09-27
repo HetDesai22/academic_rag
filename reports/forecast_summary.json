@@ -1,0 +1,84 @@
+{
+  "selected_method": "historical_mean",
+  "candidate_methods": [
+    "historical_mean",
+    "moving_average",
+    "exp_smoothing",
+    "linear_trend",
+    "seasonal_mean",
+    "random_forest"
+  ],
+  "selection_metric": "mae",
+  "metrics": [
+    {
+      "method": "historical_mean",
+      "n_forecasts": 204,
+      "mae": 0.9629519607843137,
+      "rmse": 1.30698740902617,
+      "appearance_precision": 0.9607843137254902,
+      "appearance_recall": 1.0,
+      "appearance_f1": 0.98,
+      "rank_spearman_mean": 0.603416113237013
+    },
+    {
+      "method": "random_forest",
+      "n_forecasts": 204,
+      "mae": 1.0098205882352942,
+      "rmse": 1.318370781141871,
+      "appearance_precision": 0.9653465346534653,
+      "appearance_recall": 0.9948979591836735,
+      "appearance_f1": 0.9798994974874372,
+      "rank_spearman_mean": 0.5739465257588403
+    },
+    {
+      "method": "moving_average",
+      "n_forecasts": 204,
+      "mae": 1.03594068627451,
+      "rmse": 1.4238082585474223,
+      "appearance_precision": 0.9744897959183674,
+      "appearance_recall": 0.9744897959183674,
+      "appearance_f1": 0.9744897959183674,
+      "rank_spearman_mean": 0.5681972554153809
+    },
+    {
+      "method": "exp_smoothing",
+      "n_forecasts": 204,
+      "mae": 1.0648916666666668,
+      "rmse": 1.4391510671123404,
+      "appearance_precision": 0.9847715736040609,
+      "appearance_recall": 0.9897959183673469,
+      "appearance_f1": 0.9872773536895675,
+      "rank_spearman_mean": 0.5265728713986273
+    },
+    {
+      "method": "seasonal_mean",
+      "n_forecasts": 204,
+      "mae": 1.0874166666666667,
+      "rmse": 1.4791798720647766,
+      "appearance_precision": 0.9653465346534653,
+      "appearance_recall": 0.9948979591836735,
+      "appearance_f1": 0.9798994974874372,
+      "rank_spearman_mean": 0.5302114029514264
+    },
+    {
+      "method": "linear_trend",
+      "n_forecasts": 204,
+      "mae": 1.2801696078431373,
+      "rmse": 1.6831838577004978,
+      "appearance_precision": 0.9896373056994818,
+      "appearance_recall": 0.9744897959183674,
+      "appearance_f1": 0.9820051413881749,
+      "rank_spearman_mean": 0.43973721407715677
+    }
+  ],
+  "improvement_over_historical_mean_mae": 0.0,
+  "backtest_origins": [
+    "W2023",
+    "S2024",
+    "W2024",
+    "S2025",
+    "W2025",
+    "S2026"
+  ],
+  "disclaimer": "Forecasts are statistical estimates based on observed historical patterns in this dataset. They are not predictions of actual exam content and carry uncertainty."
+}

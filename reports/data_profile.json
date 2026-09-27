@@ -1,0 +1,438 @@
+{
+  "generated_at": "2026-09-27T17:19:11+00:00",
+  "input_files": [
+    {
+      "file": "data/processed/questions.csv",
+      "sha256": "57afa4ffe2d7464659df0515f2e4e451c8867013827ea1c64d4dc84294193472"
+    }
+  ],
+  "rows": 1000,
+  "columns_in_source": 13,
+  "source_columns": [
+    "university",
+    "subject",
+    "subject_code",
+    "semester",
+    "exam_session",
+    "year",
+    "exam_date",
+    "question_no",
+    "sub_part",
+    "is_or_option",
+    "question",
+    "marks",
+    "source_file"
+  ],
+  "column_mapping": {
+    "question_id": null,
+    "paper_id": null,
+    "university": "university",
+    "subject": "subject",
+    "subject_code": "subject_code",
+    "year": "year",
+    "exam_session": "exam_session",
+    "semester": "semester",
+    "exam_date": "exam_date",
+    "question_number": "question_no",
+    "sub_part": "sub_part",
+    "is_or_option": "is_or_option",
+    "question_text": "question",
+    "marks": "marks",
+    "source_file": "source_file",
+    "page_number": null
+  },
+  "standardized_fields_missing": [
+    "page_number"
+  ],
+  "derived_fields": [
+    "question_id",
+    "paper_id"
+  ],
+  "missing_values": {
+    "semester": 25
+  },
+  "duplicate_rows": 0,
+  "duplicate_question_ids": 0,
+  "duplicate_question_texts": {
+    "rows_with_repeated_text": 311,
+    "distinct_repeated_texts": 141
+  },
+  "unique_subjects": 4,
+  "unique_years": 6,
+  "years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "exam_periods": [
+    "W2021",
+    "S2022",
+    "W2022",
+    "S2023",
+    "W2023",
+    "S2024",
+    "W2024",
+    "S2025",
+    "W2025",
+    "S2026"
+  ],
+  "year_distribution": {
+    "2021": 100,
+    "2022": 200,
+    "2023": 200,
+    "2024": 200,
+    "2025": 200,
+    "2026": 100
+  },
+  "subject_distribution": {
+    "Artificial Intelligence and Machine Learning": 250,
+    "Applied Machine Learning": 250,
+    "Introduction of Machine learning": 250,
+    "Machine Learning": 250
+  },
+  "questions_per_period": {
+    "S2022": 100,
+    "S2023": 100,
+    "S2024": 100,
+    "S2025": 100,
+    "S2026": 100,
+    "W2021": 100,
+    "W2022": 100,
+    "W2023": 100,
+    "W2024": 100,
+    "W2025": 100
+  },
+  "questions_per_subject_year": {
+    "Applied Machine Learning": {
+      "2021": 25,
+      "2022": 50,
+      "2023": 50,
+      "2024": 50,
+      "2025": 50,
+      "2026": 25
+    },
+    "Artificial Intelligence and Machine Learning": {
+      "2021": 25,
+      "2022": 50,
+      "2023": 50,
+      "2024": 50,
+      "2025": 50,
+      "2026": 25
+    },
+    "Introduction of Machine learning": {
+      "2021": 25,
+      "2022": 50,
+      "2023": 50,
+      "2024": 50,
+      "2025": 50,
+      "2026": 25
+    },
+    "Machine Learning": {
+      "2021": 25,
+      "2022": 50,
+      "2023": 50,
+      "2024": 50,
+      "2025": 50,
+      "2026": 25
+    }
+  },
+  "question_length_chars": {
+    "count": 1000.0,
+    "mean": 78.3,
+    "std": 70.7,
+    "min": 11.0,
+    "25%": 47.0,
+    "50%": 60.0,
+    "75%": 83.0,
+    "max": 829.0
+  },
+  "question_length_words": {
+    "count": 1000.0,
+    "mean": 12.1,
+    "std": 13.0,
+    "min": 2.0,
+    "25%": 7.0,
+    "50%": 9.0,
+    "75%": 13.0,
+    "max": 148.0
+  },
+  "marks_distribution": {
+    "3": 320,
+    "4": 320,
+    "7": 360
+  },
+  "top_repeated_questions": [
+    {
+      "text": "What do you mean by a well-posed learning problem? Explain important features that are required to well-define a learning problem.",
+      "times": 4,
+      "periods": [
+        "S2022",
+        "S2023",
+        "S2025",
+        "W2021"
+      ]
+    },
+    {
+      "text": "How to initialize Weights and Biases in Neural Networks?",
+      "times": 4,
+      "periods": [
+        "S2025",
+        "S2026",
+        "W2021",
+        "W2025"
+      ]
+    },
+    {
+      "text": "What are Support Vectors in SVMs?",
+      "times": 4,
+      "periods": [
+        "S2024",
+        "S2026",
+        "W2021",
+        "W2025"
+      ]
+    },
+    {
+      "text": "What are the factors determining the effectiveness of SVM?",
+      "times": 4,
+      "periods": [
+        "S2024",
+        "S2025",
+        "W2021"
+      ]
+    },
+    {
+      "text": "Distinguish between supervised learning, semi-supervised learning, and Unsupervised learning.",
+      "times": 4,
+      "periods": [
+        "S2022",
+        "S2025",
+        "W2021",
+        "W2022"
+      ]
+    },
+    {
+      "text": "Explain the learning process of an ANN. Explain with example, the challenge in assigning synaptic weights for the interconnection between neurons. How can this ",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "W2021",
+        "W2025"
+      ]
+    },
+    {
+      "text": "Differentiate between linear regression and logistic regression.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2026",
+        "W2025"
+      ]
+    },
+    {
+      "text": "Define slope in a linear regression. Find the slope of the graph where the lower point on the line is represented as (−3, −2) and the higher point on the line i",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2026",
+        "W2021"
+      ]
+    },
+    {
+      "text": "Define reinforcement learning. Explain the concept of penalty and reward in reinforcement learning.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2025",
+        "W2021"
+      ]
+    },
+    {
+      "text": "State few real world applications of SVM.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2025",
+        "W2022"
+      ]
+    },
+    {
+      "text": "List and explain the steps to compute Principal Component Analysis with an example.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2025",
+        "W2022"
+      ]
+    },
+    {
+      "text": "State the merits and demerits of Bayes classifier.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "W2021",
+        "W2024"
+      ]
+    },
+    {
+      "text": "What are Bayesian Belief networks? Where are they used? Can they solve all types of problems?",
+      "times": 3,
+      "periods": [
+        "S2025",
+        "W2024",
+        "W2025"
+      ]
+    },
+    {
+      "text": "Why cost function is also called as mean squared error function? Explain with a suitable example.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "W2022",
+        "W2024"
+      ]
+    },
+    {
+      "text": "What is likelihood probability? Give an example.",
+      "times": 3,
+      "periods": [
+        "S2022",
+        "S2023",
+        "W2021"
+      ]
+    }
+  ],
+  "suspicious_records": {
+    "count": 25,
+    "records": [
+      {
+        "question_id": "3161710_S2022_Q1b",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8"
+      },
+      {
+        "question_id": "3161710_S2022_Q2c",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "3 0 2 Find the inverse of the matrix 𝐴= [ 2 0 −2 ] 0 1 1"
+      },
+      {
+        "question_id": "3161710_S2023_Q4c_OR",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "Calculate inverse of a given 3x3 matrix. 3 0 2 𝑀= | 2 0 −2 | 0 1 1"
+      },
+      {
+        "question_id": "3161710_S2024_Q1c",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "1 0 3 Find inverse of matrix: 𝐴= [ 4 0 5 ] 1 2 3"
+      },
+      {
+        "question_id": "3161710_S2024_Q2c_OR",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "Perform addition and Subtraction of the following matrices: [1 2 3 [2 1 2 Also find 2A2 𝐴= 2] 𝑎𝑛𝑑 𝐵= 3]. 1 0 1 0"
+      },
+      {
+        "question_id": "3161710_S2025_Q2c",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "1 2 3 Find inverse of the matrix 𝐴= ( 4 5 6 ) 7 2 9"
+      },
+      {
+        "question_id": "3161710_W2022_Q1b",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8 3 0 2"
+      },
+      {
+        "question_id": "3161710_W2022_Q1c",
+        "reason": "mathematical alphanumeric symbols (PDF math extraction)",
+        "text": "Find the inverse of the matrix 𝐴= [ 2 0 −2]"
+      },
+      {
+        "question_id": "3161710_S2022_Q2c",
+        "reason": "starts with a numeric fragment (text from a neighbouring question)",
+        "text": "3 0 2 Find the inverse of the matrix 𝐴= [ 2 0 −2 ] 0 1 1"
+      },
+      {
+        "question_id": "3161710_S2024_Q1c",
+        "reason": "starts with a numeric fragment (text from a neighbouring question)",
+        "text": "1 0 3 Find inverse of matrix: 𝐴= [ 4 0 5 ] 1 2 3"
+      },
+      {
+        "question_id": "3161710_S2025_Q2c",
+        "reason": "starts with a numeric fragment (text from a neighbouring question)",
+        "text": "1 2 3 Find inverse of the matrix 𝐴= ( 4 5 6 ) 7 2 9"
+      },
+      {
+        "question_id": "3171617_S2026_Q4a_OR",
+        "reason": "contains a page footer",
+        "text": "Explain the concept of sampling distribution. Page of"
+      },
+      {
+        "question_id": "3171617_S2026_Q5c_OR",
+        "reason": "contains a page footer",
+        "text": "Evaluate the role of parameter estimation methods in deep neural networks. Which approach is most suitable when data is "
+      },
+      {
+        "question_id": "3161710_S2022_Q1b",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8"
+      },
+      {
+        "question_id": "3161710_S2022_Q5c",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The marks obtained by a student are dependent on his/her study time. Given the study time in minutes and marks out of 20"
+      },
+      {
+        "question_id": "3161710_S2022_Q5c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship "
+      },
+      {
+        "question_id": "3161710_S2023_Q5c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Rent of hotel (Rs.) is related to the room area (square feet). As per the given table find the relationship between area"
+      },
+      {
+        "question_id": "3161710_S2024_Q2c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Perform addition and Subtraction of the following matrices: [1 2 3 [2 1 2 Also find 2A2 𝐴= 2] 𝑎𝑛𝑑 𝐵= 3]. 1 0 1 0"
+      },
+      {
+        "question_id": "3161710_S2024_Q4c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The rent of a property is related to its area. Given the area in square feet and rent in dollars find the relationship b"
+      },
+      {
+        "question_id": "3161710_S2025_Q2c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The city’s transportation department is interested in studying the relationship between the temperature and the number o"
+      },
+      {
+        "question_id": "3161710_W2022_Q1b",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8 3 0 2"
+      },
+      {
+        "question_id": "3161710_W2022_Q5c",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The marks obtained by a student are dependent on his/her study time. Given the study time in minutes and marks out of 20"
+      },
+      {
+        "question_id": "3161710_W2022_Q5c_OR",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship "
+      },
+      {
+        "question_id": "3171617_S2022_Q3c",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Explain Rosenblatt’s perceptron model. How can a set of data be classified using a simple perceptron? Using a simple per"
+      },
+      {
+        "question_id": "3171617_W2021_Q1c",
+        "reason": "many standalone numbers (flattened table or matrix)",
+        "text": "Explain, in details, Rosenblatt’s perceptron model. How can a set of data be classified using a simple perceptron? Using"
+      }
+    ]
+  }
+}

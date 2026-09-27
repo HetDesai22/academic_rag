@@ -1,0 +1,22 @@
+# CUDA 12.8 build of torch; on CPU-only machines replace the torch line with: torch==2.11.0
+--extra-index-url https://download.pytorch.org/whl/cu128
+anthropic==1.8.0
+faiss-cpu==1.15.1
+hdbscan==0.8.44
+numpy==2.5.3
+openai==3.19.2
+pandas==3.0.6
+pdfplumber==0.11.10
+plotly==7.1.0
+pymupdf==1.28.2
+pytest==9.1.1
+python-dotenv==1.2.3
+PyYAML==6.0.3
+RapidFuzz==3.14.6
+scikit-learn==1.9.1
+scipy==1.18.1
+sentence-transformers==6.1.0
+streamlit==1.64.0
+torch==2.11.0+cu128
+transformers==5.17.0
+umap-learn==0.5.12

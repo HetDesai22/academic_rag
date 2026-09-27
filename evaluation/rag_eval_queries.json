@@ -1,0 +1,18 @@
+{
+  "description": "RAG evaluation queries written against topics present in the dataset (plus out-of-scope controls). expected_keywords give a deterministic lexical proxy for context relevance; expect_insufficient marks queries the system should refuse.",
+  "queries": [
+    {"id": "q01", "query": "What questions have been asked about the backpropagation algorithm?", "expected_keywords": ["backpropagation", "back propagation", "back-propagation"], "expect_insufficient": false},
+    {"id": "q02", "query": "Which questions on Bayes theorem appeared in AML?", "expected_keywords": ["bayes"], "expect_insufficient": false},
+    {"id": "q03", "query": "How often has K-means clustering been asked in ML over the years?", "expected_keywords": ["k-means", "k means", "k-mean", "kmeans"], "expect_insufficient": false},
+    {"id": "q04", "query": "What has been asked about support vector machines in AIML since 2023?", "expected_keywords": ["svm", "support vector", "hinge", "margin"], "expect_insufficient": false},
+    {"id": "q05", "query": "Which topics are likely to be important for the next IML exam?", "expected_keywords": [], "expect_insufficient": false},
+    {"id": "q06", "query": "Has principal component analysis been asked repeatedly?", "expected_keywords": ["principal component", "pca", "principle component"], "expect_insufficient": false},
+    {"id": "q07", "query": "What questions about convolutional and recurrent neural networks were asked?", "expected_keywords": ["cnn", "rnn", "convolutional", "recurrent"], "expect_insufficient": false},
+    {"id": "q08", "query": "Show questions on gradient descent variants for large datasets.", "expected_keywords": ["stochastic", "mini batch", "mini-batch", "large data"], "expect_insufficient": false},
+    {"id": "q09", "query": "What numerical problems on probability distributions were asked in AML?", "expected_keywords": ["distribution", "probability", "binomial", "normal", "poisson"], "expect_insufficient": false},
+    {"id": "q10", "query": "Is overfitting a recurring topic in exam questions?", "expected_keywords": ["overfitting", "over fitting", "over-fitting", "underfitting"], "expect_insufficient": false},
+    {"id": "q11", "query": "What questions were asked about ensemble methods like bagging and boosting?", "expected_keywords": ["bagging", "boosting", "ensemble", "adaboost", "random forest"], "expect_insufficient": false},
+    {"id": "q12", "query": "What questions were asked about B+ tree indexing in DBMS?", "expected_keywords": [], "expect_insufficient": true},
+    {"id": "q13", "query": "Explain what was asked about TCP congestion control and sliding window protocols.", "expected_keywords": [], "expect_insufficient": true}
+  ]
+}

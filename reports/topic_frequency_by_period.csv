@@ -1,0 +1,341 @@
+﻿subject,topic,period,period_index,paper_questions,paper_marks,questions,marks,secondary,mentions,share,marks_share
+Applied Machine Learning,Bayesian Concept Learning,W2021,4043.0,25,119,5,24.0,0,5,0.2,0.2017
+Applied Machine Learning,Bayesian Concept Learning,S2022,4044.0,25,119,3,14.0,0,3,0.12,0.1176
+Applied Machine Learning,Bayesian Concept Learning,W2022,4045.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,Bayesian Concept Learning,S2023,4046.0,25,119,5,29.0,0,5,0.2,0.2437
+Applied Machine Learning,Bayesian Concept Learning,W2023,4047.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Bayesian Concept Learning,S2024,4048.0,25,119,4,21.0,0,4,0.16,0.1765
+Applied Machine Learning,Bayesian Concept Learning,W2024,4049.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,Bayesian Concept Learning,S2025,4050.0,25,119,4,22.0,0,4,0.16,0.1849
+Applied Machine Learning,Bayesian Concept Learning,W2025,4051.0,25,119,3,15.0,0,3,0.12,0.1261
+Applied Machine Learning,Bayesian Concept Learning,S2026,4052.0,25,119,1,4.0,0,1,0.04,0.0336
+Applied Machine Learning,Classification and Regression,W2021,4043.0,25,119,11,51.0,0,11,0.44,0.4286
+Applied Machine Learning,Classification and Regression,S2022,4044.0,25,119,5,18.0,0,5,0.2,0.1513
+Applied Machine Learning,Classification and Regression,W2022,4045.0,25,119,5,25.0,0,5,0.2,0.2101
+Applied Machine Learning,Classification and Regression,S2023,4046.0,25,119,7,39.0,0,7,0.28,0.3277
+Applied Machine Learning,Classification and Regression,W2023,4047.0,25,119,6,26.0,0,6,0.24,0.2185
+Applied Machine Learning,Classification and Regression,S2024,4048.0,25,119,8,39.0,0,8,0.32,0.3277
+Applied Machine Learning,Classification and Regression,W2024,4049.0,25,119,4,25.0,0,4,0.16,0.2101
+Applied Machine Learning,Classification and Regression,S2025,4050.0,25,119,4,17.0,0,4,0.16,0.1429
+Applied Machine Learning,Classification and Regression,W2025,4051.0,25,119,6,32.0,0,6,0.24,0.2689
+Applied Machine Learning,Classification and Regression,S2026,4052.0,25,119,5,31.0,0,5,0.2,0.2605
+Applied Machine Learning,Deep Learning,W2021,4043.0,25,119,0,0.0,0,0,0.0,0.0
+Applied Machine Learning,Deep Learning,S2022,4044.0,25,119,5,32.0,0,5,0.2,0.2689
+Applied Machine Learning,Deep Learning,W2022,4045.0,25,119,5,21.0,0,5,0.2,0.1765
+Applied Machine Learning,Deep Learning,S2023,4046.0,25,119,1,3.0,0,1,0.04,0.0252
+Applied Machine Learning,Deep Learning,W2023,4047.0,25,119,2,14.0,0,2,0.08,0.1176
+Applied Machine Learning,Deep Learning,S2024,4048.0,25,119,4,18.0,0,4,0.16,0.1513
+Applied Machine Learning,Deep Learning,W2024,4049.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,Deep Learning,S2025,4050.0,25,119,3,18.0,0,3,0.12,0.1513
+Applied Machine Learning,Deep Learning,W2025,4051.0,25,119,2,10.0,0,2,0.08,0.084
+Applied Machine Learning,Deep Learning,S2026,4052.0,25,119,4,14.0,0,4,0.16,0.1176
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2021,4043.0,25,119,0,0.0,0,0,0.0,0.0
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2022,4044.0,25,119,0,0.0,1,1,0.0,0.0
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2022,4045.0,25,119,2,10.0,0,2,0.08,0.084
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2023,4046.0,25,119,2,8.0,0,2,0.08,0.0672
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4047.0,25,119,2,8.0,0,2,0.08,0.0672
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,4048.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,4049.0,25,119,2,11.0,0,2,0.08,0.0924
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,4050.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,4051.0,25,119,1,4.0,0,1,0.04,0.0336
+Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,4052.0,25,119,2,14.0,0,2,0.08,0.1176
+Applied Machine Learning,Introduction to Machine Learning,W2021,4043.0,25,119,3,9.0,0,3,0.12,0.0756
+Applied Machine Learning,Introduction to Machine Learning,S2022,4044.0,25,119,5,20.0,0,5,0.2,0.1681
+Applied Machine Learning,Introduction to Machine Learning,W2022,4045.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Introduction to Machine Learning,S2023,4046.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Introduction to Machine Learning,W2023,4047.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Introduction to Machine Learning,S2024,4048.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Introduction to Machine Learning,W2024,4049.0,25,119,5,22.0,0,5,0.2,0.1849
+Applied Machine Learning,Introduction to Machine Learning,S2025,4050.0,25,119,2,6.0,0,2,0.08,0.0504
+Applied Machine Learning,Introduction to Machine Learning,W2025,4051.0,25,119,3,9.0,0,3,0.12,0.0756
+Applied Machine Learning,Introduction to Machine Learning,S2026,4052.0,25,119,1,4.0,0,1,0.04,0.0336
+Applied Machine Learning,Neural Networks and Parameter Estimation,W2021,4043.0,25,119,5,28.0,0,5,0.2,0.2353
+Applied Machine Learning,Neural Networks and Parameter Estimation,S2022,4044.0,25,119,4,21.0,0,4,0.16,0.1765
+Applied Machine Learning,Neural Networks and Parameter Estimation,W2022,4045.0,25,119,3,17.0,0,3,0.12,0.1429
+Applied Machine Learning,Neural Networks and Parameter Estimation,S2023,4046.0,25,119,4,16.0,0,4,0.16,0.1345
+Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4047.0,25,119,4,20.0,0,4,0.16,0.1681
+Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,4048.0,25,119,4,21.0,0,4,0.16,0.1765
+Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,4049.0,25,119,2,7.0,0,2,0.08,0.0588
+Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,4050.0,25,119,2,8.0,0,2,0.08,0.0672
+Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,4051.0,25,119,4,17.0,0,4,0.16,0.1429
+Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,4052.0,25,119,5,24.0,0,5,0.2,0.2017
+Applied Machine Learning,Overview of Probability,W2021,4043.0,25,119,1,7.0,0,1,0.04,0.0588
+Applied Machine Learning,Overview of Probability,S2022,4044.0,25,119,3,14.0,1,4,0.12,0.1176
+Applied Machine Learning,Overview of Probability,W2022,4045.0,25,119,6,33.0,0,6,0.24,0.2773
+Applied Machine Learning,Overview of Probability,S2023,4046.0,25,119,4,17.0,0,4,0.16,0.1429
+Applied Machine Learning,Overview of Probability,W2023,4047.0,25,119,7,37.0,0,7,0.28,0.3109
+Applied Machine Learning,Overview of Probability,S2024,4048.0,25,119,1,7.0,0,1,0.04,0.0588
+Applied Machine Learning,Overview of Probability,W2024,4049.0,25,119,8,42.0,1,9,0.32,0.3529
+Applied Machine Learning,Overview of Probability,S2025,4050.0,25,119,8,42.0,0,8,0.32,0.3529
+Applied Machine Learning,Overview of Probability,W2025,4051.0,25,119,6,32.0,0,6,0.24,0.2689
+Applied Machine Learning,Overview of Probability,S2026,4052.0,25,119,7,28.0,0,7,0.28,0.2353
+Artificial Intelligence and Machine Learning,Artificial Neural Network,W2021,4043.0,25,119,3,14.0,0,3,0.12,0.1176
+Artificial Intelligence and Machine Learning,Artificial Neural Network,S2022,4044.0,25,119,7,31.0,0,7,0.28,0.2605
+Artificial Intelligence and Machine Learning,Artificial Neural Network,W2022,4045.0,25,119,7,31.0,0,7,0.28,0.2605
+Artificial Intelligence and Machine Learning,Artificial Neural Network,S2023,4046.0,25,119,4,21.0,0,4,0.16,0.1765
+Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4047.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,4048.0,25,119,6,28.0,0,6,0.24,0.2353
+Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,4049.0,25,119,6,28.0,0,6,0.24,0.2353
+Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,4050.0,25,119,3,14.0,0,3,0.12,0.1176
+Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,4051.0,25,119,5,20.0,0,5,0.2,0.1681
+Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,4052.0,25,119,5,20.0,0,5,0.2,0.1681
+Artificial Intelligence and Machine Learning,Classification,W2021,4043.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Classification,S2022,4044.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Classification,W2022,4045.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Classification,S2023,4046.0,25,119,6,27.0,0,6,0.24,0.2269
+Artificial Intelligence and Machine Learning,Classification,W2023,4047.0,25,119,5,26.0,0,5,0.2,0.2185
+Artificial Intelligence and Machine Learning,Classification,S2024,4048.0,25,119,3,10.0,0,3,0.12,0.084
+Artificial Intelligence and Machine Learning,Classification,W2024,4049.0,25,119,4,21.0,0,4,0.16,0.1765
+Artificial Intelligence and Machine Learning,Classification,S2025,4050.0,25,119,3,15.0,0,3,0.12,0.1261
+Artificial Intelligence and Machine Learning,Classification,W2025,4051.0,25,119,3,17.0,1,4,0.12,0.1429
+Artificial Intelligence and Machine Learning,Classification,S2026,4052.0,25,119,3,17.0,1,4,0.12,0.1429
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2021,4043.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2022,4044.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2022,4045.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2023,4046.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4047.0,25,119,3,14.0,0,3,0.12,0.1176
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,4048.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,4049.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,4050.0,25,119,2,11.0,0,2,0.08,0.0924
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,4051.0,25,119,2,11.0,0,2,0.08,0.0924
+Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,4052.0,25,119,2,11.0,0,2,0.08,0.0924
+Artificial Intelligence and Machine Learning,Ensemble Learning,W2021,4043.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Ensemble Learning,S2022,4044.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Ensemble Learning,W2022,4045.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Ensemble Learning,S2023,4046.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4047.0,25,119,2,10.0,0,2,0.08,0.084
+Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,4048.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,4049.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,4050.0,25,119,2,10.0,0,2,0.08,0.084
+Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,4051.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,4052.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2021,4043.0,25,119,5,24.0,1,6,0.2,0.2017
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2022,4044.0,25,119,8,45.0,1,9,0.32,0.3782
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2022,4045.0,25,119,8,45.0,1,9,0.32,0.3782
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2023,4046.0,25,119,5,24.0,0,5,0.2,0.2017
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4047.0,25,119,2,10.0,0,2,0.08,0.084
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,4048.0,25,119,5,32.0,0,5,0.2,0.2689
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,4049.0,25,119,5,20.0,1,6,0.2,0.1681
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,4050.0,25,119,8,41.0,0,8,0.32,0.3445
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,4051.0,25,119,6,31.0,0,6,0.24,0.2605
+Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,4052.0,25,119,6,31.0,0,6,0.24,0.2605
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2021,4043.0,25,119,2,8.0,0,2,0.08,0.0672
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2022,4044.0,25,119,2,8.0,0,2,0.08,0.0672
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2022,4045.0,25,119,2,8.0,0,2,0.08,0.0672
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2023,4046.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4047.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,4048.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,4049.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,4050.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,4051.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,4052.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2021,4043.0,25,119,3,10.0,0,3,0.12,0.084
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2022,4044.0,25,119,3,10.0,0,3,0.12,0.084
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2022,4045.0,25,119,3,10.0,0,3,0.12,0.084
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2023,4046.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4047.0,25,119,3,14.0,0,3,0.12,0.1176
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,4048.0,25,119,4,14.0,0,4,0.16,0.1176
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,4049.0,25,119,7,35.0,0,7,0.28,0.2941
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,4050.0,25,119,4,17.0,0,4,0.16,0.1429
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,4051.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,4052.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2021,4043.0,25,119,3,18.0,0,3,0.12,0.1513
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2022,4044.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2022,4045.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2023,4046.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4047.0,25,119,1,3.0,0,1,0.04,0.0252
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,4048.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,4049.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,4050.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,4051.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,4052.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Support Vector Machine,W2021,4043.0,25,119,5,21.0,0,5,0.2,0.1765
+Artificial Intelligence and Machine Learning,Support Vector Machine,S2022,4044.0,25,119,3,11.0,0,3,0.12,0.0924
+Artificial Intelligence and Machine Learning,Support Vector Machine,W2022,4045.0,25,119,3,11.0,0,3,0.12,0.0924
+Artificial Intelligence and Machine Learning,Support Vector Machine,S2023,4046.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4047.0,25,119,4,18.0,0,4,0.16,0.1513
+Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,4048.0,25,119,3,14.0,0,3,0.12,0.1176
+Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,4049.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,4050.0,25,119,2,8.0,0,2,0.08,0.0672
+Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,4051.0,25,119,3,11.0,0,3,0.12,0.0924
+Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,4052.0,25,119,3,11.0,0,3,0.12,0.0924
+Artificial Intelligence and Machine Learning,Unsupervised Learning,W2021,4043.0,25,119,2,10.0,0,2,0.08,0.084
+Artificial Intelligence and Machine Learning,Unsupervised Learning,S2022,4044.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Unsupervised Learning,W2022,4045.0,25,119,0,0.0,0,0,0.0,0.0
+Artificial Intelligence and Machine Learning,Unsupervised Learning,S2023,4046.0,25,119,2,11.0,0,2,0.08,0.0924
+Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4047.0,25,119,3,17.0,0,3,0.12,0.1429
+Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,4048.0,25,119,2,7.0,0,2,0.08,0.0588
+Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,4049.0,25,119,1,4.0,0,1,0.04,0.0336
+Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,4050.0,25,119,1,3.0,0,1,0.04,0.0252
+Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,4051.0,25,119,1,7.0,0,1,0.04,0.0588
+Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,4052.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Basic Concepts of Clustering,W2021,4043.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Basic Concepts of Clustering,S2022,4044.0,25,119,2,10.0,0,2,0.08,0.084
+Introduction of Machine learning,Basic Concepts of Clustering,W2022,4045.0,25,119,3,18.0,0,3,0.12,0.1513
+Introduction of Machine learning,Basic Concepts of Clustering,S2023,4046.0,25,119,1,4.0,0,1,0.04,0.0336
+Introduction of Machine learning,Basic Concepts of Clustering,W2023,4047.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Basic Concepts of Clustering,S2024,4048.0,25,119,2,14.0,0,2,0.08,0.1176
+Introduction of Machine learning,Basic Concepts of Clustering,W2024,4049.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Basic Concepts of Clustering,S2025,4050.0,25,119,2,14.0,0,2,0.08,0.1176
+Introduction of Machine learning,Basic Concepts of Clustering,W2025,4051.0,25,119,2,8.0,0,2,0.08,0.0672
+Introduction of Machine learning,Basic Concepts of Clustering,S2026,4052.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Basic Machine Learning Algorithms,W2021,4043.0,25,119,4,18.0,0,4,0.16,0.1513
+Introduction of Machine learning,Basic Machine Learning Algorithms,S2022,4044.0,25,119,3,12.0,0,3,0.12,0.1008
+Introduction of Machine learning,Basic Machine Learning Algorithms,W2022,4045.0,25,119,3,17.0,0,3,0.12,0.1429
+Introduction of Machine learning,Basic Machine Learning Algorithms,S2023,4046.0,25,119,4,17.0,0,4,0.16,0.1429
+Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4047.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,4048.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,4049.0,25,119,4,17.0,0,4,0.16,0.1429
+Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,4050.0,25,119,3,17.0,0,3,0.12,0.1429
+Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,4051.0,25,119,2,10.0,0,2,0.08,0.084
+Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,4052.0,25,119,5,18.0,0,5,0.2,0.1513
+Introduction of Machine learning,Basics of Neural Network,W2021,4043.0,25,119,3,15.0,0,3,0.12,0.1261
+Introduction of Machine learning,Basics of Neural Network,S2022,4044.0,25,119,7,32.0,0,7,0.28,0.2689
+Introduction of Machine learning,Basics of Neural Network,W2022,4045.0,25,119,7,31.0,0,7,0.28,0.2605
+Introduction of Machine learning,Basics of Neural Network,S2023,4046.0,25,119,8,34.0,0,8,0.32,0.2857
+Introduction of Machine learning,Basics of Neural Network,W2023,4047.0,25,119,6,28.0,0,6,0.24,0.2353
+Introduction of Machine learning,Basics of Neural Network,S2024,4048.0,25,119,2,14.0,0,2,0.08,0.1176
+Introduction of Machine learning,Basics of Neural Network,W2024,4049.0,25,119,4,21.0,0,4,0.16,0.1765
+Introduction of Machine learning,Basics of Neural Network,S2025,4050.0,25,119,7,31.0,0,7,0.28,0.2605
+Introduction of Machine learning,Basics of Neural Network,W2025,4051.0,25,119,5,25.0,0,5,0.2,0.2101
+Introduction of Machine learning,Basics of Neural Network,S2026,4052.0,25,119,5,22.0,0,5,0.2,0.1849
+Introduction of Machine learning,Bayesian Concept of Learning,W2021,4043.0,25,119,4,17.0,0,4,0.16,0.1429
+Introduction of Machine learning,Bayesian Concept of Learning,S2022,4044.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Bayesian Concept of Learning,W2022,4045.0,25,119,2,8.0,0,2,0.08,0.0672
+Introduction of Machine learning,Bayesian Concept of Learning,S2023,4046.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Bayesian Concept of Learning,W2023,4047.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Bayesian Concept of Learning,S2024,4048.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Bayesian Concept of Learning,W2024,4049.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Bayesian Concept of Learning,S2025,4050.0,25,119,3,11.0,0,3,0.12,0.0924
+Introduction of Machine learning,Bayesian Concept of Learning,W2025,4051.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Bayesian Concept of Learning,S2026,4052.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Computational and Ensemble Learning,W2021,4043.0,25,119,2,6.0,0,2,0.08,0.0504
+Introduction of Machine learning,Computational and Ensemble Learning,S2022,4044.0,25,119,5,23.0,0,5,0.2,0.1933
+Introduction of Machine learning,Computational and Ensemble Learning,W2022,4045.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Computational and Ensemble Learning,S2023,4046.0,25,119,4,21.0,0,4,0.16,0.1765
+Introduction of Machine learning,Computational and Ensemble Learning,W2023,4047.0,25,119,4,22.0,0,4,0.16,0.1849
+Introduction of Machine learning,Computational and Ensemble Learning,S2024,4048.0,25,119,5,21.0,0,5,0.2,0.1765
+Introduction of Machine learning,Computational and Ensemble Learning,W2024,4049.0,25,119,3,18.0,0,3,0.12,0.1513
+Introduction of Machine learning,Computational and Ensemble Learning,S2025,4050.0,25,119,3,10.0,0,3,0.12,0.084
+Introduction of Machine learning,Computational and Ensemble Learning,W2025,4051.0,25,119,6,27.0,0,6,0.24,0.2269
+Introduction of Machine learning,Computational and Ensemble Learning,S2026,4052.0,25,119,3,17.0,0,3,0.12,0.1429
+Introduction of Machine learning,Dimensionality Reduction,W2021,4043.0,25,119,3,17.0,0,3,0.12,0.1429
+Introduction of Machine learning,Dimensionality Reduction,S2022,4044.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Dimensionality Reduction,W2022,4045.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Dimensionality Reduction,S2023,4046.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Dimensionality Reduction,W2023,4047.0,25,119,2,10.0,0,2,0.08,0.084
+Introduction of Machine learning,Dimensionality Reduction,S2024,4048.0,25,119,4,17.0,0,4,0.16,0.1429
+Introduction of Machine learning,Dimensionality Reduction,W2024,4049.0,25,119,4,21.0,0,4,0.16,0.1765
+Introduction of Machine learning,Dimensionality Reduction,S2025,4050.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Dimensionality Reduction,W2025,4051.0,25,119,2,10.0,0,2,0.08,0.084
+Introduction of Machine learning,Dimensionality Reduction,S2026,4052.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Introduction to Machine Learning,W2021,4043.0,25,119,4,18.0,0,4,0.16,0.1513
+Introduction of Machine learning,Introduction to Machine Learning,S2022,4044.0,25,119,2,7.0,0,2,0.08,0.0588
+Introduction of Machine learning,Introduction to Machine Learning,W2022,4045.0,25,119,4,20.0,0,4,0.16,0.1681
+Introduction of Machine learning,Introduction to Machine Learning,S2023,4046.0,25,119,1,7.0,0,1,0.04,0.0588
+Introduction of Machine learning,Introduction to Machine Learning,W2023,4047.0,25,119,3,9.0,0,3,0.12,0.0756
+Introduction of Machine learning,Introduction to Machine Learning,S2024,4048.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Introduction to Machine Learning,W2024,4049.0,25,119,3,11.0,0,3,0.12,0.0924
+Introduction of Machine learning,Introduction to Machine Learning,S2025,4050.0,25,119,3,11.0,0,3,0.12,0.0924
+Introduction of Machine learning,Introduction to Machine Learning,W2025,4051.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Introduction to Machine Learning,S2026,4052.0,25,119,4,20.0,0,4,0.16,0.1681
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2021,4043.0,25,119,4,21.0,0,4,0.16,0.1765
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2022,4044.0,25,119,4,21.0,0,4,0.16,0.1765
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2022,4045.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2023,4046.0,25,119,2,11.0,0,2,0.08,0.0924
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4047.0,25,119,3,14.0,0,3,0.12,0.1176
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,4048.0,25,119,5,17.0,0,5,0.2,0.1429
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,4049.0,25,119,3,17.0,0,3,0.12,0.1429
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,4050.0,25,119,2,14.0,0,2,0.08,0.1176
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,4051.0,25,119,3,18.0,0,3,0.12,0.1513
+Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,4052.0,25,119,2,10.0,0,2,0.08,0.084
+Machine Learning,Basics of Feature Engineering,W2021,4043.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Basics of Feature Engineering,S2022,4044.0,25,119,1,3.0,0,1,0.04,0.0252
+Machine Learning,Basics of Feature Engineering,W2022,4045.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Basics of Feature Engineering,S2023,4046.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Basics of Feature Engineering,W2023,4047.0,25,119,1,4.0,0,1,0.04,0.0336
+Machine Learning,Basics of Feature Engineering,S2024,4048.0,25,119,2,6.0,0,2,0.08,0.0504
+Machine Learning,Basics of Feature Engineering,W2024,4049.0,25,119,3,11.0,0,3,0.12,0.0924
+Machine Learning,Basics of Feature Engineering,S2025,4050.0,25,119,2,6.0,0,2,0.08,0.0504
+Machine Learning,Basics of Feature Engineering,W2025,4051.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Basics of Feature Engineering,S2026,4052.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Bayesian Concept Learning,W2021,4043.0,25,119,3,11.0,0,3,0.12,0.0924
+Machine Learning,Bayesian Concept Learning,S2022,4044.0,25,119,2,10.0,0,2,0.08,0.084
+Machine Learning,Bayesian Concept Learning,W2022,4045.0,25,119,2,7.0,0,2,0.08,0.0588
+Machine Learning,Bayesian Concept Learning,S2023,4046.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Bayesian Concept Learning,W2023,4047.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Bayesian Concept Learning,S2024,4048.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Bayesian Concept Learning,W2024,4049.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Bayesian Concept Learning,S2025,4050.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Bayesian Concept Learning,W2025,4051.0,25,119,3,15.0,0,3,0.12,0.1261
+Machine Learning,Bayesian Concept Learning,S2026,4052.0,25,119,2,10.0,0,2,0.08,0.084
+Machine Learning,Introduction to Machine Learning,W2021,4043.0,25,119,3,14.0,0,3,0.12,0.1176
+Machine Learning,Introduction to Machine Learning,S2022,4044.0,25,119,6,28.0,0,6,0.24,0.2353
+Machine Learning,Introduction to Machine Learning,W2022,4045.0,25,119,1,3.0,0,1,0.04,0.0252
+Machine Learning,Introduction to Machine Learning,S2023,4046.0,25,119,4,17.0,0,4,0.16,0.1429
+Machine Learning,Introduction to Machine Learning,W2023,4047.0,25,119,3,13.0,0,3,0.12,0.1092
+Machine Learning,Introduction to Machine Learning,S2024,4048.0,25,119,3,10.0,0,3,0.12,0.084
+Machine Learning,Introduction to Machine Learning,W2024,4049.0,25,119,2,7.0,0,2,0.08,0.0588
+Machine Learning,Introduction to Machine Learning,S2025,4050.0,25,119,3,14.0,0,3,0.12,0.1176
+Machine Learning,Introduction to Machine Learning,W2025,4051.0,25,119,4,15.0,0,4,0.16,0.1261
+Machine Learning,Introduction to Machine Learning,S2026,4052.0,25,119,2,7.0,0,2,0.08,0.0588
+Machine Learning,Modelling and Evaluation,W2021,4043.0,25,119,2,11.0,0,2,0.08,0.0924
+Machine Learning,Modelling and Evaluation,S2022,4044.0,25,119,2,10.0,0,2,0.08,0.084
+Machine Learning,Modelling and Evaluation,W2022,4045.0,25,119,3,18.0,0,3,0.12,0.1513
+Machine Learning,Modelling and Evaluation,S2023,4046.0,25,119,4,22.0,0,4,0.16,0.1849
+Machine Learning,Modelling and Evaluation,W2023,4047.0,25,119,2,7.0,0,2,0.08,0.0588
+Machine Learning,Modelling and Evaluation,S2024,4048.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Modelling and Evaluation,W2024,4049.0,25,119,3,18.0,0,3,0.12,0.1513
+Machine Learning,Modelling and Evaluation,S2025,4050.0,25,119,2,14.0,1,3,0.08,0.1176
+Machine Learning,Modelling and Evaluation,W2025,4051.0,25,119,4,16.0,0,4,0.16,0.1345
+Machine Learning,Modelling and Evaluation,S2026,4052.0,25,119,3,14.0,0,3,0.12,0.1176
+Machine Learning,Neural Network,W2021,4043.0,25,119,4,22.0,0,4,0.16,0.1849
+Machine Learning,Neural Network,S2022,4044.0,25,119,2,7.0,0,2,0.08,0.0588
+Machine Learning,Neural Network,W2022,4045.0,25,119,2,10.0,0,2,0.08,0.084
+Machine Learning,Neural Network,S2023,4046.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Neural Network,W2023,4047.0,25,119,3,10.0,0,3,0.12,0.084
+Machine Learning,Neural Network,S2024,4048.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Neural Network,W2024,4049.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Neural Network,S2025,4050.0,25,119,2,14.0,0,2,0.08,0.1176
+Machine Learning,Neural Network,W2025,4051.0,25,119,3,17.0,0,3,0.12,0.1429
+Machine Learning,Neural Network,S2026,4052.0,25,119,2,11.0,0,2,0.08,0.0924
+Machine Learning,Overview of Probability,W2021,4043.0,25,119,0,0.0,0,0,0.0,0.0
+Machine Learning,Overview of Probability,S2022,4044.0,25,119,3,15.0,0,3,0.12,0.1261
+Machine Learning,Overview of Probability,W2022,4045.0,25,119,3,9.0,0,3,0.12,0.0756
+Machine Learning,Overview of Probability,S2023,4046.0,25,119,2,6.0,0,2,0.08,0.0504
+Machine Learning,Overview of Probability,W2023,4047.0,25,119,4,21.0,0,4,0.16,0.1765
+Machine Learning,Overview of Probability,S2024,4048.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Overview of Probability,W2024,4049.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Overview of Probability,S2025,4050.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Overview of Probability,W2025,4051.0,25,119,1,3.0,0,1,0.04,0.0252
+Machine Learning,Overview of Probability,S2026,4052.0,25,119,3,17.0,0,3,0.12,0.1429
+Machine Learning,Preparing to Model,W2021,4043.0,25,119,2,6.0,0,2,0.08,0.0504
+Machine Learning,Preparing to Model,S2022,4044.0,25,119,4,21.0,0,4,0.16,0.1765
+Machine Learning,Preparing to Model,W2022,4045.0,25,119,3,15.0,0,3,0.12,0.1261
+Machine Learning,Preparing to Model,S2023,4046.0,25,119,3,10.0,0,3,0.12,0.084
+Machine Learning,Preparing to Model,W2023,4047.0,25,119,4,21.0,0,4,0.16,0.1765
+Machine Learning,Preparing to Model,S2024,4048.0,25,119,3,14.0,0,3,0.12,0.1176
+Machine Learning,Preparing to Model,W2024,4049.0,25,119,3,13.0,0,3,0.12,0.1092
+Machine Learning,Preparing to Model,S2025,4050.0,25,119,3,14.0,0,3,0.12,0.1176
+Machine Learning,Preparing to Model,W2025,4051.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Preparing to Model,S2026,4052.0,25,119,4,21.0,0,4,0.16,0.1765
+Machine Learning,Supervised Learning: Classification and Regression,W2021,4043.0,25,119,6,26.0,0,6,0.24,0.2185
+Machine Learning,Supervised Learning: Classification and Regression,S2022,4044.0,25,119,4,18.0,0,4,0.16,0.1513
+Machine Learning,Supervised Learning: Classification and Regression,W2022,4045.0,25,119,6,29.0,0,6,0.24,0.2437
+Machine Learning,Supervised Learning: Classification and Regression,S2023,4046.0,25,119,4,17.0,0,4,0.16,0.1429
+Machine Learning,Supervised Learning: Classification and Regression,W2023,4047.0,25,119,5,28.0,0,5,0.2,0.2353
+Machine Learning,Supervised Learning: Classification and Regression,S2024,4048.0,25,119,6,28.0,0,6,0.24,0.2353
+Machine Learning,Supervised Learning: Classification and Regression,W2024,4049.0,25,119,6,28.0,0,6,0.24,0.2353
+Machine Learning,Supervised Learning: Classification and Regression,S2025,4050.0,25,119,7,32.0,0,7,0.28,0.2689
+Machine Learning,Supervised Learning: Classification and Regression,W2025,4051.0,25,119,5,24.0,0,5,0.2,0.2017
+Machine Learning,Supervised Learning: Classification and Regression,S2026,4052.0,25,119,5,21.0,0,5,0.2,0.1765
+Machine Learning,Unsupervised Learning,W2021,4043.0,25,119,4,22.0,0,4,0.16,0.1849
+Machine Learning,Unsupervised Learning,S2022,4044.0,25,119,1,7.0,0,1,0.04,0.0588
+Machine Learning,Unsupervised Learning,W2022,4045.0,25,119,4,21.0,0,4,0.16,0.1765
+Machine Learning,Unsupervised Learning,S2023,4046.0,25,119,2,11.0,0,2,0.08,0.0924
+Machine Learning,Unsupervised Learning,W2023,4047.0,25,119,2,8.0,0,2,0.08,0.0672
+Machine Learning,Unsupervised Learning,S2024,4048.0,25,119,3,11.0,0,3,0.12,0.0924
+Machine Learning,Unsupervised Learning,W2024,4049.0,25,119,4,20.0,1,5,0.16,0.1681
+Machine Learning,Unsupervised Learning,S2025,4050.0,25,119,3,10.0,0,3,0.12,0.084
+Machine Learning,Unsupervised Learning,W2025,4051.0,25,119,3,15.0,1,4,0.12,0.1261
+Machine Learning,Unsupervised Learning,S2026,4052.0,25,119,2,10.0,0,2,0.08,0.084

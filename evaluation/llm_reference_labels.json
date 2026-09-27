@@ -1,0 +1,406 @@
+{
+  "description": "Blind LLM reference labels (silver standard, not ground truth).",
+  "model": "claude-opus-5",
+  "labels": {
+    "3171617_S2026_Q1b": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Bayes Theorem"
+    },
+    "3171617_W2025_Q4c": {
+      "topic": "Classification and Regression",
+      "subtopic": "Support Vector Machine"
+    },
+    "3171617_S2024_Q5a": {
+      "topic": "GANs, Deep RL and Adversarial Attacks",
+      "subtopic": "Generative Adversarial Networks"
+    },
+    "3171617_W2025_Q4a_OR": {
+      "topic": "Neural Networks and Parameter Estimation",
+      "subtopic": "Perceptron and Early Models"
+    },
+    "3171617_W2021_Q3b_OR": {
+      "topic": "Classification and Regression",
+      "subtopic": "Support Vector Machine"
+    },
+    "3171617_W2025_Q4c_OR": {
+      "topic": "Classification and Regression",
+      "subtopic": "K-Nearest Neighbour"
+    },
+    "3171617_S2025_Q3c_OR": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Bayes Theorem"
+    },
+    "3171617_W2022_Q3c": {
+      "topic": "Classification and Regression",
+      "subtopic": "Decision Trees and Random Forest"
+    },
+    "3171617_S2022_Q4c": {
+      "topic": "Deep Learning",
+      "subtopic": "Convolutional Neural Networks"
+    },
+    "3171617_S2024_Q2c": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Naive Bayes Classifier"
+    },
+    "3171617_S2026_Q4a_OR": {
+      "topic": "Overview of Probability",
+      "subtopic": "Central Limit Theorem and Sampling"
+    },
+    "3171617_S2022_Q5a": {
+      "topic": "Classification and Regression",
+      "subtopic": "K-Nearest Neighbour"
+    },
+    "3171617_S2025_Q5a_OR": {
+      "topic": "GANs, Deep RL and Adversarial Attacks",
+      "subtopic": "Generative Adversarial Networks"
+    },
+    "3171617_S2022_Q5c_OR": {
+      "topic": "GANs, Deep RL and Adversarial Attacks",
+      "subtopic": "Generative Adversarial Networks"
+    },
+    "3171617_S2023_Q1a": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "ML Definition and Applications"
+    },
+    "3171617_S2023_Q2c": {
+      "topic": "Classification and Regression",
+      "subtopic": "Clustering"
+    },
+    "3171617_W2025_Q3b_OR": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Naive Bayes Classifier"
+    },
+    "3171617_S2022_Q3c": {
+      "topic": "Neural Networks and Parameter Estimation",
+      "subtopic": "Perceptron and Early Models"
+    },
+    "3171617_S2026_Q5a": {
+      "topic": "Neural Networks and Parameter Estimation",
+      "subtopic": "Activation Functions"
+    },
+    "3171617_W2025_Q4a": {
+      "topic": "Classification and Regression",
+      "subtopic": "Classification Model and Learning Steps"
+    },
+    "3171617_W2024_Q3c": {
+      "topic": "Overview of Probability",
+      "subtopic": "Evaluation and Cross Validation"
+    },
+    "3171617_W2024_Q5a_OR": {
+      "topic": "Deep Learning",
+      "subtopic": "Convolutional Neural Networks"
+    },
+    "3171617_S2022_Q3a_OR": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Types of Learning"
+    },
+    "3171617_W2023_Q4b_OR": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Types of Learning"
+    },
+    "3171617_W2022_Q2c_OR": {
+      "topic": "Overview of Probability",
+      "subtopic": "Hypothesis Testing"
+    },
+    "3171617_W2024_Q5c_OR": {
+      "topic": "GANs, Deep RL and Adversarial Attacks",
+      "subtopic": "Generative Adversarial Networks"
+    },
+    "3171617_W2024_Q4c": {
+      "topic": "Classification and Regression",
+      "subtopic": "Support Vector Machine"
+    },
+    "3161710_S2025_Q1a": {
+      "topic": "Introduction to AI and ML",
+      "subtopic": "Learning Task Terminology"
+    },
+    "3161710_S2022_Q5c_OR": {
+      "topic": "Gradient Descent and Linear Algebra",
+      "subtopic": "Simple Linear Regression"
+    },
+    "3161710_S2023_Q4a_OR": {
+      "topic": "Gradient Descent and Linear Algebra",
+      "subtopic": "Gradient Descent"
+    },
+    "3161710_S2024_Q3a_OR": {
+      "topic": "Artificial Neural Network",
+      "subtopic": "ANN Architecture and Fundamentals"
+    },
+    "3161710_S2025_Q3b_OR": {
+      "topic": "Support Vector Machine",
+      "subtopic": "SVM Fundamentals and Max Margin"
+    },
+    "3161710_W2023_Q5b": {
+      "topic": "Artificial Neural Network",
+      "subtopic": "ANN Architecture and Fundamentals"
+    },
+    "3161710_S2022_Q4c": {
+      "topic": "Artificial Neural Network",
+      "subtopic": "ANN Architecture and Fundamentals"
+    },
+    "3161710_S2025_Q4c_OR": {
+      "topic": "Artificial Neural Network",
+      "subtopic": "Backpropagation"
+    },
+    "3161710_W2023_Q1a": {
+      "topic": "Introduction to AI and ML",
+      "subtopic": "AI and ML Overview"
+    },
+    "3161710_S2026_Q5c": {
+      "topic": "Unsupervised Learning",
+      "subtopic": "K-Means Clustering"
+    },
+    "3161710_W2023_Q2b": {
+      "topic": "Classification",
+      "subtopic": "Decision Trees"
+    },
+    "3161710_S2025_Q1b": {
+      "topic": "Introduction to AI and ML",
+      "subtopic": "AI and ML Overview"
+    },
+    "3161710_S2026_Q4c": {
+      "topic": "Classification",
+      "subtopic": "Overfitting and Underfitting"
+    },
+    "3161710_S2023_Q2c_OR": {
+      "topic": "Unsupervised Learning",
+      "subtopic": "K-Means Clustering"
+    },
+    "3161710_W2022_Q1c": {
+      "topic": "Gradient Descent and Linear Algebra",
+      "subtopic": "Matrix Inverse and Determinant"
+    },
+    "3161710_W2023_Q3a": {
+      "topic": "Multiple Features Gradient Descent",
+      "subtopic": "Polynomial Regression"
+    },
+    "3161710_W2023_Q3b": {
+      "topic": "Classification",
+      "subtopic": "Decision Trees"
+    },
+    "3161710_W2024_Q2c": {
+      "topic": "Introduction to AI and ML",
+      "subtopic": "Types of Learning"
+    },
+    "3161710_W2021_Q2c": {
+      "topic": "Multiple Features Gradient Descent",
+      "subtopic": "Normal Equation"
+    },
+    "3161710_W2023_Q4a_OR": {
+      "topic": "Support Vector Machine",
+      "subtopic": "SVM Fundamentals and Max Margin"
+    },
+    "3171114_S2023_Q1a": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Neural Network Fundamentals"
+    },
+    "3171114_W2023_Q3a_OR": {
+      "topic": "Basic Concepts of Clustering",
+      "subtopic": "Clustering Concepts"
+    },
+    "3171114_W2022_Q2c_OR": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Types of Learning"
+    },
+    "3171114_W2024_Q3b": {
+      "topic": "Bayesian Concept of Learning",
+      "subtopic": "Bayesian Learning and Bayes Theorem"
+    },
+    "3171114_S2022_Q4c_OR": {
+      "topic": "Computational and Ensemble Learning",
+      "subtopic": "Computational Learning Theory"
+    },
+    "3171114_W2024_Q5c": {
+      "topic": "Computational and Ensemble Learning",
+      "subtopic": "Boosting"
+    },
+    "3171114_W2023_Q4b": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Backpropagation"
+    },
+    "3171114_W2025_Q3b": {
+      "topic": "Basic Concepts of Clustering",
+      "subtopic": "K-Means Clustering"
+    },
+    "3171114_S2022_Q3c": {
+      "topic": "Logistic Regression and Support Vector Machine",
+      "subtopic": "SVM Fundamentals and Maximum Margin"
+    },
+    "3171114_W2021_Q4b": {
+      "topic": "Basic Machine Learning Algorithms",
+      "subtopic": "Decision Trees"
+    },
+    "3171114_S2023_Q2c": {
+      "topic": "Basic Machine Learning Algorithms",
+      "subtopic": "K-Nearest Neighbour"
+    },
+    "3171114_W2021_Q2a": {
+      "topic": "Basic Machine Learning Algorithms",
+      "subtopic": "Overfitting and Bias-Variance"
+    },
+    "3171114_W2023_Q5c_OR": {
+      "topic": "Computational and Ensemble Learning",
+      "subtopic": "Bagging and Random Forest"
+    },
+    "3171114_W2023_Q5a_OR": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Evaluation and Cross Validation"
+    },
+    "3171114_S2026_Q3c": {
+      "topic": "Bayesian Concept of Learning",
+      "subtopic": "Bayesian Learning and Bayes Theorem"
+    },
+    "3171114_W2022_Q4b_OR": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Activation Functions"
+    },
+    "3171114_W2025_Q2c_OR": {
+      "topic": "Basic Machine Learning Algorithms",
+      "subtopic": "Decision Trees"
+    },
+    "3171114_S2022_Q5a": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Neural Network Fundamentals"
+    },
+    "3171114_S2024_Q4a_OR": {
+      "topic": "Logistic Regression and Support Vector Machine",
+      "subtopic": "SVM Fundamentals and Maximum Margin"
+    },
+    "3171114_W2024_Q4c_OR": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Multilayer Feed Forward Networks"
+    },
+    "3171114_S2025_Q5c": {
+      "topic": "Basic Concepts of Clustering",
+      "subtopic": "Hierarchical Clustering"
+    },
+    "3171114_W2021_Q5b_OR": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Neural Network Fundamentals"
+    },
+    "3171114_W2024_Q2a": {
+      "topic": "Basic Machine Learning Algorithms",
+      "subtopic": "Overfitting and Bias-Variance"
+    },
+    "3171114_W2023_Q3a": {
+      "topic": "Logistic Regression and Support Vector Machine",
+      "subtopic": "SVM Fundamentals and Maximum Margin"
+    },
+    "3171114_W2021_Q1c": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Types of Learning"
+    },
+    "3171114_S2022_Q4c": {
+      "topic": "Basics of Neural Network",
+      "subtopic": "Neural Network Fundamentals"
+    },
+    "3170724_W2025_Q3c": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Naive Bayes Classifier"
+    },
+    "3170724_W2024_Q2c": {
+      "topic": "Modelling and Evaluation",
+      "subtopic": "Selecting a Model"
+    },
+    "3170724_W2025_Q3b": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Classification Model and Learning Steps"
+    },
+    "3170724_S2023_Q2c_OR": {
+      "topic": "Modelling and Evaluation",
+      "subtopic": "Evaluating Model Performance"
+    },
+    "3170724_W2024_Q2a": {
+      "topic": "Preparing to Model",
+      "subtopic": "Exploring Data Structure"
+    },
+    "3170724_S2022_Q4c": {
+      "topic": "Modelling and Evaluation",
+      "subtopic": "Improving Model Performance"
+    },
+    "3170724_W2021_Q5c": {
+      "topic": "Neural Network",
+      "subtopic": "Learning Process and Backpropagation"
+    },
+    "3170724_W2023_Q4c": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Decision Trees"
+    },
+    "3170724_S2025_Q5c_OR": {
+      "topic": "Neural Network",
+      "subtopic": "Learning Process and Backpropagation"
+    },
+    "3170724_S2026_Q3b_OR": {
+      "topic": "Basics of Feature Engineering",
+      "subtopic": "Feature Subset Selection"
+    },
+    "3170724_W2024_Q4b_OR": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Multiple and Regularised Regression"
+    },
+    "3170724_W2022_Q4b": {
+      "topic": "Bayesian Concept Learning",
+      "subtopic": "Bayesian Belief Network"
+    },
+    "3170724_W2024_Q3b_OR": {
+      "topic": "Basics of Feature Engineering",
+      "subtopic": "Feature Subset Selection"
+    },
+    "3170724_W2022_Q2c_OR": {
+      "topic": "Modelling and Evaluation",
+      "subtopic": "Evaluating Model Performance"
+    },
+    "3170724_W2022_Q3a": {
+      "topic": "Overview of Probability",
+      "subtopic": "Probability Concepts"
+    },
+    "3170724_W2021_Q2c_OR": {
+      "topic": "Modelling and Evaluation",
+      "subtopic": "Training a Model and Cross Validation"
+    },
+    "3170724_S2023_Q1a": {
+      "topic": "Introduction to Machine Learning",
+      "subtopic": "Types of Machine Learning"
+    },
+    "3170724_S2022_Q4c_OR": {
+      "topic": "Unsupervised Learning",
+      "subtopic": "K-Means and K-Medoids Clustering"
+    },
+    "3170724_S2022_Q3c": {
+      "topic": "Preparing to Model",
+      "subtopic": "Data Pre-processing and Dimensionality Reduction"
+    },
+    "3170724_W2022_Q5a_OR": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Support Vector Machine"
+    },
+    "3170724_S2022_Q5a": {
+      "topic": "Basics of Feature Engineering",
+      "subtopic": "Features and Feature Engineering"
+    },
+    "3170724_W2025_Q4c": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Support Vector Machine"
+    },
+    "3170724_W2025_Q4b_OR": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Decision Trees"
+    },
+    "3170724_S2024_Q4b_OR": {
+      "topic": "Supervised Learning: Classification and Regression",
+      "subtopic": "Decision Trees"
+    },
+    "3170724_W2023_Q3c_OR": {
+      "topic": "Overview of Probability",
+      "subtopic": "Continuous Distributions"
+    },
+    "3170724_W2021_Q3a": {
+      "topic": "Overview of Probability",
+      "subtopic": "Discrete Distributions"
+    },
+    "3170724_W2023_Q5a": {
+      "topic": "Neural Network",
+      "subtopic": "Deep Learning"
+    }
+  }
+}

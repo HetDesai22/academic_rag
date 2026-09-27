@@ -1,0 +1,429 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Evaluation Report</title>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script><style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#1d2433;--muted:#5b6475;--line:#e3e6ec;--accent:#2E5E8C}
+@media (prefers-color-scheme:dark){:root{--bg:#14171d;--card:#1c2029;--ink:#e6e9ef;--muted:#9aa3b2;--line:#2c3240;--accent:#7fb0e0}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,Segoe UI,system-ui,sans-serif}
+header{padding:28px 32px 8px;max-width:1200px;margin:auto}
+h1{margin:0 0 4px;font-size:26px} .sub{color:var(--muted)}
+main{max-width:1200px;margin:auto;padding:8px 32px 40px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:16px 0}
+h2{font-size:18px;margin:0 0 12px;color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:13px} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600} .scroll{max-height:460px;overflow:auto}
+.note{color:var(--muted);font-size:13px} .badge{display:inline-block;padding:1px 8px;border-radius:9px;background:var(--line);font-size:12px}
+@media (max-width:700px){header,main{padding-left:16px;padding-right:16px}}
+</style></head><body>
+<header><h1>Evaluation Report</h1><div class="sub">Retrieval · classification · RAG · forecasting · generated 2026-09-27T11:30:04+00:00</div></header>
+<main><section><h2>Topic classification — human-verified (ground truth)</h2><p class='note'>Not yet available: no rows of data/review/validation_sample.csv have been verified by a person. Fill the &#x27;verified&#x27; column and rerun `python pipeline.py --stage evaluation`. No accuracy is claimed until then.</p></section>
+<section><h2>Topic classification — automatic LLM reference agreement (silver, NOT ground truth)</h2><table><tr><th>Reference model</th><td>claude-opus-5</td></tr><tr><th>All (n)</th><td>topic 0.97 · subtopic 0.94 (n=100)</td></tr><tr><th>Semantic-only labels</th><td>topic 0.967 (n=91)</td></tr><tr><th>LLM-checked labels</th><td>topic 1.0 (n=9)</td></tr><tr><th>Band: high</th><td>topic 1.0 (n=86)</td></tr><tr><th>Band: low</th><td>topic 0.667 (n=3)</td></tr><tr><th>Band: medium</th><td>topic 0.818 (n=11)</td></tr></table><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>question_id</th>
+      <th>cleaned_question_text</th>
+      <th>predicted_topic</th>
+      <th>ref_topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3170724_W2025_Q3b</td>
+      <td>What are the different types of supervised learning? Explain them with a sample application in each area.</td>
+      <td>Introduction to Machine Learning</td>
+      <td>Supervised Learning: Classification and Regression</td>
+    </tr>
+    <tr>
+      <td>3171617_S2022_Q5c_OR</td>
+      <td>Write short note on: a) Generative Adversarial Networks b) Deep Learning</td>
+      <td>Deep Learning</td>
+      <td>GANs, Deep RL and Adversarial Attacks</td>
+    </tr>
+    <tr>
+      <td>3170724_W2021_Q3a</td>
+      <td>If 3% of electronic units manufactured by a company are defective. Find the probability that in a sample of 200 units, less than 2 bulbs are defective.</td>
+      <td>Bayesian Concept Learning</td>
+      <td>Overview of Probability</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>Retrieval — repeat set</h2><p class='note'>Query = a question asked again in another paper; relevant = its other occurrences (lexical duplicate groups). Query itself excluded.</p><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>system</th>
+      <th>mrr</th>
+      <th>precision@1</th>
+      <th>recall@1</th>
+      <th>hit_rate@1</th>
+      <th>precision@3</th>
+      <th>recall@3</th>
+      <th>hit_rate@3</th>
+      <th>precision@5</th>
+      <th>recall@5</th>
+      <th>hit_rate@5</th>
+      <th>precision@10</th>
+      <th>recall@10</th>
+      <th>hit_rate@10</th>
+      <th>n_queries</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>semantic_faiss</td>
+      <td>0.984</td>
+      <td>0.971</td>
+      <td>0.855</td>
+      <td>0.971</td>
+      <td>0.423</td>
+      <td>0.979</td>
+      <td>1.0</td>
+      <td>0.263</td>
+      <td>0.991</td>
+      <td>1.0</td>
+      <td>0.135</td>
+      <td>0.999</td>
+      <td>1.0</td>
+      <td>175</td>
+    </tr>
+    <tr>
+      <td>tfidf_baseline</td>
+      <td>0.978</td>
+      <td>0.960</td>
+      <td>0.836</td>
+      <td>0.960</td>
+      <td>0.429</td>
+      <td>0.984</td>
+      <td>1.0</td>
+      <td>0.265</td>
+      <td>0.992</td>
+      <td>1.0</td>
+      <td>0.135</td>
+      <td>0.999</td>
+      <td>1.0</td>
+      <td>175</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>Retrieval — paraphrase set</h2><p class='note'>LLM-rewritten student queries with different wording (silver standard).</p><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>system</th>
+      <th>mrr</th>
+      <th>precision@1</th>
+      <th>recall@1</th>
+      <th>hit_rate@1</th>
+      <th>precision@3</th>
+      <th>recall@3</th>
+      <th>hit_rate@3</th>
+      <th>precision@5</th>
+      <th>recall@5</th>
+      <th>hit_rate@5</th>
+      <th>precision@10</th>
+      <th>recall@10</th>
+      <th>hit_rate@10</th>
+      <th>n_queries</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>semantic_faiss</td>
+      <td>0.743</td>
+      <td>0.661</td>
+      <td>0.602</td>
+      <td>0.661</td>
+      <td>0.305</td>
+      <td>0.777</td>
+      <td>0.797</td>
+      <td>0.207</td>
+      <td>0.864</td>
+      <td>0.864</td>
+      <td>0.115</td>
+      <td>0.958</td>
+      <td>0.966</td>
+      <td>59</td>
+    </tr>
+    <tr>
+      <td>tfidf_baseline</td>
+      <td>0.380</td>
+      <td>0.271</td>
+      <td>0.246</td>
+      <td>0.271</td>
+      <td>0.164</td>
+      <td>0.432</td>
+      <td>0.441</td>
+      <td>0.119</td>
+      <td>0.517</td>
+      <td>0.525</td>
+      <td>0.073</td>
+      <td>0.636</td>
+      <td>0.644</td>
+      <td>59</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>RAG — deterministic checks</h2><table><tr><th>Generator</th><td>anthropic / claude-opus-5</td></tr><tr><th>refusal_accuracy</th><td>1.0</td></tr><tr><th>context_keyword_precision</th><td>0.82</td></tr><tr><th>citation_coverage</th><td>0.728</td></tr><tr><th>evidence_cited_ratio</th><td>0.955</td></tr><tr><th>grounded_rate</th><td>1.0</td></tr><tr><th>answers_with_grounding_warnings</th><td>0</td></tr></table></section>
+<section><h2>RAG — automatic LLM judge (silver, not human evaluation)</h2><table><tr><th>type</th><td>AUTOMATIC - LLM judge (silver standard, not human evaluation)</td></tr><tr><th>judge_model</th><td>claude-opus-5</td></tr><tr><th>n_judged</th><td>11</td></tr><tr><th>faithfulness_mean</th><td>5.0</td></tr><tr><th>answer_relevance_mean</th><td>5.0</td></tr><tr><th>context_relevance_mean</th><td>4.909</td></tr><tr><th>answers_with_unsupported_claims</th><td>0</td></tr></table></section>
+<section><h2>RAG — per query</h2><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>query</th>
+      <th>insufficient</th>
+      <th>expect_insufficient</th>
+      <th>refusal_correct</th>
+      <th>best_similarity</th>
+      <th>context_keyword_precision</th>
+      <th>citation_coverage</th>
+      <th>grounded</th>
+      <th>faithfulness</th>
+      <th>answer_relevance</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>q01</td>
+      <td>What questions have been asked about the backpropagation algorithm?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.818</td>
+      <td>1.0</td>
+      <td>0.583</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q02</td>
+      <td>Which questions on Bayes theorem appeared in AML?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.699</td>
+      <td>0.8</td>
+      <td>0.833</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q03</td>
+      <td>How often has K-means clustering been asked in ML over the years?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.669</td>
+      <td>0.5</td>
+      <td>0.750</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q04</td>
+      <td>What has been asked about support vector machines in AIML since 2023?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.678</td>
+      <td>0.9</td>
+      <td>0.818</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q05</td>
+      <td>Which topics are likely to be important for the next IML exam?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.481</td>
+      <td>NaN</td>
+      <td>0.625</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q06</td>
+      <td>Has principal component analysis been asked repeatedly?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.713</td>
+      <td>1.0</td>
+      <td>0.667</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q07</td>
+      <td>What questions about convolutional and recurrent neural networks were asked?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.713</td>
+      <td>0.5</td>
+      <td>0.750</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q08</td>
+      <td>Show questions on gradient descent variants for large datasets.</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.804</td>
+      <td>0.5</td>
+      <td>0.769</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q09</td>
+      <td>What numerical problems on probability distributions were asked in AML?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.615</td>
+      <td>1.0</td>
+      <td>0.800</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q10</td>
+      <td>Is overfitting a recurring topic in exam questions?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.663</td>
+      <td>1.0</td>
+      <td>0.667</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q11</td>
+      <td>What questions were asked about ensemble methods like bagging and boosting?</td>
+      <td>False</td>
+      <td>False</td>
+      <td>True</td>
+      <td>0.771</td>
+      <td>1.0</td>
+      <td>0.750</td>
+      <td>True</td>
+      <td>5.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <td>q12</td>
+      <td>What questions were asked about B+ tree indexing in DBMS?</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>0.614</td>
+      <td>NaN</td>
+      <td>0.250</td>
+      <td>True</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>q13</td>
+      <td>Explain what was asked about TCP congestion control and sliding window protocols.</td>
+      <td>True</td>
+      <td>True</td>
+      <td>True</td>
+      <td>0.534</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>Forecasting — rolling-origin backtest</h2><p class='note'>Each method is fit on exams before the origin and scored on the origin exam it never saw. Origins: W2023, S2024, W2024, S2025, W2025, S2026. Selected: historical_mean. Forecasts are statistical estimates based on observed historical patterns in this dataset. They are not predictions of actual exam content and carry uncertainty.</p><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>method</th>
+      <th>n_forecasts</th>
+      <th>mae</th>
+      <th>rmse</th>
+      <th>appearance_precision</th>
+      <th>appearance_recall</th>
+      <th>appearance_f1</th>
+      <th>rank_spearman_mean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>historical_mean</td>
+      <td>204</td>
+      <td>0.963</td>
+      <td>1.307</td>
+      <td>0.961</td>
+      <td>1.000</td>
+      <td>0.980</td>
+      <td>0.603</td>
+    </tr>
+    <tr>
+      <td>random_forest</td>
+      <td>204</td>
+      <td>1.010</td>
+      <td>1.318</td>
+      <td>0.965</td>
+      <td>0.995</td>
+      <td>0.980</td>
+      <td>0.574</td>
+    </tr>
+    <tr>
+      <td>moving_average</td>
+      <td>204</td>
+      <td>1.036</td>
+      <td>1.424</td>
+      <td>0.974</td>
+      <td>0.974</td>
+      <td>0.974</td>
+      <td>0.568</td>
+    </tr>
+    <tr>
+      <td>exp_smoothing</td>
+      <td>204</td>
+      <td>1.065</td>
+      <td>1.439</td>
+      <td>0.985</td>
+      <td>0.990</td>
+      <td>0.987</td>
+      <td>0.527</td>
+    </tr>
+    <tr>
+      <td>seasonal_mean</td>
+      <td>204</td>
+      <td>1.087</td>
+      <td>1.479</td>
+      <td>0.965</td>
+      <td>0.995</td>
+      <td>0.980</td>
+      <td>0.530</td>
+    </tr>
+    <tr>
+      <td>linear_trend</td>
+      <td>204</td>
+      <td>1.280</td>
+      <td>1.683</td>
+      <td>0.990</td>
+      <td>0.974</td>
+      <td>0.982</td>
+      <td>0.440</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>Forecasting — error by method</h2><div style="height:340px; width:100%;">                            <div id="2ed27aff-0cfe-410f-8a45-7d6146ce3f8c" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("2ed27aff-0cfe-410f-8a45-7d6146ce3f8c")) {                    Plotly.newPlot(                        "2ed27aff-0cfe-410f-8a45-7d6146ce3f8c",                        [{"cliponaxis":false,"marker":{"color":["#2E7D5B","#8FB3D6","#8FB3D6","#8FB3D6","#8FB3D6","#8FB3D6"]},"name":"MAE","text":{"dtype":"f8","bdata":"N4lBYOXQ7j8pXI\u002fC9SjwP\u002fp+arx0k\u002fA\u002fCtejcD0K8T8xCKwcWmTxP3sUrkfhevQ\u002f"},"textposition":"outside","x":["historical mean","random forest","moving average","exp smoothing","seasonal mean","linear trend"],"y":{"dtype":"f8","bdata":"pwFmoYDQ7j\u002fmxBSiOSjwPytRgoo2k\u002fA\u002fO9wh2MsJ8T+zVscED2bxP4tPcCCTe\u002fQ\u002f"},"type":"bar"},{"marker":{"color":"#8A93A3","size":10,"symbol":"diamond"},"mode":"markers","name":"RMSE","x":["historical mean","random forest","moving average","exp smoothing","seasonal mean","linear trend"],"y":{"dtype":"f8","bdata":"ndEgoWvp9D\u002fYGdD1Cxj1PzbGIyvrx\u002fY\u002fHAT0RMMG9z8Ct3aDuKr3P\u002fyoXzJS7vo\u002f"},"type":"scatter"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"yaxis":{"title":{"text":"Error (questions per topic per exam)"},"rangemode":"tozero"},"margin":{"l":8,"r":16,"t":12,"b":8},"legend":{"orientation":"h","y":1.02,"yanchor":"bottom","x":0},"height":340,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section></main></body></html>

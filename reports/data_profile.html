@@ -1,0 +1,248 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Data Profile</title>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script><style>
+:root{--bg:#f7f8fa;--card:#fff;--ink:#1d2433;--muted:#5b6475;--line:#e3e6ec;--accent:#2E5E8C}
+@media (prefers-color-scheme:dark){:root{--bg:#14171d;--card:#1c2029;--ink:#e6e9ef;--muted:#9aa3b2;--line:#2c3240;--accent:#7fb0e0}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 Inter,Segoe UI,system-ui,sans-serif}
+header{padding:28px 32px 8px;max-width:1200px;margin:auto}
+h1{margin:0 0 4px;font-size:26px} .sub{color:var(--muted)}
+main{max-width:1200px;margin:auto;padding:8px 32px 40px}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:16px 0}
+h2{font-size:18px;margin:0 0 12px;color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:13px} th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+th{color:var(--muted);font-weight:600} .scroll{max-height:460px;overflow:auto}
+.note{color:var(--muted);font-size:13px} .badge{display:inline-block;padding:1px 8px;border-radius:9px;background:var(--line);font-size:12px}
+@media (max-width:700px){header,main{padding-left:16px;padding-right:16px}}
+</style></head><body>
+<header><h1>Data Profile</h1><div class="sub">Automated profile of the historical question dataset · generated 2026-09-27T17:19:11+00:00</div></header>
+<main><section><h2>Overview</h2><table><tr><th>Rows</th><td>1000</td></tr><tr><th>Source columns</th><td>13</td></tr><tr><th>Subjects</th><td>4</td></tr><tr><th>Years</th><td>2021, 2022, 2023, 2024, 2025, 2026</td></tr><tr><th>Exam periods</th><td>W2021, S2022, W2022, S2023, W2023, S2024, W2024, S2025, W2025, S2026</td></tr><tr><th>Duplicate rows</th><td>0</td></tr><tr><th>Duplicate question IDs</th><td>0</td></tr><tr><th>Rows with repeated question text</th><td>311</td></tr><tr><th>Standardized fields not available</th><td>page_number</td></tr><tr><th>Derived fields</th><td>question_id, paper_id</td></tr></table></section>
+<section><h2>Column mapping</h2><table><tr><th>question_id</th><td>— (not in source)</td></tr><tr><th>paper_id</th><td>— (not in source)</td></tr><tr><th>university</th><td>university</td></tr><tr><th>subject</th><td>subject</td></tr><tr><th>subject_code</th><td>subject_code</td></tr><tr><th>year</th><td>year</td></tr><tr><th>exam_session</th><td>exam_session</td></tr><tr><th>semester</th><td>semester</td></tr><tr><th>exam_date</th><td>exam_date</td></tr><tr><th>question_number</th><td>question_no</td></tr><tr><th>sub_part</th><td>sub_part</td></tr><tr><th>is_or_option</th><td>is_or_option</td></tr><tr><th>question_text</th><td>question</td></tr><tr><th>marks</th><td>marks</td></tr><tr><th>source_file</th><td>source_file</td></tr><tr><th>page_number</th><td>— (not in source)</td></tr></table></section>
+<section><h2>Missing values</h2><table><tr><th>semester</th><td>25</td></tr></table></section>
+<section><h2>Questions per year</h2><div style="height:400px; width:100%;">                            <div id="80efbe94-9438-497c-a16e-42ff1f11e503" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("80efbe94-9438-497c-a16e-42ff1f11e503")) {                    Plotly.newPlot(                        "80efbe94-9438-497c-a16e-42ff1f11e503",                        [{"cliponaxis":false,"marker":{"color":"#3B72AD"},"text":{"dtype":"f8","bdata":"AAAAAAAAWUAAAAAAAABpQAAAAAAAAGlAAAAAAAAAaUAAAAAAAABpQAAAAAAAAFlA"},"textposition":"outside","x":["2021","2022","2023","2024","2025","2026"],"y":{"dtype":"i2","bdata":"ZADIAMgAyADIAGQA"},"type":"bar"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Year"},"type":"category"},"yaxis":{"title":{"text":"Questions"}},"margin":{"l":8,"r":16,"t":12,"b":8},"height":400,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Questions per exam period</h2><div style="height:400px; width:100%;">                            <div id="04052d1d-ac4e-49b5-b13d-0888cc4c3f91" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("04052d1d-ac4e-49b5-b13d-0888cc4c3f91")) {                    Plotly.newPlot(                        "04052d1d-ac4e-49b5-b13d-0888cc4c3f91",                        [{"cliponaxis":false,"marker":{"color":"#3B72AD"},"text":{"dtype":"f8","bdata":"AAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUAAAAAAAABZQAAAAAAAAFlAAAAAAAAAWUA="},"textposition":"outside","x":["S2022","S2023","S2024","S2025","S2026","W2021","W2022","W2023","W2024","W2025"],"y":{"dtype":"i1","bdata":"ZGRkZGRkZGRkZA=="},"type":"bar"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Exam period"},"type":"category"},"yaxis":{"title":{"text":"Questions"}},"margin":{"l":8,"r":16,"t":12,"b":8},"height":400,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Questions per subject</h2><div style="height:260px; width:100%;">                            <div id="9ee1284d-d165-48fa-82c0-789b2d594073" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("9ee1284d-d165-48fa-82c0-789b2d594073")) {                    Plotly.newPlot(                        "9ee1284d-d165-48fa-82c0-789b2d594073",                        [{"cliponaxis":false,"marker":{"color":"#3B72AD"},"orientation":"h","text":{"dtype":"f8","bdata":"AAAAAABAb0AAAAAAAEBvQAAAAAAAQG9AAAAAAABAb0A="},"textposition":"outside","x":{"dtype":"i2","bdata":"+gD6APoA+gA="},"y":["Artificial Intelligence and Machine Learning","Applied Machine Learning","Introduction of Machine learning","Machine Learning"],"type":"bar"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Questions"},"showgrid":false,"showticklabels":false},"yaxis":{"title":{}},"margin":{"l":8,"r":16,"t":12,"b":8},"height":260,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Questions per subject and year</h2><div style="height:300px; width:100%;">                            <div id="1483b6a0-22cf-4c58-9184-6df7bc659874" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("1483b6a0-22cf-4c58-9184-6df7bc659874")) {                    Plotly.newPlot(                        "1483b6a0-22cf-4c58-9184-6df7bc659874",                        [{"colorbar":{"thickness":10,"title":{"text":"Questions"}},"colorscale":[[0,"#EEF3F9"],[0.35,"#9DBBDB"],[1,"#2A5E94"]],"hovertemplate":"%{y}\u003cbr\u003e%{x}: %{z}\u003cextra\u003e\u003c\u002fextra\u003e","text":{"dtype":"i1","bdata":"GTIyMjIZGTIyMjIZGTIyMjIZGTIyMjIZ","shape":"4, 6"},"texttemplate":"%{text}","x":["2021","2022","2023","2024","2025","2026"],"xgap":2,"y":["Applied Machine Learning","Artificial Intelligence and Machine Learning","Introduction of Machine learning","Machine Learning"],"ygap":2,"z":{"dtype":"i1","bdata":"GTIyMjIZGTIyMjIZGTIyMjIZGTIyMjIZ","shape":"4, 6"},"type":"heatmap"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Year"},"type":"category","side":"top","showgrid":false},"yaxis":{"title":{},"autorange":"reversed","showgrid":false},"margin":{"l":8,"r":16,"t":12,"b":8},"height":300,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Marks distribution</h2><div style="height:400px; width:100%;">                            <div id="544df28d-6121-488d-8e34-e223effe0c18" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("544df28d-6121-488d-8e34-e223effe0c18")) {                    Plotly.newPlot(                        "544df28d-6121-488d-8e34-e223effe0c18",                        [{"cliponaxis":false,"marker":{"color":"#3B72AD"},"text":{"dtype":"f8","bdata":"AAAAAAAAdEAAAAAAAAB0QAAAAAAAgHZA"},"textposition":"outside","x":["3","4","7"],"y":{"dtype":"i2","bdata":"QAFAAWgB"},"type":"bar"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Marks"},"type":"category"},"yaxis":{"title":{"text":"Questions"}},"margin":{"l":8,"r":16,"t":12,"b":8},"height":400,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Question length (words)</h2><div style="height:400px; width:100%;">                            <div id="02006c45-67e6-4b05-9d5c-2cfac7ee9b09" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("02006c45-67e6-4b05-9d5c-2cfac7ee9b09")) {                    Plotly.newPlot(                        "02006c45-67e6-4b05-9d5c-2cfac7ee9b09",                        [{"marker":{"color":"#3B72AD"},"nbinsx":30,"x":{"dtype":"i2","bdata":"DAAbAA0AEAAHABIAFAAPAAYAEAAOAAkADQAGAAcACgALAAkACAAHAAYASgASAAcARQALAAgADQAIAA0ACwALAAoAEQAJABMACgAFAAYACQAIABAABwATAAgABgAMAAYACQBBAAkACgAQAAYAAwAPABoABQAIAAoACQAJAAsABgAJAAoACwALAEQACAANAA0ABgAHAAcABQAKAAcABQAJABEAewAXAAMAEAAPAAcADQAJAAgABwALAAkACAAGAAsADgAHAAYADQAHAAkADAAKAAgACAANAAYABgAJAAYAFAAMAAkABwAGAAcABwAKAAYACQAJAAcABQAJAAkABgAIAAcABAASAAgABgAHAAcABgAHAAcACAAJAAgABwALAAgABgAFAA0ABwALAAgACwAeAAsAEAAHAA0AFAAGAAYAEAAOAAkADQAGAAcACgALAAkACAAHAAYASgASAAcARQAOAAkADQAHAAcABgAUAAkADAAKAAkADgAIAAwABgAHAAwACAALAAgACQAHAAgABQAIAAcADAAHAA8ACgANAAcABwAPABMAEAAGABAABgAFAAsACQAIAAoAEAALAAwACAAKAAgABwAJAAwACgAIAAgADQAGAAYACQAGABQADAAJAAcABgAHAAcACgAGAAkACQAHAAUACQALAAYAEQAFAA8AXACUAAkACgAtAA0ABwAbABAABQAOAAgABgAOAAUAEAAIAAcAJAALAAoACABgAAgADAAlAEMACgAJAA4ACgALAAgACwAIAAcABgBNACQACgAGABcADgAFAA8ALwAHABoAEAAmAA0AIQAIABQAEgAHAAcADgANAAYADAANAAsADgAHAAcACQAFAAYABgAMAA8AaAAIAAcAKAA7AAUABwBfAAgABQBDAAkACgAPAA0ABgAWAAYABQAOAAgAEAAOAAoABwAXAAgADQAbABYABAAEABcABQAHAA4ACAAOACQACAAHAAYACAAgACEACQAVABYADAANADAABgANAEMAQQAIAA8ADgAJAAkAaQAGAAcAEwAJAAkAJAANAAUAGwAPABQADwAKAAkALAAFAEEAKwAHAAcACAANABIACAAFAAYACgAGAAMACQALAAUABwAOAAUABgAHAA8ADQAIAAYALwAGAAcABAAhAAYACgAbAAcABwAIAAoACgAGABIABwANAAYABwAHAAYABAAFABgACQARABMAIgAGAAkACAAIAAQADAAGAAkABQAGAAYABwACAAkABgACAAMABgAGAA0ACgAGAAUADwAHAAoABwAIAAcACgALAAgABgASAAkACQARAAgACQAKAAgABwAOAAYABgAIAAUABgAjAAkABwAEAAgABwAKAAcABgAGAAgABAAMABgABgAIAAoABAAHAAgABgAIAAgABwAJAAcABwAJAAkAEQAGAAoACQAHAAcADwAGAAYACgAEAAYACQAEAAgACgAHAAkACAAHAAkACQAFAAkACQAIAAcACQADAAoAFQAIAAgABwAGAAcABwAJAAcADgAHABEACgATAAgACAANAA8ABQAFAAYABgANAA0ABwARAAgADAAJAAwABwANAAYAAwAKAAcABwAEAAcABgAHAA8ABwAKAAkADQAHAA0ABwAFAAwADQAIAAYAGAAHAAoADgAMAAUADgAIAAYACQAIAAcACwAQAAcACQATAAoABQAGAAgABwAKAAQABgAFAAYAEAAHAAgACQAOAAsABwAVAAkABQAMAAkACQAIAA4ABgAMAAcAEAAKAA0AEgAHAAgADAAKAAgAAwAJAA0ACAALAAsACQA7AAwAVwAJAAoABQAHAAgAEAAFAA8ACQAFAAgACAADAAwABwAYAAkADAAIACMAVQAIAAkADgATAAsAOQAFAAcACAAUAAcACAAHABMABQAIAAUACwAKAAoACgANAAYACQAHAAQADAAIAAYABwAKAAUABQAFABQABQAHAA8ABwAGAAcADAAIAAcABAAHAAoACQAKABQACQALAAoACgAHAAgACwAJAAQABwAFAAUAEAAGAAkABwAIAAYABQAIAAkABAAGABAAFAAKAAoAJwAzABEABgAXAAsABgAUAAgABwALAAkABwALAA0ABAANAAkABAAOAAoABwALAAkACQAUAAwABAAHAAcADQAIAAQABQAJAAcACQAIAAoACQADAAsABwADAAsACwAUAAsACQALAAcACQAIAAsAEAAGAAgADAAHAAgACQAJAAgADQAHAAUAEAAFAAQADQAFAAQADQAIAAkACAAJAAQABgAIAAMABgAFAAkACQAIAAcACAAJAA8AEQANABkAEwAKAAkACgAUAAkAIQAKAAgAGwAKAAkALwAHAAsADQAPAAwADQAQAAsACwAEAA8ACQAIABQACgAIAAgABwAJAAoAFgALAAwABgAGAAgAEAAJAAcABwAJAAgAFAAHAAsABAAIAAMADQAGAAkABQAFAAoABQAIAAcACwAMAAoABwALAAUADAAFAAUABgAIAAQABgAMAAkADQALAAkABAALAAcAAwAXABgABAANAAQABQAFABAABQADAAUACAADAAYABwAJAAMABwAFAAUAEQAKAA8ADQANAB0AGQALABEADQALABEABgANABAABgALAA4AFAAKAAMAGwAJAAgAEwA="},"type":"histogram"}],                        {"template":{"layout":{"colorway":["#3B72AD","#2A9D8F","#8D6CC0","#D0654B","#6F8BA8","#A0822F"],"font":{"color":"#5B6474","family":"Inter, Segoe UI, system-ui, sans-serif","size":12.5},"hoverlabel":{"font":{"family":"Inter, sans-serif","size":12}},"legend":{"bgcolor":"rgba(0,0,0,0)","font":{"size":12}},"paper_bgcolor":"rgba(0,0,0,0)","plot_bgcolor":"rgba(0,0,0,0)","title":{"font":{"family":"Source Serif 4, Georgia, serif","size":16},"x":0,"xanchor":"left"},"xaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"},"yaxis":{"gridcolor":"rgba(128,128,128,0.16)","linecolor":"rgba(128,128,128,0.35)","zerolinecolor":"rgba(128,128,128,0.3)"}}},"xaxis":{"title":{"text":"Words per question"}},"yaxis":{"title":{"text":"Questions"}},"margin":{"l":8,"r":16,"t":12,"b":8},"height":400,"title":{}},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div></section>
+<section><h2>Most repeated question texts</h2><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>text</th>
+      <th>times</th>
+      <th>periods</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>What do you mean by a well-posed learning problem? Explain important features that are required to well-define a learning problem.</td>
+      <td>4</td>
+      <td>[S2022, S2023, S2025, W2021]</td>
+    </tr>
+    <tr>
+      <td>How to initialize Weights and Biases in Neural Networks?</td>
+      <td>4</td>
+      <td>[S2025, S2026, W2021, W2025]</td>
+    </tr>
+    <tr>
+      <td>What are Support Vectors in SVMs?</td>
+      <td>4</td>
+      <td>[S2024, S2026, W2021, W2025]</td>
+    </tr>
+    <tr>
+      <td>What are the factors determining the effectiveness of SVM?</td>
+      <td>4</td>
+      <td>[S2024, S2025, W2021]</td>
+    </tr>
+    <tr>
+      <td>Distinguish between supervised learning, semi-supervised learning, and Unsupervised learning.</td>
+      <td>4</td>
+      <td>[S2022, S2025, W2021, W2022]</td>
+    </tr>
+    <tr>
+      <td>Explain the learning process of an ANN. Explain with example, the challenge in assigning synaptic weights for the interconnection between neurons. How can this</td>
+      <td>3</td>
+      <td>[S2022, W2021, W2025]</td>
+    </tr>
+    <tr>
+      <td>Differentiate between linear regression and logistic regression.</td>
+      <td>3</td>
+      <td>[S2022, S2026, W2025]</td>
+    </tr>
+    <tr>
+      <td>Define slope in a linear regression. Find the slope of the graph where the lower point on the line is represented as (−3, −2) and the higher point on the line i</td>
+      <td>3</td>
+      <td>[S2022, S2026, W2021]</td>
+    </tr>
+    <tr>
+      <td>Define reinforcement learning. Explain the concept of penalty and reward in reinforcement learning.</td>
+      <td>3</td>
+      <td>[S2022, S2025, W2021]</td>
+    </tr>
+    <tr>
+      <td>State few real world applications of SVM.</td>
+      <td>3</td>
+      <td>[S2022, S2025, W2022]</td>
+    </tr>
+    <tr>
+      <td>List and explain the steps to compute Principal Component Analysis with an example.</td>
+      <td>3</td>
+      <td>[S2022, S2025, W2022]</td>
+    </tr>
+    <tr>
+      <td>State the merits and demerits of Bayes classifier.</td>
+      <td>3</td>
+      <td>[S2022, W2021, W2024]</td>
+    </tr>
+    <tr>
+      <td>What are Bayesian Belief networks? Where are they used? Can they solve all types of problems?</td>
+      <td>3</td>
+      <td>[S2025, W2024, W2025]</td>
+    </tr>
+    <tr>
+      <td>Why cost function is also called as mean squared error function? Explain with a suitable example.</td>
+      <td>3</td>
+      <td>[S2022, W2022, W2024]</td>
+    </tr>
+    <tr>
+      <td>What is likelihood probability? Give an example.</td>
+      <td>3</td>
+      <td>[S2022, S2023, W2021]</td>
+    </tr>
+  </tbody>
+</table></div></section>
+<section><h2>Suspicious records</h2><div class='scroll'><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>question_id</th>
+      <th>reason</th>
+      <th>text</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>3161710_S2022_Q1b</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8</td>
+    </tr>
+    <tr>
+      <td>3161710_S2022_Q2c</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>3 0 2 Find the inverse of the matrix 𝐴= [ 2 0 −2 ] 0 1 1</td>
+    </tr>
+    <tr>
+      <td>3161710_S2023_Q4c_OR</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>Calculate inverse of a given 3x3 matrix. 3 0 2 𝑀= | 2 0 −2 | 0 1 1</td>
+    </tr>
+    <tr>
+      <td>3161710_S2024_Q1c</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>1 0 3 Find inverse of matrix: 𝐴= [ 4 0 5 ] 1 2 3</td>
+    </tr>
+    <tr>
+      <td>3161710_S2024_Q2c_OR</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>Perform addition and Subtraction of the following matrices: [1 2 3 [2 1 2 Also find 2A2 𝐴= 2] 𝑎𝑛𝑑 𝐵= 3]. 1 0 1 0</td>
+    </tr>
+    <tr>
+      <td>3161710_S2025_Q2c</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>1 2 3 Find inverse of the matrix 𝐴= ( 4 5 6 ) 7 2 9</td>
+    </tr>
+    <tr>
+      <td>3161710_W2022_Q1b</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8 3 0 2</td>
+    </tr>
+    <tr>
+      <td>3161710_W2022_Q1c</td>
+      <td>mathematical alphanumeric symbols (PDF math extraction)</td>
+      <td>Find the inverse of the matrix 𝐴= [ 2 0 −2]</td>
+    </tr>
+    <tr>
+      <td>3161710_S2022_Q2c</td>
+      <td>starts with a numeric fragment (text from a neighbouring question)</td>
+      <td>3 0 2 Find the inverse of the matrix 𝐴= [ 2 0 −2 ] 0 1 1</td>
+    </tr>
+    <tr>
+      <td>3161710_S2024_Q1c</td>
+      <td>starts with a numeric fragment (text from a neighbouring question)</td>
+      <td>1 0 3 Find inverse of matrix: 𝐴= [ 4 0 5 ] 1 2 3</td>
+    </tr>
+    <tr>
+      <td>3161710_S2025_Q2c</td>
+      <td>starts with a numeric fragment (text from a neighbouring question)</td>
+      <td>1 2 3 Find inverse of the matrix 𝐴= ( 4 5 6 ) 7 2 9</td>
+    </tr>
+    <tr>
+      <td>3171617_S2026_Q4a_OR</td>
+      <td>contains a page footer</td>
+      <td>Explain the concept of sampling distribution. Page of</td>
+    </tr>
+    <tr>
+      <td>3171617_S2026_Q5c_OR</td>
+      <td>contains a page footer</td>
+      <td>Evaluate the role of parameter estimation methods in deep neural networks. Which approach is most suitable when data is</td>
+    </tr>
+    <tr>
+      <td>3161710_S2022_Q1b</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8</td>
+    </tr>
+    <tr>
+      <td>3161710_S2022_Q5c</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The marks obtained by a student are dependent on his/her study time. Given the study time in minutes and marks out of 20</td>
+    </tr>
+    <tr>
+      <td>3161710_S2022_Q5c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship</td>
+    </tr>
+    <tr>
+      <td>3161710_S2023_Q5c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Rent of hotel (Rs.) is related to the room area (square feet). As per the given table find the relationship between area</td>
+    </tr>
+    <tr>
+      <td>3161710_S2024_Q2c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Perform addition and Subtraction of the following matrices: [1 2 3 [2 1 2 Also find 2A2 𝐴= 2] 𝑎𝑛𝑑 𝐵= 3]. 1 0 1 0</td>
+    </tr>
+    <tr>
+      <td>3161710_S2024_Q4c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The rent of a property is related to its area. Given the area in square feet and rent in dollars find the relationship b</td>
+    </tr>
+    <tr>
+      <td>3161710_S2025_Q2c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The city’s transportation department is interested in studying the relationship between the temperature and the number o</td>
+    </tr>
+    <tr>
+      <td>3161710_W2022_Q1b</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Multiply matrices A and B, where −4 −2 [−2 −1 2 4 and −3 7 𝐴= 5] 𝐵= [ ] 3 1 6 −1 3 0 8 3 0 2</td>
+    </tr>
+    <tr>
+      <td>3161710_W2022_Q5c</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The marks obtained by a student are dependent on his/her study time. Given the study time in minutes and marks out of 20</td>
+    </tr>
+    <tr>
+      <td>3161710_W2022_Q5c_OR</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship</td>
+    </tr>
+    <tr>
+      <td>3171617_S2022_Q3c</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Explain Rosenblatt’s perceptron model. How can a set of data be classified using a simple perceptron? Using a simple per</td>
+    </tr>
+    <tr>
+      <td>3171617_W2021_Q1c</td>
+      <td>many standalone numbers (flattened table or matrix)</td>
+      <td>Explain, in details, Rosenblatt’s perceptron model. How can a set of data be classified using a simple perceptron? Using</td>
+    </tr>
+  </tbody>
+</table></div></section></main></body></html>

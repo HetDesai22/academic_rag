@@ -1,0 +1,617 @@
+# Human-editable taxonomy source: Subject -> Topic -> Subtopic.
+#
+# Topics = official GTU syllabus units (data/syllabus/<code>.pdf, w.e.f. AY 2018-19).
+# Subtopics = the syllabus items of each unit, refined into the concepts that actually recur in
+# the question papers (validated against embedding clusters, see reports/cluster_discovery.json).
+# The same concept uses the same subtopic name in every subject so trends can be compared.
+#
+# Each subtopic has a short description (embedded for semantic matching) and keywords
+# (aliases; a literal match adds a small, configurable bonus). Bump `version` on any change.
+
+version: "1.3.0"
+
+subjects:
+  Artificial Intelligence and Machine Learning:
+    subject_code: "3161710"
+    topics:
+      Introduction to AI and ML:
+        syllabus_unit: 1
+        description: Overview of artificial intelligence and machine learning, supervised and unsupervised learning, learning task, instances, features, labels, reward/loss, training and testing.
+        subtopics:
+          AI and ML Overview:
+            description: Definition of artificial intelligence and machine learning, how machine learning differs from AI, fields forming the basis of AI, applications of machine learning, use of learning algorithms.
+            keywords: [artificial intelligence, definition of machine learning, applications of machine learning, learning algorithm]
+          Types of Learning:
+            description: Classification of machine learning into supervised, unsupervised and reinforcement learning; differences between supervised and unsupervised learning and their applications.
+            keywords: [supervised, unsupervised, reinforcement learning, reinforced learning, types of machine learning, classification of machine learning]
+          Learning Task Terminology:
+            description: Basic terms of a learning task such as instances, features, labels, hypothesis, reward and loss, training set, validation set, test set and task.
+            keywords: [training set, testing, validation data set, hypothesis, task, instances, labels]
+      Gradient Descent and Linear Algebra:
+        syllabus_unit: 2
+        description: Model representation, cost function, gradient descent and its intuition, gradient descent for linear regression, matrices, vectors, transpose, matrix multiplication and inverse.
+        subtopics:
+          Model Representation and Cost Function:
+            description: How a machine learning model or hypothesis function is represented, the cost function, mean squared error cost for single variable linear regression and its significance.
+            keywords: [cost function, model function, model representation, mean squared error, least mean squared error]
+          Gradient Descent:
+            description: The gradient descent algorithm for minimizing a cost function, its steps and mathematics, learning rate, and applying gradient descent to linear regression.
+            keywords: [gradient descent, learning rate, steepest descent, minimize cost function]
+          Simple Linear Regression:
+            description: Linear regression with a single variable, fitting a line to data such as area versus rent, correlation versus regression, and using regression for experimental analysis and prediction.
+            keywords: [linear regression, regression, relationship between, correlation, predict]
+          Matrix Operations:
+            description: Matrices and vectors, matrix addition, subtraction, multiplication, transpose, properties of matrix multiplication and the usefulness of matrix theory in machine learning.
+            keywords: [matrix, matrices, multiply matrices, transpose, vector, matrix theory]
+          Matrix Inverse and Determinant:
+            description: Computing the determinant and the inverse of a matrix such as a 3x3 matrix.
+            keywords: [inverse of matrix, inverse of the matrix, determinant]
+      Multiple Features Gradient Descent:
+        syllabus_unit: 3
+        description: Multiple features, gradient descent for multiple features, feature scaling, polynomial regression, normal equations, linear regression with multiple variables.
+        subtopics:
+          Multivariate Linear Regression:
+            description: Linear regression with multiple variables or features and gradient descent calculations for multiple features, including its limitations.
+            keywords: [multiple variables, multiple features, multivariate regression]
+          Feature Scaling:
+            description: Need for feature scaling and normalization of features in regression and techniques to perform it.
+            keywords: [feature scaling, normalization of features]
+          Polynomial Regression:
+            description: Polynomial regression, handling non-linear relationships by adding polynomial features, and why it is needed.
+            keywords: [polynomial regression, non linear regression]
+          Normal Equation:
+            description: Solving linear regression in closed form with the normal equation instead of gradient descent.
+            keywords: [normal equation, normal equations]
+      Classification:
+        syllabus_unit: 4
+        description: Classification setup with training, test and validation data, overfitting, and classification families - linear discriminative, non-linear discriminative, decision trees, probabilistic, nearest neighbour and logistic regression.
+        subtopics:
+          Classification Setup and Performance Metrics:
+            description: Setting up a classification problem, classification versus regression, training/validation/test data, and performance metrics such as accuracy, precision and recall for supervised learning.
+            keywords: [performance metrics, performance matrices, classification versus regression, regression and classification]
+          Overfitting and Underfitting:
+            description: Overfitted and underfitted models, how to detect and avoid overfitting.
+            keywords: [overfitting, over fitting, underfitting, under fitting]
+          Logistic Regression:
+            description: Logistic regression for binary classification, its cost function, and how it differs from linear regression.
+            keywords: [logistic regression]
+          Decision Trees:
+            description: Decision tree algorithm for classification, entropy and information gain, and practical issues in constructing decision trees.
+            keywords: [decision tree, entropy, information gain]
+          Nearest Neighbour:
+            description: K-nearest neighbour learning and related terms such as residual, regression and kernel function.
+            keywords: [nearest neighbor, nearest neighbour, knn]
+          Discriminative and Generative Models:
+            description: Linear and non-linear discriminative models, linear discriminant analysis, probabilistic generative models and model estimators.
+            keywords: [discriminative model, linear discriminative analysis, generative, estimator]
+      Support Vector Machine:
+        syllabus_unit: 5
+        description: Max margin motivation, margin geometry, primal and dual SVM formulation, inseparable data, slack variables, hinge loss, non-linear SVM by lifting data to higher dimensions.
+        subtopics:
+          SVM Fundamentals and Max Margin:
+            description: What a support vector machine is, support vectors, SVM as a large margin classifier, generalization error, applications of SVM and comparison with logistic regression.
+            keywords: [support vector machine, svm, support vectors, large margin, maximum margin]
+          SVM Primal Formulation:
+            description: Margin geometry and the primal SVM formulation for linearly separable training data.
+            keywords: [separable training data, svm formulation, primal]
+          SVM Dual Formulation and Kernels:
+            description: The dual form of the SVM optimisation problem, the role of alpha, and kernels.
+            keywords: [dual form, dual formulation, kernel, kernals]
+          Slack Variables and Hinge Loss:
+            description: Handling inseparable data with slack variables, hinge loss and the upper bound on 0/1 training loss.
+            keywords: [hinge loss, slack, inseparable]
+          Non-linear SVM Regression:
+            description: Handling non-linear regression with SVM by lifting data points to a higher dimension.
+            keywords: [non linear regression, higher dimension]
+      Dimensionality Reduction:
+        syllabus_unit: 6
+        description: Curse of dimensionality, principal component analysis, latent semantic analysis.
+        subtopics:
+          Curse of Dimensionality and Feature Reduction:
+            description: Why dimensionality reduction is important, the curse of dimensionality, feature selection and feature extraction.
+            keywords: [dimensionality reduction, curse of dimensionality, feature selection, feature extraction]
+          Principal Component Analysis:
+            description: Steps to compute principal component analysis (PCA) for dimensionality reduction.
+            keywords: [principal component analysis, pca]
+          Latent Semantic Analysis:
+            description: Latent semantic analysis for reducing dimensionality of text data.
+            keywords: [latent semantic analysis, lsa]
+      Artificial Neural Network:
+        syllabus_unit: 7
+        description: Model representation, working of neurons, backpropagation, adjusting parameters, multiclass classification, bias value, random and Gaussian initialization, final implementation of ANN.
+        subtopics:
+          Neuron Models and Logic Gates:
+            description: Biological neuron and artificial neuron, McCulloch-Pitts neuron model, implementing AND, OR, ANDNOT logic gates with neurons and linear separability of XOR.
+            keywords: [neuron, mcculloch, pitts, and gate, and logic, or logic, andnot, linearly separable]
+          ANN Architecture and Fundamentals:
+            description: Artificial neural network model and its fundamental elements, network architectures, advantages and disadvantages of neural networks.
+            keywords: [artificial neural network, ann, network architecture]
+          Activation Functions:
+            description: Activation functions used in artificial neural networks such as sigmoid, ReLU and step.
+            keywords: [activation function, activation functions]
+          Backpropagation:
+            description: The backpropagation algorithm for training neural networks and adjusting parameters.
+            keywords: [backpropagation, back propagation]
+          Weight and Bias Initialization:
+            description: Initialising weights and biases randomly or with Gaussian initialisation, and the importance of the bias value.
+            keywords: [initialize weights, initialization, bias]
+      Unsupervised Learning:
+        syllabus_unit: 8
+        description: Mixture model and expectation maximization, K-means clustering, distance based clustering, density based clustering techniques.
+        subtopics:
+          K-Means Clustering:
+            description: Steps of the K-means clustering algorithm, its requirements, advantages and disadvantages, and difference between KNN and K-means.
+            keywords: [k-means, k means, kmeans]
+          Distance-based Clustering:
+            description: Distance measures used for clustering and distance based clustering.
+            keywords: [distance measure, distance]
+          Mixture Models and EM:
+            description: Mixture models and the expectation maximization (EM) algorithm.
+            keywords: [expectation maximization, mixture model, em algorithm]
+          Density-based Clustering:
+            description: Density based clustering techniques such as DBSCAN.
+            keywords: [density based, dbscan]
+      Ensemble Learning:
+        syllabus_unit: 9
+        description: Random forest and AdaBoost ensemble methods.
+        subtopics:
+          Random Forest:
+            description: Random forest algorithm for classification and regression and how it works.
+            keywords: [random forest]
+          AdaBoost and Ensemble Types:
+            description: Types of ensemble learning algorithms, AdaBoost boosting and comparison with random forest.
+            keywords: [adaboost, ensemble]
+      Gradient Descent with Large Datasets:
+        syllabus_unit: 10
+        description: Stochastic gradient descent, mini batch gradient descent, stochastic gradient descent convergence.
+        subtopics:
+          Stochastic and Mini-batch Gradient Descent:
+            description: Variants of gradient descent for large data sets - stochastic gradient descent, mini-batch gradient descent and their convergence.
+            keywords: [stochastic gradient descent, mini batch, large data set, variants of gradient descent]
+
+  Machine Learning:
+    subject_code: "3170724"
+    topics:
+      Introduction to Machine Learning:
+        syllabus_unit: 1
+        description: Overview of human learning and machine learning, types of machine learning, applications, tools and technology for machine learning.
+        subtopics:
+          Human vs Machine Learning:
+            description: Differences between human learning and machine learning, how machines learn, and what learning is.
+            keywords: [human learning, how do machines learn]
+          ML Definition, Applications and Issues:
+            description: Definition of machine learning, key elements and tasks, well-posed learning problems, applications in engineering, issues, ethics and whether all problems can be solved by machine learning.
+            keywords: [applications of machine learning, issues in machine learning, well-posed, ethical issues, key tasks]
+          Types of Machine Learning:
+            description: Supervised, unsupervised, semi-supervised and reinforcement learning, their differences, and reward and penalty in reinforcement learning.
+            keywords: [types of machine learning, supervised, unsupervised, reinforcement learning, semi-supervised]
+          Tools and Technology:
+            description: Tools, languages and technologies used for machine learning.
+            keywords: [tools and technology, tools for machine learning]
+      Preparing to Model:
+        syllabus_unit: 2
+        description: Machine learning activities, types of data, structures of data, data quality and remediation, data pre-processing, dimensionality reduction and feature subset selection.
+        subtopics:
+          ML Activities and Workflow:
+            description: Activities and steps involved in a machine learning procedure for a real-world application, flow diagram of the machine learning process.
+            keywords: [activities, flow diagram, steps to use machine learning]
+          Types of Data:
+            description: Qualitative and quantitative data, categorical, nominal and ordinal data, numeric data and basic data types in machine learning.
+            keywords: [qualitative, quantitative, categorical data, nominal, ordinal, data types]
+          Exploring Data Structure:
+            description: Exploring numeric data with central tendency and dispersion, mean, median, mode, standard deviation, variance, interquartile range, histograms and bins.
+            keywords: [central tendency, dispersion, iqr, histogram, standard deviation, variance]
+          Data Quality and Remediation:
+            description: Data quality issues and remediation, outliers and how to handle them, missing values, discretization.
+            keywords: [outlier, outliers, missing data, missing values, discretization]
+          Data Pre-processing and Dimensionality Reduction:
+            description: Data pre-processing techniques, dimensionality reduction with PCA, SVD and LDA, and their advantages and disadvantages.
+            keywords: [pre-processing, preprocessing, dimensionality reduction, principal component analysis, pca, lda, singular value decomposition, svd]
+      Modelling and Evaluation:
+        syllabus_unit: 3
+        description: Selecting a model, predictive and descriptive models, training a model for supervised learning, model representation and interpretability, evaluating and improving model performance.
+        subtopics:
+          Selecting a Model:
+            description: Predictive versus descriptive models, lazy versus eager learners, and choosing a model.
+            keywords: [predictive model, descriptive model, lazy, eager]
+          Training a Model and Cross Validation:
+            description: Training a predictive model using holdout, k-fold cross validation, bootstrap sampling and data sampling methods.
+            keywords: [holdout, k-fold, cross validation, bootstrap, sampling with replacement, training of predictive model]
+          Model Fitting and Interpretability:
+            description: Model representation and interpretability, overfitting, underfitting, bias and variance, and their causes.
+            keywords: [overfitting, underfitting, over-fitting, under-fitting, interpretability]
+          Evaluating Model Performance:
+            description: Evaluating classification models with a confusion matrix, accuracy, error rate, precision, recall, sensitivity, F-measure, kappa, cost of misclassification, and evaluating unsupervised models.
+            keywords: [confusion matrix, accuracy, precision, recall, kappa, f-measure, model evaluation]
+          Improving Model Performance:
+            description: Techniques to improve the performance of a learning model such as ensembles and parameter tuning.
+            keywords: [improve the performance, improving performance]
+      Basics of Feature Engineering:
+        syllabus_unit: 4
+        description: Feature and feature engineering, feature transformation by construction and extraction, feature subset selection, issues in high-dimensional data.
+        subtopics:
+          Features and Feature Engineering:
+            description: What a feature is and the need for feature engineering in machine learning.
+            keywords: [feature engineering, what is a feature]
+          Feature Transformation:
+            description: Feature construction and feature extraction, transforming numeric features to categorical features, SVD as feature extraction.
+            keywords: [feature construction, feature extraction, feature transformation]
+          Feature Subset Selection:
+            description: Feature subset selection, feature relevance and redundancy, irrelevant features, filter, wrapper and embedded approaches.
+            keywords: [feature selection, feature subset selection, relevance, redundancy, irrelevant]
+      Overview of Probability:
+        syllabus_unit: 5
+        description: Statistical tools, concepts of probability, random variables, discrete and continuous distributions, multiple random variables, central limit theorem, sampling distributions, hypothesis testing, Monte Carlo approximation.
+        subtopics:
+          Probability Concepts:
+            description: Basic probability, conditional probability, joint probability, probability of union of events, variance and covariance of random variables.
+            keywords: [conditional probability, joint probability, union of two events, covariance]
+          Discrete Distributions:
+            description: Discrete probability distributions such as Bernoulli, binomial and Poisson, parametric distributions on discrete sample spaces, and numerical problems on them.
+            keywords: [bernoulli, binomial, poisson, discrete distribution]
+          Continuous Distributions:
+            description: Continuous distributions, probability density function and cumulative distribution function.
+            keywords: [probability distribution function, cumulative distribution, continuous distribution]
+          Central Limit Theorem and Sampling:
+            description: Central limit theorem, sampling distributions and types of sampling.
+            keywords: [central limit theorem, sampling distribution]
+          Hypothesis Testing:
+            description: Hypothesis testing, its steps and basic assumptions.
+            keywords: [hypothesis testing]
+          Monte Carlo Approximation:
+            description: Monte Carlo approximation methods.
+            keywords: [monte carlo]
+      Bayesian Concept Learning:
+        syllabus_unit: 6
+        description: Importance of Bayesian methods, Bayes theorem, Bayes theorem and concept learning, Bayesian belief network.
+        subtopics:
+          Bayes Theorem:
+            description: Bayes theorem, prior, posterior and likelihood probability, and Bayesian classifiers.
+            keywords: [bayes theorem, bayes' theorem, posterior, likelihood, prior]
+          Concept Learning:
+            description: Concept learning and its relation to Bayes theorem.
+            keywords: [concept learning]
+          Naive Bayes Classifier:
+            description: The naive Bayes classifier, with examples such as spam filtering.
+            keywords: [naive bayes, naïve bayes]
+          Bayesian Belief Network:
+            description: Bayesian belief networks, where they are used and their limitations.
+            keywords: [bayesian belief network, belief network]
+      "Supervised Learning: Classification and Regression":
+        syllabus_unit: 7
+        description: Supervised learning, classification model, learning steps, classification algorithms, regression and regression algorithms.
+        subtopics:
+          Classification Model and Learning Steps:
+            description: Supervised learning, the classification model and its learning steps, classification versus regression, list of classification algorithms.
+            keywords: [classification steps, learning steps, supervised learning, classification and regression]
+          K-Nearest Neighbour:
+            description: The k-nearest neighbour classifier, distance-based similarity measures, error rate, and why kNN is a lazy learner.
+            keywords: [knn, k-nearest, nearest neighbor, nearest neighbour]
+          Decision Trees:
+            description: Decision tree classifiers, entropy, node types, strengths and weaknesses, and avoiding overfitting in decision trees.
+            keywords: [decision tree, entropy]
+          Support Vector Machine:
+            description: Support vector machines, hyperplanes, decision boundaries, cost of misclassification, strengths and weaknesses.
+            keywords: [svm, support vector, hyperplane]
+          Simple Linear Regression:
+            description: Simple linear regression, slope and intercept, dependent and independent variables, sum of squares and ordinary least squares.
+            keywords: [linear regression, slope, sum of squares, dependent variable, independent variable]
+          Multiple and Regularised Regression:
+            description: Multiple linear regression, ridge regression and improving the accuracy of a regression model.
+            keywords: [multiple linear regression, ridge regression, accuracy of a linear regression]
+          Logistic Regression:
+            description: Logistic regression and its difference from linear regression.
+            keywords: [logistic regression]
+      Unsupervised Learning:
+        syllabus_unit: 8
+        description: Supervised versus unsupervised learning, applications, clustering, association rules.
+        subtopics:
+          Unsupervised Learning Overview:
+            description: Types and applications of unsupervised learning in engineering.
+            keywords: [unsupervised learning, applications of unsupervised]
+          K-Means and K-Medoids Clustering:
+            description: What clustering is, the k-means clustering algorithm and the k-medoids algorithm, their steps, strengths and weaknesses, comparison of clustering algorithms.
+            keywords: [k-means, k-mean, k means, k-medoids, clustering techniques, clustering algorithms]
+          Hierarchical Clustering:
+            description: Hierarchical clustering, single link and complete link, dendrograms.
+            keywords: [hierarchical clustering, dendrogram, single link, complete link]
+          Density-based Clustering:
+            description: Density-based clustering methods such as DBSCAN that group dense regions of points.
+            keywords: [density-based, dbscan]
+          Association Rules:
+            description: Association rule mining, the Apriori algorithm and principle, and market basket analysis.
+            keywords: [apriori, association rule, market basket]
+      Neural Network:
+        syllabus_unit: 9
+        description: Introduction to neural networks, biological and artificial neurons, activation functions, implementation and architecture of ANN, learning process, backpropagation, deep learning.
+        subtopics:
+          Biological and Artificial Neurons:
+            description: Structure of biological and artificial neurons, perceptron, Rosenblatt's perceptron model, ADALINE, and characteristics of ANN.
+            keywords: [neuron, perceptron, adaline, rosenblatt]
+          Activation Functions:
+            description: Types of activation functions such as step, ReLU and sigmoid, with equations and advantages.
+            keywords: [activation function, relu, sigmoid]
+          ANN Architecture:
+            description: Architecture of multi-layer perceptrons and feed forward neural networks, and solving the XOR problem.
+            keywords: [multi-layer perceptron, feed forward, xor, hidden layers]
+          Learning Process and Backpropagation:
+            description: Learning process of an ANN, adjusting interconnection weights, forward and backward pass, and the backpropagation algorithm and its limitations.
+            keywords: [backpropagation, back propagation, forward pass, synaptic weights]
+          Deep Learning:
+            description: Deep learning, its difference from machine learning, and applications where it performs well.
+            keywords: [deep learning]
+
+  Introduction of Machine learning:
+    subject_code: "3171114"
+    topics:
+      Introduction to Machine Learning:
+        syllabus_unit: 1
+        description: Introduction, different types of learning, hypothesis space, inductive bias, evaluation and cross validation.
+        subtopics:
+          ML Definition and Applications:
+            description: Definition of machine learning, comparison with traditional programming, applications and limitations, how machines learn.
+            keywords: [define machine learning, applications of machine learning, traditional programming]
+          Types of Learning:
+            description: Supervised, unsupervised, semi-supervised and reinforcement learning and their differences.
+            keywords: [supervised, unsupervised, types of learning, semi-supervised]
+          Hypothesis Space and Inductive Bias:
+            description: Hypothesis, hypothesis space and related terminology, inductive bias, model and features.
+            keywords: [hypothesis, hypothesis space, inductive bias]
+          Evaluation and Cross Validation:
+            description: Model evaluation, k-fold cross validation, leave-one-out cross validation, confusion matrix, accuracy, recall, specificity, Type I and Type II errors.
+            keywords: [cross validation, k-fold, loocv, confusion matrix, accuracy, recall, type i]
+      Basic Machine Learning Algorithms:
+        syllabus_unit: 2
+        description: Linear regression, decision trees, learning decision trees, k-nearest neighbour, collaborative filtering, overfitting.
+        subtopics:
+          Linear Regression:
+            description: Linear regression with one variable, evaluating and designing a linear regressor.
+            keywords: [linear regression, linear regressor]
+          Decision Trees:
+            description: Decision tree learning algorithm, node types, terminology, entropy, and using decision trees for classification.
+            keywords: [decision tree, entropy]
+          K-Nearest Neighbour:
+            description: K-nearest neighbour model, distance metrics, advantages and disadvantages, and difference from k-means.
+            keywords: [knn, k-nearest, nearest neighbor, nearest neighbour]
+          Collaborative Filtering:
+            description: Principle of collaborative filtering for recommendation.
+            keywords: [collaborative filtering]
+          Overfitting and Bias-Variance:
+            description: Overfitting and underfitting, reasons and strategies to avoid overfitting, bias and variance trade-off.
+            keywords: [overfitting, over fitting, underfitting, bias and variance]
+          Classification and Regression:
+            description: Classification versus regression in supervised learning.
+            keywords: [classification and regression, regression and classification]
+      Dimensionality Reduction:
+        syllabus_unit: 3
+        description: Feature selection and feature extraction.
+        subtopics:
+          Dimensionality Reduction Concepts:
+            description: What dimensionality reduction is, high dimensional datasets, types and techniques of dimensionality reduction and difference from feature selection.
+            keywords: [dimensionality reduction, high dimensional]
+          Feature Selection:
+            description: Feature selection, its need and approaches such as filter, wrapper and embedded, feature relevance and redundancy measures.
+            keywords: [feature selection, filter, wrapper, embedded, redundancy]
+          Feature Extraction and PCA:
+            description: Feature extraction techniques and principal component analysis.
+            keywords: [feature extraction, principal component analysis, pca]
+      Bayesian Concept of Learning:
+        syllabus_unit: 4
+        description: Bayesian learning, naive Bayes, Bayesian network, exercises on naive Bayes.
+        subtopics:
+          Bayesian Learning and Bayes Theorem:
+            description: Bayes theorem, prior and posterior, advantages, features and limitations of Bayesian learning and Bayes classification, including numerical problems using Bayes theorem.
+            keywords: [bayes theorem, bayesian learning, prior, posterior]
+          Naive Bayes Classifier:
+            description: The naive Bayes classifier, why it is called naive, its applications and advantages, and naive Bayes numerical exercises.
+            keywords: [naive bayes, naïve bayes, naive bays]
+          Bayesian Network:
+            description: Bayesian belief networks.
+            keywords: [bayesian network, belief network]
+      Logistic Regression and Support Vector Machine:
+        syllabus_unit: 5
+        description: Logistic regression, introduction to SVM, dual formulation, maximum margin with noise, nonlinear SVM and kernel function, solution to the dual problem.
+        subtopics:
+          Logistic Regression:
+            description: Logistic regression, its implementation and difference from linear regression.
+            keywords: [logistic regression, logistic repressor]
+          SVM Fundamentals and Maximum Margin:
+            description: Support vector machine model, support vectors, maximum margin, key properties, applications, advantages and implementation of SVM, comparison with neural networks.
+            keywords: [svm, support vector, maximum margin, margin]
+          Soft Margin SVM:
+            description: Maximum margin with noise, soft margins for handling outliers and noise.
+            keywords: [soft margin, noise, outliers]
+          Kernels and Nonlinear SVM:
+            description: Kernel functions, the kernel method, and nonlinear SVM.
+            keywords: [kernel, nonlinear svm, non linear kernels]
+          SVM Dual Problem:
+            description: The dual formulation of SVM and its solution.
+            keywords: [dual]
+      Basics of Neural Network:
+        syllabus_unit: 6
+        description: Introduction to neural network, multilayer neural network, neural network and backpropagation, deep neural network.
+        subtopics:
+          Neurons and Perceptron:
+            description: Biological and artificial neurons, McCulloch-Pitts model, perceptron and its constraints, ADALINE, weights, summation junction, and implementing logic gates.
+            keywords: [neuron, perceptron, mcculloch, adaline, biological]
+          Activation Functions:
+            description: Activation functions such as ReLU, softmax, sigmoid and threshold functions.
+            keywords: [activation function, relu, soft max, softmax, sigmoid]
+          Neural Network Fundamentals:
+            description: Key components, architectures, properties, advantages, applications and cost function of neural networks, weights and hyper parameters.
+            keywords: [neural network, hyper parameter, weights]
+          Multilayer Feed Forward Networks:
+            description: Single layer and multilayer feed forward neural networks and their architecture.
+            keywords: [feed forward, multilayer, multi-layer]
+          Backpropagation:
+            description: The backpropagation algorithm, its steps, advantages, limitations, and selecting hidden units.
+            keywords: [backpropagation, back propagation]
+          Deep Neural Networks:
+            description: Deep learning, deep neural networks and recurrent neural networks.
+            keywords: [deep learning, deep neural network, recurrent neural network]
+      Computational and Ensemble Learning:
+        syllabus_unit: 7
+        description: Introduction to computational learning, sample complexity for finite hypothesis space, VC dimension, ensembles, bagging and boosting.
+        subtopics:
+          Computational Learning Theory:
+            description: Computational learning models, sample complexity, number of training examples needed, VC dimension and VC bound.
+            keywords: [vc dimension, vapnik, sample complexity, computational learning]
+          Ensemble Learning Concepts:
+            description: What ensemble learning is, types of ensemble algorithms, voting and stacking, variance and bias reduction.
+            keywords: [ensemble, voting, stacking]
+          Bagging and Random Forest:
+            description: Bagging or bootstrap aggregation, its steps, advantages and disadvantages, and random forest built from decision trees.
+            keywords: [bagging, bootstrap aggregation, random forest]
+          Boosting:
+            description: Boosting and AdaBoost, their benefits and drawbacks, and difference between bagging and boosting.
+            keywords: [boosting, adaboost]
+      Basic Concepts of Clustering:
+        syllabus_unit: 8
+        description: Introduction to clustering, K-means clustering, agglomerative hierarchical clustering.
+        subtopics:
+          Clustering Concepts:
+            description: Introduction to clustering, desirable properties, categories and criteria of clustering algorithms, and differences between clustering and classification.
+            keywords: [clustering, properties of clustering]
+          K-Means Clustering:
+            description: The K-means clustering algorithm, its working, advantages and disadvantages.
+            keywords: [k-means, k means, k-mean]
+          Hierarchical Clustering:
+            description: Agglomerative hierarchical clustering.
+            keywords: [hierarchical, agglomerative]
+
+  Applied Machine Learning:
+    subject_code: "3171617"
+    topics:
+      Introduction to Machine Learning:
+        syllabus_unit: 1
+        description: Overview of human learning and machine learning, types of learning, applications of machine learning, tools and technology for machine learning.
+        subtopics:
+          Human vs Machine Learning:
+            description: Differences between human learning and machine learning, and how machines learn.
+            keywords: [human learning, how do machine learn]
+          ML Definition and Applications:
+            description: Definition, key tasks and applications of machine learning, and well-posed learning problems.
+            keywords: [applications of machine learning, define machine learning, well-posed]
+          Types of Learning:
+            description: Supervised, unsupervised, semi-supervised and reinforcement learning, reward and penalty.
+            keywords: [supervised, unsupervised, reinforcement learning, types of machine learning]
+          Tools and Technology:
+            description: Tools and technologies used for machine learning.
+            keywords: [tools or technologies, tools and technologies, tools for machine learning]
+      Overview of Probability:
+        syllabus_unit: 2
+        description: Statistical tools, concepts of probability, random variables, discrete and continuous distributions, multiple random variables, central limit theorem, sampling distributions, hypothesis space and inductive bias, evaluation and cross validation, hypothesis testing, Monte Carlo approximation.
+        subtopics:
+          Probability Concepts and Random Variables:
+            description: Experiment, sample space, event, probability, random variables, expected value, variance, covariance, correlation, mean, median, mode and standard deviation, and probability word problems.
+            keywords: [sample space, event, random variable, expected value, covariance, correlation, probability of]
+          Probability Distributions:
+            description: Discrete versus continuous distributions, uniform and normal distributions, and numerical problems on distributions.
+            keywords: [distribution, normal distribution, uniform distribution, discrete, continuous]
+          Central Limit Theorem and Sampling:
+            description: Sampling distributions, central limit theorem, and sampling problems with sample means.
+            keywords: [sampling distribution, central limit theorem, samples of size]
+          Hypothesis Space and Inductive Bias:
+            description: Hypothesis space, version space and inductive bias.
+            keywords: [hypothesis space, inductive bias, version space]
+          Evaluation and Cross Validation:
+            description: Training, validation and test sets, cross validation and bootstrapping, sample error and true error, overfitting and underfitting, bias-variance trade-off, confusion matrix, accuracy, precision and recall.
+            keywords: [cross validation, bootstrapping, validation set, confusion matrix, overfitting, sample error]
+          Hypothesis Testing:
+            description: Hypothesis testing, its steps, null and alternative hypotheses.
+            keywords: [hypothesis testing, "null hypothesis", alternative hypothesis]
+          Monte Carlo Approximation:
+            description: Monte Carlo approximation.
+            keywords: [monte carlo]
+      Bayesian Concept Learning:
+        syllabus_unit: 3
+        description: Importance of Bayesian methods, Bayes theorem, Bayes theorem and concept learning, Bayesian belief network.
+        subtopics:
+          Bayes Theorem:
+            description: Bayes theorem, prior, posterior and likelihood, and numerical problems such as medical tests, radar detection and exam preparation probabilities.
+            keywords: [bayes theorem, bayes' theorem, bayes' rule, prior, posterior, likelihood, false positives]
+          Concept Learning and MAP:
+            description: Bayes theorem and concept learning, the brute force MAP learning algorithm.
+            keywords: [brute force map, concept learning]
+          Naive Bayes Classifier:
+            description: The naive Bayes classifier, its merits and demerits, and use with continuous data.
+            keywords: [naive bayes, naïve bayes, bayes classifier]
+          Bayesian Belief Network:
+            description: Bayesian belief networks and conditional independence.
+            keywords: [bayesian belief network, conditional independence]
+      Classification and Regression:
+        syllabus_unit: 4
+        description: Supervised versus unsupervised learning, supervised learning, classification model, learning steps, classification algorithms, clustering, association rules, linear, multivariate and logistic regression.
+        subtopics:
+          Classification Model and Learning Steps:
+            description: Supervised learning, classification model and learning steps, classification versus regression, and evaluating the performance of a classification model.
+            keywords: [classification steps, learning steps, classification and regression, supervised learning]
+          K-Nearest Neighbour:
+            description: The k-nearest neighbour classifier, distance calculation and error rate.
+            keywords: [knn, k-nearest, nearest neighbour]
+          Decision Trees and Random Forest:
+            description: Decision trees, information gain, entropy, and random forest with OOB error and variable importance.
+            keywords: [decision tree, information gain, entropy, random forest]
+          Support Vector Machine:
+            description: Support vector machine (SVM) classification, working of the SVM classifier, support vectors, maximum margin, optimal separating hyperplane and factors determining SVM effectiveness.
+            keywords: [svm, support vector, hyperplane]
+          Clustering:
+            description: Clustering, desirable properties of clustering, K-means and hierarchical clustering.
+            keywords: [clustering, k-means, k means]
+          Association Rules:
+            description: Association rule learning and the Apriori algorithm.
+            keywords: [association rule, apriori]
+          Linear and Multivariate Regression:
+            description: Simple and multiple linear regression, slope, dependent and independent variables, ordinary least squares, and improving regression accuracy.
+            keywords: [linear regression, multivariate regression, multiple linear regression, slope, least square]
+          Logistic Regression:
+            description: Logistic regression and how it differs from linear regression.
+            keywords: [logistic regression]
+      Neural Networks and Parameter Estimation:
+        syllabus_unit: 5
+        description: Neural networks introduction, early models, perceptron learning, backpropagation, initialization, training and validation, parameter estimation - MLE, MAP, Bayesian estimation.
+        subtopics:
+          Perceptron and Early Models:
+            description: Artificial neurons, Rosenblatt's perceptron, perceptron versus linear SVM, the XOR problem and multi-layer perceptrons, structure of artificial neural networks.
+            keywords: [perceptron, neuron, xor, multi-layer perceptron, artificial neural network]
+          Backpropagation and Training:
+            description: Backpropagation algorithm and its derivation, factors influencing backpropagation training, learning process and synaptic weights, gradient descent for multilayer networks.
+            keywords: [backpropagation, back-propagation, synaptic weights]
+          Activation Functions:
+            description: Types and role of activation functions used in neural networks such as sigmoid, ReLU, tanh and step functions.
+            keywords: [activation function, activation functions]
+          Parameter Estimation (MLE and MAP):
+            description: Maximum likelihood estimation, maximum a posteriori estimation and Bayesian estimation of parameters.
+            keywords: [mle, map, maximum likelihood, maximum a posteriori, parameter estimation]
+      Deep Learning:
+        syllabus_unit: 6
+        description: Foundations of neural networks and deep learning, regularization and optimization, hyperparameter tuning, deep learning frameworks TensorFlow and Keras, convolutional neural networks, recurrent neural networks.
+        subtopics:
+          Deep Learning Foundations:
+            description: What deep learning is, a short note on deep learning, deep neural networks with many hidden layers, and how deep learning differs from machine learning and traditional neural networks.
+            keywords: [deep learning]
+          Regularization and Optimization:
+            description: Regularization and optimization techniques to improve neural networks and reduce overfitting.
+            keywords: [regularization, optimization]
+          Hyperparameter Tuning and Frameworks:
+            description: Hyperparameter tuning methods and deep learning frameworks such as TensorFlow and Keras.
+            keywords: [hyperparameter, hyper-parameter, tensorflow, keras]
+          Convolutional Neural Networks:
+            description: Convolutional neural network (CNN) architecture, convolutional layers and applications.
+            keywords: [cnn, convolutional]
+          Recurrent Neural Networks:
+            description: Recurrent neural network (RNN) architecture, applications and comparison with CNN and feedforward networks.
+            keywords: [rnn, recurrent]
+      GANs, Deep RL and Adversarial Attacks:
+        syllabus_unit: 7
+        description: Generative adversarial networks, deep reinforcement learning, adversarial attacks.
+        subtopics:
+          Generative Adversarial Networks:
+            description: Generative adversarial networks, generator and discriminator, architecture and advantages.
+            keywords: [gan, generative adversarial, generator, discriminator]
+          Deep Reinforcement Learning:
+            description: Deep reinforcement learning, Q-learning and applications.
+            keywords: [deep reinforcement learning, q-learning]
+          Adversarial Attacks:
+            description: Adversarial machine learning and types of adversarial attacks.
+            keywords: [adversarial attack, adversarial machine learning]

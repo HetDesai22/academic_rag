@@ -1,0 +1,1102 @@
+{
+  "Applied Machine Learning": {
+    "n_questions": 250,
+    "n_clusters": 14,
+    "noise_points": 40,
+    "clusters": [
+      {
+        "cluster": 8,
+        "size": 13,
+        "representative_questions": [
+          "Write short note on Deep Learning.",
+          "Write a short note on deep learning.",
+          "Write short note on Deep Reinforcement Learning.",
+          "Write short note on Multi-layer perceptron.",
+          "Write short note on Q-learning."
+        ],
+        "closest_subtopic": "Deep Learning / Deep Learning Foundations",
+        "closest_similarity": 0.666,
+        "member_nearest_subtopics": {
+          "Deep Learning Foundations": 3,
+          "Hypothesis Testing": 3,
+          "Deep Reinforcement Learning": 2
+        }
+      },
+      {
+        "cluster": 0,
+        "size": 21,
+        "representative_questions": [
+          "Suppose you have a population of test scores for a large group of students. The population's mean test score is 75, and the population's standard deviation is 10. You take random samples of 30 students' test scores from this population. Calculate the following: a. The mean and standard deviation of the sample means. b. The probability that the sample mean of one of your samples is greater than 78. c. The probability that the sample mean of one of your samples is between 72 and 78. Use the Central Limit Theorem to solve this problem.",
+          "For preparation of the exam, a student knows that one question is to be solved in the exam which is either of types A, B, or C. The probabilities of A, B, or C appearing in the exam are 30%, 20%, and 50% respectively. During the preparation, the student solved 9 of 10 problems of type A, 2 of 10 problems of type B, and 6 of 10 problems of type C. (i) What is the probability that the student will solve the problem of the exam?(ii) Given that the student solved the problem, what is the probability that it was of type A?",
+          "For preparation of the exam, a student knows that one question is to be solved in the exam which is either of types A, B, or C. The probabilities of A, B, or C appearing in the exam are 30%, 20%, and 50% respectively. During the preparation, the student solved 9 of 10 problems of type A, 2 of 10 problems of type B, and 6 of 10 problems of type C. (i) What is the probability that the student will solve the problem of the exam? (ii) Given that the student solved the problem, what is the probability that it was of type A?",
+          "In an oral exam you have to solve exactly one problem, which might be one of three types, A, B, or C, which will come up with probabilities 30%, 20%, and 50%, respectively. During your preparation you have solved 9 of 10 problems of type A, 2 of 10 problems of type B, and 6 of 10 problems of type C. (a) What is the probability that you will solve the problem of the exam? (b) Given you have solved the problem, what is the probability that it was of type A?",
+          "An antibiotic resistance test (random variable T) has 2% false positives (i.e. 2% of those not resistance to an antibiotic show positive result in the test) and 5% false negatives (i.e. 5% of those actually resistant to an antibiotic test negative). Let us assume that 2% of those tested are resistant to antibiotics. Determine the probability that somebody who tests positive is actually resistant (random variable D)."
+        ],
+        "closest_subtopic": "Overview of Probability / Central Limit Theorem and Sampling",
+        "closest_similarity": 0.738,
+        "member_nearest_subtopics": {
+          "Central Limit Theorem and Sampling": 7,
+          "Bayes Theorem": 6,
+          "Hypothesis Testing": 3
+        }
+      },
+      {
+        "cluster": 2,
+        "size": 9,
+        "representative_questions": [
+          "Explain Adversarial Attacks.",
+          "Explain Generative Adversarial Networks in detail.",
+          "What is GAN? Explain its Architecture.",
+          "Write the role of Generative Adversarial Network (GAN). Explain GAN structure in detail.",
+          "Explain types of Adversarial Attacks."
+        ],
+        "closest_subtopic": "GANs, Deep RL and Adversarial Attacks / Generative Adversarial Networks",
+        "closest_similarity": 0.753,
+        "member_nearest_subtopics": {
+          "Generative Adversarial Networks": 5,
+          "Adversarial Attacks": 4
+        }
+      },
+      {
+        "cluster": 12,
+        "size": 16,
+        "representative_questions": [
+          "Explain SVM classification in detail.",
+          "Explain SVM classification with example.",
+          "Explain classification steps in detail.",
+          "Explain classification steps in brief.",
+          "Discuss the learning steps of the classification model."
+        ],
+        "closest_subtopic": "Classification and Regression / Classification Model and Learning Steps",
+        "closest_similarity": 0.771,
+        "member_nearest_subtopics": {
+          "Classification Model and Learning Steps": 5,
+          "Support Vector Machine": 4,
+          "Regularization and Optimization": 2
+        }
+      },
+      {
+        "cluster": 13,
+        "size": 14,
+        "representative_questions": [
+          "Explain K-Means clustering algorithm with suitable example.",
+          "Illustrate K means clustering algorithm with an example.",
+          "Discuss the workings of the K-Means clustering method. Also describe its application, advantages and disadvantages.",
+          "Discuss the workings of the k-nearest neighbour classifier. Also describe its application and its advantages and disadvantages.",
+          "Discuss the strengths and weaknesses of the k-means algorithm."
+        ],
+        "closest_subtopic": "Classification and Regression / Clustering",
+        "closest_similarity": 0.771,
+        "member_nearest_subtopics": {
+          "Clustering": 9,
+          "K-Nearest Neighbour": 5
+        }
+      },
+      {
+        "cluster": 7,
+        "size": 7,
+        "representative_questions": [
+          "Discrete Distribution Vs Continuous Distribution.",
+          "Discrete Distribution Vs Continuous Distribution",
+          "Compare discrete vs continuous distribution with example.",
+          "Explain the concept of sampling distribution.",
+          "Explain how sampling distributions are used in hypothesis testing with a simple example."
+        ],
+        "closest_subtopic": "Overview of Probability / Probability Distributions",
+        "closest_similarity": 0.777,
+        "member_nearest_subtopics": {
+          "Probability Distributions": 4,
+          "Central Limit Theorem and Sampling": 3
+        }
+      },
+      {
+        "cluster": 5,
+        "size": 12,
+        "representative_questions": [
+          "Define the terms: a) Cross Validation b) Inductive bias c) Hypothesis space d) Random Variable",
+          "Define the following terms: i) Event ii) Sample Space iii) Random Variable iv) Inductive bias",
+          "Define the Following terms: 1. Hypothesis space 2. Inductive bias",
+          "Define the following terms a. Sample error b. True error c. Random Variable d. Expected value e. Variance f. standard Deviation g. Recall",
+          "Define the terms: i) Sample space ii) Random variable iii) Probability iv) Event"
+        ],
+        "closest_subtopic": "Overview of Probability / Probability Concepts and Random Variables",
+        "closest_similarity": 0.783,
+        "member_nearest_subtopics": {
+          "Probability Concepts and Random Variables": 6,
+          "Hypothesis Space and Inductive Bias": 3,
+          "Evaluation and Cross Validation": 2
+        }
+      },
+      {
+        "cluster": 1,
+        "size": 26,
+        "representative_questions": [
+          "Explain Bayes theorem with example.",
+          "Explain Bayes theorem with example.",
+          "Explain Bayes' theorem with suitable example.",
+          "Explain Bayes' Rule with an appropriate example.",
+          "Explain Bayesian belief network with suitable example."
+        ],
+        "closest_subtopic": "Bayesian Concept Learning / Bayes Theorem",
+        "closest_similarity": 0.79,
+        "member_nearest_subtopics": {
+          "Naive Bayes Classifier": 8,
+          "Bayes Theorem": 8,
+          "Bayesian Belief Network": 6
+        }
+      },
+      {
+        "cluster": 9,
+        "size": 16,
+        "representative_questions": [
+          "What is CNN? State its applications.",
+          "a) Define CNN. b) Enlist 4 applications of CNN. c) Explain working of CNN.",
+          "a) Define CNN. b) Enlist 4 applications of CNN. c) Explain working of CNN.",
+          "a) Define RNN. b) Enlist 4 applications of RNN. c) Explain working of RNN.",
+          "a) Define RNN. b) Enlist 4 applications of RNN. c) Explain working of RNN."
+        ],
+        "closest_subtopic": "Deep Learning / Convolutional Neural Networks",
+        "closest_similarity": 0.8,
+        "member_nearest_subtopics": {
+          "Convolutional Neural Networks": 8,
+          "Recurrent Neural Networks": 7,
+          "Deep Learning Foundations": 1
+        }
+      },
+      {
+        "cluster": 6,
+        "size": 18,
+        "representative_questions": [
+          "Explain multiple linear regression with an example.",
+          "Explain multiple linear regression with suitable example.",
+          "Explain with suitable example. a) Multivariate regression b) Logistic regression",
+          "What is Regression? List types of the regression. Explain Linear Regression with proper examples.",
+          "Explain with suitable example. i) Multivariate regression ii) Logistic regression"
+        ],
+        "closest_subtopic": "Classification and Regression / Linear and Multivariate Regression",
+        "closest_similarity": 0.808,
+        "member_nearest_subtopics": {
+          "Linear and Multivariate Regression": 10,
+          "Logistic Regression": 6,
+          "Classification Model and Learning Steps": 2
+        }
+      },
+      {
+        "cluster": 4,
+        "size": 16,
+        "representative_questions": [
+          "Define machine learning. Enlist and explain at least 4 applications of machine learning in brief.",
+          "What is machine learning? State the applications of machine learning.",
+          "What is Machine learning? List out types of machine learning?",
+          "Explain types of Machine Learning?",
+          "Define machine learning. Describe in brief the key tasks of machine learning."
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / ML Definition and Applications",
+        "closest_similarity": 0.811,
+        "member_nearest_subtopics": {
+          "ML Definition and Applications": 6,
+          "Evaluation and Cross Validation": 3,
+          "Activation Functions": 3
+        }
+      },
+      {
+        "cluster": 3,
+        "size": 13,
+        "representative_questions": [
+          "Differentiate between supervised learning and unsupervised learning.",
+          "Compare supervised learning and Unsupervised learning",
+          "Distinguish between supervised learning, semi-supervised learning, and unsupervised learning.",
+          "Distinguish between supervised learning, semi-supervised learning, and Unsupervised learning.",
+          "Differentiate: Supervised Learning and Unsupervised Learning"
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / Human vs Machine Learning",
+        "closest_similarity": 0.817,
+        "member_nearest_subtopics": {
+          "Human vs Machine Learning": 7,
+          "Types of Learning": 5,
+          "Perceptron and Early Models": 1
+        }
+      },
+      {
+        "cluster": 10,
+        "size": 7,
+        "representative_questions": [
+          "Define and explain MLE and MAP.",
+          "Define and explain MLE and MAP.",
+          "Define the terms MLE and MAP.",
+          "Explain Maximum Likelihood Estimation (MLE) in detail.",
+          "State the difference between Maximum Likelihood Estimation (MLE) and Maximum A Posteriori Estimation (MAP)."
+        ],
+        "closest_subtopic": "Neural Networks and Parameter Estimation / Parameter Estimation (MLE and MAP)",
+        "closest_similarity": 0.846,
+        "member_nearest_subtopics": {
+          "Parameter Estimation (MLE and MAP)": 7
+        }
+      },
+      {
+        "cluster": 11,
+        "size": 22,
+        "representative_questions": [
+          "Explain the concept of backpropagation and its role in training neural networks.",
+          "What are the steps in the back-propagation algorithm? Why a multi-layer neural network is required?",
+          "What are the steps in the backpropagation algorithm? Why a multi-layer neural network is required?",
+          "Explain the concept of a multi layer feed forward neural network with an example.",
+          "Explain in brief back propagation algorithm."
+        ],
+        "closest_subtopic": "Neural Networks and Parameter Estimation / Backpropagation and Training",
+        "closest_similarity": 0.853,
+        "member_nearest_subtopics": {
+          "Backpropagation and Training": 11,
+          "Perceptron and Early Models": 10,
+          "Support Vector Machine": 1
+        }
+      }
+    ],
+    "subtopics_without_nearest_question": []
+  },
+  "Artificial Intelligence and Machine Learning": {
+    "n_questions": 250,
+    "n_clusters": 16,
+    "noise_points": 21,
+    "clusters": [
+      {
+        "cluster": 3,
+        "size": 7,
+        "representative_questions": [
+          "The rent of a property is related to its area. Given the area in square feet and rent in dollars find the relationship between areas and rent using the concept of linear regression. Also predict the rent of property of 790ft2. Table given below: Sr. No. Area (ft2) Rent (Rs.) 1 340 500 2 1080 1700 3 640 1100 4 880 800 5 990 1400 6 510 500",
+          "The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship between areas and rent using the concept of linear regression. Also predict the rent for a property of 790 ft2. Sr. No. Area in ft2 Rent in $ 1 340 500 2 1080 1700 3 640 1100 4 880 800 5 990 1400 6 510 500",
+          "The rent of a property is related to its area. Given the area in square feet and rent in dollars, find the relationship between areas and rent using the concept of linear regression. Also predict the rent for a property of 790 ft2. Sr. No. Area in ft2 Rent in $ 1 340 500 2 1080 1700 3 640 1100 4 880 800 5 990 1400 6 510 500",
+          "Rent of hotel (Rs.) is related to the room area (square feet). As per the given table find the relationship between area and rent using linear regression. Also predict the rent for a room area 800 square feet. Area (Sq. ft) 340 1080 640 880 990 510 Rent (Rs) 500 1700 1100 800 1400 500 Table: Area of a property and its corresponding rental value",
+          "The marks obtained by a student are dependent on his/her study time. Given the study time in minutes and marks out of 2000, find the relationship between study time and marks using concept of linear regression. Also predict the marks for a student if she/he studied for 790 minutes. Sr. No. Study Time (Min) Marks Obtained 1 350 520 2 1070 1600 3 630 1000 4 890 850 5 940 1350 6 500 490"
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Simple Linear Regression",
+        "closest_similarity": 0.74,
+        "member_nearest_subtopics": {
+          "Simple Linear Regression": 7
+        }
+      },
+      {
+        "cluster": 8,
+        "size": 7,
+        "representative_questions": [
+          "What is Stochastic Gradient Descent? Explain",
+          "What is Stochastic Gradient Descent? Explain",
+          "What is Stochastic gradient descent?",
+          "What is Stochastic gradient descent?",
+          "What is Stochastic gradient descent?"
+        ],
+        "closest_subtopic": "Gradient Descent with Large Datasets / Stochastic and Mini-batch Gradient Descent",
+        "closest_similarity": 0.764,
+        "member_nearest_subtopics": {
+          "Gradient Descent": 5,
+          "Stochastic and Mini-batch Gradient Descent": 2
+        }
+      },
+      {
+        "cluster": 15,
+        "size": 8,
+        "representative_questions": [
+          "Explain SVM formulation for separable training data.",
+          "Explain SVM formulation for separable training data.",
+          "Explain in brief working of SVM",
+          "Explain in brief working of SVM",
+          "Explain in brief working of SVM"
+        ],
+        "closest_subtopic": "Support Vector Machine / SVM Fundamentals and Max Margin",
+        "closest_similarity": 0.771,
+        "member_nearest_subtopics": {
+          "SVM Fundamentals and Max Margin": 5,
+          "SVM Primal Formulation": 2,
+          "SVM Dual Formulation and Kernels": 1
+        }
+      },
+      {
+        "cluster": 6,
+        "size": 6,
+        "representative_questions": [
+          "Describe under fitting and over fitting of data with suitable example.",
+          "Describe under fitting and over fitting of data with suitable example",
+          "Describe underfitting and overfitting of data with suitable example.",
+          "Graphically explain overfitted and underfitted model.",
+          "Graphically explain overfitted and underfitted model."
+        ],
+        "closest_subtopic": "Classification / Overfitting and Underfitting",
+        "closest_similarity": 0.78,
+        "member_nearest_subtopics": {
+          "Overfitting and Underfitting": 6
+        }
+      },
+      {
+        "cluster": 0,
+        "size": 11,
+        "representative_questions": [
+          "1 0 3 Find inverse of matrix: A= [ 4 0 5 ] 1 2 3",
+          "3 0 2 Find the inverse of the matrix A= [ 2 0 -2 ] 0 1 1",
+          "1 2 3 Find inverse of the matrix A= ( 4 5 6 ) 7 2 9",
+          "Find the inverse of the matrix A= [ 2 0 -2]",
+          "How to calculate inverse of a matrix?"
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Matrix Inverse and Determinant",
+        "closest_similarity": 0.789,
+        "member_nearest_subtopics": {
+          "Matrix Inverse and Determinant": 8,
+          "Matrix Operations": 3
+        }
+      },
+      {
+        "cluster": 7,
+        "size": 19,
+        "representative_questions": [
+          "Explain and derive the representation of a model in Machine Learning for linear regression.",
+          "Explain and derive the representation of a model in Machine Learning for linear regression.",
+          "Explain how a linear regression model for single variable is represented.",
+          "With a suitable example explain how regression is helpful for experimental analysis.",
+          "With a suitable example explain how regression is helpful for experimental analysis."
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Simple Linear Regression",
+        "closest_similarity": 0.79,
+        "member_nearest_subtopics": {
+          "Model Representation and Cost Function": 5,
+          "Feature Scaling": 4,
+          "Simple Linear Regression": 4
+        }
+      },
+      {
+        "cluster": 11,
+        "size": 43,
+        "representative_questions": [
+          "What is Machine learning? Explain it with an example.",
+          "Explain in detail classification of machine learning",
+          "What is the use of learning algorithm in machine learning? Explain with a suitable example",
+          "Explain in detail classification of machine learning.",
+          "Give detailed classification of machine learning"
+        ],
+        "closest_subtopic": "Introduction to AI and ML / Types of Learning",
+        "closest_similarity": 0.79,
+        "member_nearest_subtopics": {
+          "AI and ML Overview": 14,
+          "Decision Trees": 6,
+          "Random Forest": 5
+        }
+      },
+      {
+        "cluster": 12,
+        "size": 7,
+        "representative_questions": [
+          "Why cost function is also called as mean squared error function? Explain with a suitable example.",
+          "Why cost function is also called as mean squared error function? Explain with a suitable example.",
+          "Why cost function is also called as mean squared error function? Explain with a suitable example.",
+          "What is cost function in machine learning?",
+          "What is cost function in machine learning?"
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Model Representation and Cost Function",
+        "closest_similarity": 0.796,
+        "member_nearest_subtopics": {
+          "Model Representation and Cost Function": 7
+        }
+      },
+      {
+        "cluster": 2,
+        "size": 8,
+        "representative_questions": [
+          "Implement AND function using McCulloch - Pitts Neuron Model",
+          "Implement AND function using McCulloch - Pitts Neuron Model",
+          "Explain in detail McCulloch Pitts Neuron Model and implement ANDNOT function",
+          "Explain in detail McCulloch Pitts Neuron Model and implement ANDNOT function",
+          "Implement AND Gate function using McCulloch Pitts neuron model"
+        ],
+        "closest_subtopic": "Artificial Neural Network / Neuron Models and Logic Gates",
+        "closest_similarity": 0.804,
+        "member_nearest_subtopics": {
+          "Neuron Models and Logic Gates": 8
+        }
+      },
+      {
+        "cluster": 4,
+        "size": 11,
+        "representative_questions": [
+          "How is supervised learning different from unsupervised learning?",
+          "Compare supervised and unsupervised machine learning.",
+          "List out the differences between supervised & unsupervised learning.",
+          "State 4 points of difference between supervised and unsupervised learning",
+          "State difference between supervised and unsupervised learning"
+        ],
+        "closest_subtopic": "Introduction to AI and ML / Types of Learning",
+        "closest_similarity": 0.806,
+        "member_nearest_subtopics": {
+          "Types of Learning": 9,
+          "Neuron Models and Logic Gates": 2
+        }
+      },
+      {
+        "cluster": 14,
+        "size": 12,
+        "representative_questions": [
+          "Explain cost function representation in logistic regression analysis.",
+          "Explain cost function representation in logistic regression analysis.",
+          "What is logistic regression? Derive cost function for it and explain its significance using an example.",
+          "What is logistic regression? Derive cost function for it and explain its significance using an example.",
+          "What is logistic regression? Derive cost function for it and explain its significance using an example."
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Model Representation and Cost Function",
+        "closest_similarity": 0.818,
+        "member_nearest_subtopics": {
+          "Model Representation and Cost Function": 7,
+          "Logistic Regression": 5
+        }
+      },
+      {
+        "cluster": 10,
+        "size": 30,
+        "representative_questions": [
+          "Define and explain Artificial Neural Networks",
+          "Define and explain Artificial Neural Networks",
+          "Explain in detail Artificial Neural Networks",
+          "Explain in detail various activation functions in artificial neural networks",
+          "Explain in detail various activation functions in artificial neural networks"
+        ],
+        "closest_subtopic": "Artificial Neural Network / ANN Architecture and Fundamentals",
+        "closest_similarity": 0.826,
+        "member_nearest_subtopics": {
+          "ANN Architecture and Fundamentals": 18,
+          "Activation Functions": 5,
+          "Backpropagation": 3
+        }
+      },
+      {
+        "cluster": 13,
+        "size": 17,
+        "representative_questions": [
+          "What are Support Vectors in SVMs?",
+          "What are Support Vectors in SVMs?",
+          "What are Support Vectors in SVMs?",
+          "What are Support Vectors in SVMs?",
+          "What are Support Vector Machines (SVMs)?"
+        ],
+        "closest_subtopic": "Support Vector Machine / SVM Fundamentals and Max Margin",
+        "closest_similarity": 0.853,
+        "member_nearest_subtopics": {
+          "SVM Fundamentals and Max Margin": 12,
+          "Non-linear SVM Regression": 2,
+          "Slack Variables and Hinge Loss": 2
+        }
+      },
+      {
+        "cluster": 1,
+        "size": 16,
+        "representative_questions": [
+          "Explain Principal component analysis method for dimensionality reduction.",
+          "Explain Principal component analysis method for dimensionality reduction.",
+          "Explain Principal component analysis method for dimensionality reduction.",
+          "Write a short note on Principal component analysis method for dimensionality reduction.",
+          "Write a short note on Principal component analysis method for dimensionality reduction."
+        ],
+        "closest_subtopic": "Dimensionality Reduction / Principal Component Analysis",
+        "closest_similarity": 0.856,
+        "member_nearest_subtopics": {
+          "Principal Component Analysis": 10,
+          "Curse of Dimensionality and Feature Reduction": 3,
+          "Latent Semantic Analysis": 2
+        }
+      },
+      {
+        "cluster": 9,
+        "size": 13,
+        "representative_questions": [
+          "Explain gradient descent. Explain the role of gradient descent in minimizing cost function of single and two variable functions.",
+          "Explain Gradient descent method for linear regression problem.",
+          "What is gradient descent? Explain the role of gradient descent in minimizing cost function of single and two variable functions.",
+          "What is gradient descent? Explain the role of gradient descent in minimizing cost function of single and two variable functions.",
+          "Explain implementation of linear regression using Gradient descent algorithm."
+        ],
+        "closest_subtopic": "Gradient Descent and Linear Algebra / Gradient Descent",
+        "closest_similarity": 0.886,
+        "member_nearest_subtopics": {
+          "Gradient Descent": 11,
+          "Stochastic and Mini-batch Gradient Descent": 2
+        }
+      },
+      {
+        "cluster": 5,
+        "size": 14,
+        "representative_questions": [
+          "Explain how K-Means algorithm is used in clustering data.",
+          "Explain how K-Means algorithm is used in clustering data.",
+          "Discuss the steps involved in K-Means clustering algorithm.",
+          "What is k-Means Algorithm? Explain steps followed in k-Means Clustering algorithm in detail.",
+          "Write a short note on K-means clustering."
+        ],
+        "closest_subtopic": "Unsupervised Learning / K-Means Clustering",
+        "closest_similarity": 0.887,
+        "member_nearest_subtopics": {
+          "K-Means Clustering": 10,
+          "Distance-based Clustering": 2,
+          "Nearest Neighbour": 1
+        }
+      }
+    ],
+    "subtopics_without_nearest_question": [
+      "Unsupervised Learning / Density-based Clustering"
+    ]
+  },
+  "Introduction of Machine learning": {
+    "n_questions": 250,
+    "n_clusters": 17,
+    "noise_points": 39,
+    "clusters": [
+      {
+        "cluster": 5,
+        "size": 7,
+        "representative_questions": [
+          "Design SVM classifier using pseudo code / python code",
+          "Design perceptron neural network using pseudo code / python code",
+          "Give pseudo code for classification using Neural network",
+          "Explain with Suitable Pseudo code implementation of logistic regression",
+          "Explain with Suitable Pseudo code implementation of SVM."
+        ],
+        "closest_subtopic": "Computational and Ensemble Learning / Computational Learning Theory",
+        "closest_similarity": 0.631,
+        "member_nearest_subtopics": {
+          "Logistic Regression": 2,
+          "SVM Fundamentals and Maximum Margin": 2,
+          "Backpropagation": 1
+        }
+      },
+      {
+        "cluster": 0,
+        "size": 7,
+        "representative_questions": [
+          "Derive bound on number of training samples require for given accuracy, Define VC Dimension and Explain how to find its value using suitable example.",
+          "Derive bound on number of training samples require for given accuracy, Define VC Dimension and Explain how to find its value using suitable example.",
+          "Define and explain in brief VC dimension in context of machine learning.",
+          "Explain Vapnik-Chervonenkis (VC) dimension in detail.",
+          "Explain Vapnik-Chervonenkis (VC) dimension in detail."
+        ],
+        "closest_subtopic": "Computational and Ensemble Learning / Computational Learning Theory",
+        "closest_similarity": 0.674,
+        "member_nearest_subtopics": {
+          "Computational Learning Theory": 3,
+          "Dimensionality Reduction Concepts": 2,
+          "Hypothesis Space and Inductive Bias": 1
+        }
+      },
+      {
+        "cluster": 12,
+        "size": 6,
+        "representative_questions": [
+          "Differentiate between Clustering and Classification.",
+          "Differentiate between Clustering and Classification.",
+          "Give at least six differences between clustering and classification.",
+          "How is KNN different from k-means clustering?",
+          "Write three differences between Supervised and Unsupervised Learning."
+        ],
+        "closest_subtopic": "Basic Machine Learning Algorithms / K-Nearest Neighbour",
+        "closest_similarity": 0.717,
+        "member_nearest_subtopics": {
+          "Clustering Concepts": 3,
+          "K-Nearest Neighbour": 1,
+          "Logistic Regression": 1
+        }
+      },
+      {
+        "cluster": 8,
+        "size": 7,
+        "representative_questions": [
+          "Explain the process of k-fold Cross Validation in brief.",
+          "Explain the process of k-fold Cross Validation in brief.",
+          "Explain,in details, the process of K-fold cross-validation.",
+          "Explain the process of k-fold Cross Validation technique in detail.",
+          "Define Cross Validation."
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / Evaluation and Cross Validation",
+        "closest_similarity": 0.719,
+        "member_nearest_subtopics": {
+          "Evaluation and Cross Validation": 6,
+          "Linear Regression": 1
+        }
+      },
+      {
+        "cluster": 9,
+        "size": 14,
+        "representative_questions": [
+          "Explain Hierarchical clustering with necessary details.",
+          "Explain about Hierarchical Clustering.",
+          "Write down desirable properties of Clustering Algorithm.",
+          "How to apply hierarchical clustering algorithm.",
+          "Explain K-means clustering algorithm with necessary details."
+        ],
+        "closest_subtopic": "Basic Concepts of Clustering / Hierarchical Clustering",
+        "closest_similarity": 0.767,
+        "member_nearest_subtopics": {
+          "Hierarchical Clustering": 5,
+          "Clustering Concepts": 5,
+          "K-Means Clustering": 4
+        }
+      },
+      {
+        "cluster": 11,
+        "size": 8,
+        "representative_questions": [
+          "Give reasons for overfitting.",
+          "Explain concept of over fitting with suitable examples.",
+          "Explain Overfitting in context of machine learning models.",
+          "Give reasons for overfitting and provide options to resolve overfitting problem.",
+          "What do you mean by Over fitting, How to Solve this Problem"
+        ],
+        "closest_subtopic": "Basic Machine Learning Algorithms / Overfitting and Bias-Variance",
+        "closest_similarity": 0.774,
+        "member_nearest_subtopics": {
+          "Overfitting and Bias-Variance": 8
+        }
+      },
+      {
+        "cluster": 16,
+        "size": 6,
+        "representative_questions": [
+          "List down types of Ensemble learning algorithms.",
+          "List down various types of Ensemble learning algorithms.",
+          "List down different types of ensemble learning algorithm.",
+          "State two types of computational learning models.",
+          "State two types of computational learning models."
+        ],
+        "closest_subtopic": "Computational and Ensemble Learning / Ensemble Learning Concepts",
+        "closest_similarity": 0.781,
+        "member_nearest_subtopics": {
+          "Ensemble Learning Concepts": 3,
+          "Computational Learning Theory": 2,
+          "Decision Trees": 1
+        }
+      },
+      {
+        "cluster": 1,
+        "size": 36,
+        "representative_questions": [
+          "Explain Recurrent Neural Network with its architecture.",
+          "Explain Recurrent Neural Network with its architecture.",
+          "Explain with suitable example back propagation Algorithm.",
+          "Explain the principle of backpropagation algorithm.",
+          "What is Backpropagation? List down advantages of using it in Neural Network."
+        ],
+        "closest_subtopic": "Basics of Neural Network / Neural Network Fundamentals",
+        "closest_similarity": 0.787,
+        "member_nearest_subtopics": {
+          "Backpropagation": 9,
+          "Neural Network Fundamentals": 8,
+          "Neurons and Perceptron": 7
+        }
+      },
+      {
+        "cluster": 7,
+        "size": 8,
+        "representative_questions": [
+          "Explain the concept of bagging and boosting in Machine learning.",
+          "How bagging is used in Machine learning",
+          "How Boosting is used in machine learning",
+          "Explain the difference between bagging and boosting.",
+          "bagging and Boosting improve decision. justify"
+        ],
+        "closest_subtopic": "Computational and Ensemble Learning / Boosting",
+        "closest_similarity": 0.795,
+        "member_nearest_subtopics": {
+          "Boosting": 5,
+          "Bagging and Random Forest": 1,
+          "Overfitting and Bias-Variance": 1
+        }
+      },
+      {
+        "cluster": 10,
+        "size": 9,
+        "representative_questions": [
+          "Write advantages and disadvantages of k-Nearest Neighborhood algorithm.",
+          "What are the advantage and disadvantage of kNN (K nearest neighbor) algorithm?",
+          "Discuss K-Nearest Neighborhood classification method with its advantages and disadvantages.",
+          "Give advantages and disadvantages of K - means Clustering algorithm.",
+          "Give advantages and disadvantages of K - means Clsutering algorithm."
+        ],
+        "closest_subtopic": "Basic Machine Learning Algorithms / K-Nearest Neighbour",
+        "closest_similarity": 0.805,
+        "member_nearest_subtopics": {
+          "K-Nearest Neighbour": 4,
+          "Boosting": 3,
+          "K-Means Clustering": 2
+        }
+      },
+      {
+        "cluster": 2,
+        "size": 15,
+        "representative_questions": [
+          "Compare ReLu and Soft Max activation functions.",
+          "Compare Soft Max and RELU as activation functions in deep neural network.",
+          "Compare ReLu and Soft Max Function used in Neural Networks.",
+          "Explain the difference between activation function and threshold function.",
+          "Explain the difference between activation function and threshold function."
+        ],
+        "closest_subtopic": "Basics of Neural Network / Activation Functions",
+        "closest_similarity": 0.808,
+        "member_nearest_subtopics": {
+          "Activation Functions": 10,
+          "Neurons and Perceptron": 2,
+          "SVM Fundamentals and Maximum Margin": 2
+        }
+      },
+      {
+        "cluster": 3,
+        "size": 27,
+        "representative_questions": [
+          "Explain concept of Naïve Bayes classifier.",
+          "Explain Naïve Bayes.",
+          "What is Naive Bayes classifier? Explain various application of Naive Bayes classifier.",
+          "Write down advantages of Naïve Bayes Classifier.",
+          "What is Naive Bayes classifier? Explain various application of neive bayes classifier."
+        ],
+        "closest_subtopic": "Bayesian Concept of Learning / Bayesian Learning and Bayes Theorem",
+        "closest_similarity": 0.823,
+        "member_nearest_subtopics": {
+          "Naive Bayes Classifier": 10,
+          "Bayesian Learning and Bayes Theorem": 9,
+          "SVM Fundamentals and Maximum Margin": 3
+        }
+      },
+      {
+        "cluster": 6,
+        "size": 25,
+        "representative_questions": [
+          "Differentiate between Dimensionality reduction and feature selection.",
+          "Differentiate between dimensionality reduction and feature selection.",
+          "Differentiate between Dimensionality reduction & Feature selection.",
+          "Explain in brief concepts of 'dimensionality reduction' and 'feature selection'.",
+          "Differentiate between dimensionality reduction Vs feature selection."
+        ],
+        "closest_subtopic": "Dimensionality Reduction / Dimensionality Reduction Concepts",
+        "closest_similarity": 0.823,
+        "member_nearest_subtopics": {
+          "Feature Selection": 13,
+          "Dimensionality Reduction Concepts": 12
+        }
+      },
+      {
+        "cluster": 4,
+        "size": 11,
+        "representative_questions": [
+          "Explain in brief: SVM Model",
+          "Explain, in brief, the SVM model.",
+          "Explain the concept of margin in SVM.",
+          "Explain the need for Kernel Method in SVM and explain use of Kernel Method in SVM.",
+          "Explain concept of support vectors. Draw and explain SVM model with necessary details."
+        ],
+        "closest_subtopic": "Logistic Regression and Support Vector Machine / SVM Fundamentals and Maximum Margin",
+        "closest_similarity": 0.829,
+        "member_nearest_subtopics": {
+          "SVM Fundamentals and Maximum Margin": 5,
+          "Kernels and Nonlinear SVM": 3,
+          "Soft Margin SVM": 2
+        }
+      },
+      {
+        "cluster": 15,
+        "size": 11,
+        "representative_questions": [
+          "What is an Ensemble Learning",
+          "What is Ensemble learning",
+          "Briefly explain the concept of Ensemble Learning.",
+          "Explain the principle of ensemble learning for decision tree.",
+          "Explain Voting and Stacking approaches for Combining Ensemble methods."
+        ],
+        "closest_subtopic": "Computational and Ensemble Learning / Ensemble Learning Concepts",
+        "closest_similarity": 0.834,
+        "member_nearest_subtopics": {
+          "Ensemble Learning Concepts": 8,
+          "Bagging and Random Forest": 3
+        }
+      },
+      {
+        "cluster": 13,
+        "size": 7,
+        "representative_questions": [
+          "Enlist different applications of machine learning.",
+          "Enlist different applications of machine learning.",
+          "What is machine learning? Explain any two applications of machine learning. What are the possible ethical issues of machine learning applications?",
+          "What is Machine learning? how do machines learn?",
+          "Define machine learning. Compare machine learning and traditional programming solution in terms of data, program and solution."
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / ML Definition and Applications",
+        "closest_similarity": 0.844,
+        "member_nearest_subtopics": {
+          "ML Definition and Applications": 7
+        }
+      },
+      {
+        "cluster": 14,
+        "size": 7,
+        "representative_questions": [
+          "Explain, in brief, the decision tree algorithm",
+          "How decision tree algorithm can be used for classification",
+          "Explain basic Decision Tree Learning Algorithm.",
+          "How random forest algorithm can be build using decision tree?",
+          "Draw and explain terminologies related to decision tree. Enlist advantages and disadvantages of decision tree, as machine learning algorithm."
+        ],
+        "closest_subtopic": "Basic Machine Learning Algorithms / Decision Trees",
+        "closest_similarity": 0.869,
+        "member_nearest_subtopics": {
+          "Decision Trees": 7
+        }
+      }
+    ],
+    "subtopics_without_nearest_question": [
+      "Logistic Regression and Support Vector Machine / SVM Dual Problem"
+    ]
+  },
+  "Machine Learning": {
+    "n_questions": 250,
+    "n_clusters": 14,
+    "noise_points": 53,
+    "clusters": [
+      {
+        "cluster": 4,
+        "size": 6,
+        "representative_questions": [
+          "Explain the concept of penalty and reward in reinforcement learning.",
+          "Explain the concept of penalty and reward in reinforcement learning.",
+          "Explain the concept of penalty and reward in reinforcement. Learning.",
+          "What is reinforcement learning? State key features of reinforcement learning.",
+          "What is reinforcement learning? State key features of reinforcement learning."
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / Types of Machine Learning",
+        "closest_similarity": 0.671,
+        "member_nearest_subtopics": {
+          "Types of Machine Learning": 6
+        }
+      },
+      {
+        "cluster": 2,
+        "size": 7,
+        "representative_questions": [
+          "Explain the Apriori algorithm for association rule learning with an example.",
+          "Explain the Apriori algorithm for association rule learning with an example.",
+          "How does the apriori principle help in reducing the calculation overhead for a market basket analysis? Explain with an example.",
+          "How does the apriori principle help in reducing the calculation overhead for a market basket analysis? Explain with an example.",
+          "Explain Apriori algorithm with its Limitation."
+        ],
+        "closest_subtopic": "Unsupervised Learning / Association Rules",
+        "closest_similarity": 0.727,
+        "member_nearest_subtopics": {
+          "Association Rules": 6,
+          "Naive Bayes Classifier": 1
+        }
+      },
+      {
+        "cluster": 8,
+        "size": 24,
+        "representative_questions": [
+          "Explain the feature selection approaches.",
+          "What is feature selection in context of machine learning? Why is it needed? List the different approaches of feature selection? Explain any one with example.",
+          "What is feature selection? Why it is needed? What are the different approaches of feature selection, briefly explain any one.",
+          "State the different techniques for data pre-processing? Explain, in brief, dimensionality reduction and feature selection.",
+          "What is Feature Subset Selection? Explain it in detail."
+        ],
+        "closest_subtopic": "Basics of Feature Engineering / Feature Subset Selection",
+        "closest_similarity": 0.772,
+        "member_nearest_subtopics": {
+          "Feature Subset Selection": 7,
+          "Data Pre-processing and Dimensionality Reduction": 6,
+          "Features and Feature Engineering": 4
+        }
+      },
+      {
+        "cluster": 9,
+        "size": 34,
+        "representative_questions": [
+          "What is likelihood probability? Explain with an example.",
+          "What is likelihood probability? Give an example.",
+          "What is likelihood probability? Give an example.",
+          "What is likelihood probability? Give an example",
+          "Explain Bayes' theorem in details."
+        ],
+        "closest_subtopic": "Bayesian Concept Learning / Bayes Theorem",
+        "closest_similarity": 0.777,
+        "member_nearest_subtopics": {
+          "Bayes Theorem": 9,
+          "Probability Concepts": 6,
+          "Discrete Distributions": 5
+        }
+      },
+      {
+        "cluster": 6,
+        "size": 8,
+        "representative_questions": [
+          "Explain K-fold cross validation method with suitable example.",
+          "Explain the process of K-fold-cross-validation method",
+          "Discuss holdout and k-fold cross validation for supervised learning.",
+          "What is K-fold cross validation?",
+          "Elaborate the cross validation in training a model."
+        ],
+        "closest_subtopic": "Modelling and Evaluation / Training a Model and Cross Validation",
+        "closest_similarity": 0.789,
+        "member_nearest_subtopics": {
+          "Training a Model and Cross Validation": 7,
+          "Selecting a Model": 1
+        }
+      },
+      {
+        "cluster": 1,
+        "size": 12,
+        "representative_questions": [
+          "Define linear regression. Also explain Sum of squares with its formula.",
+          "Define simple linear regression using a graph. Explain slope and intercept.",
+          "Explain dependent variable and an independent variable in a linear equation with example.",
+          "Explain dependent variable and an independent variable in a linear equation with example.",
+          "Explain the difference between linear and logistics regression with example."
+        ],
+        "closest_subtopic": "Supervised Learning: Classification and Regression / Simple Linear Regression",
+        "closest_similarity": 0.795,
+        "member_nearest_subtopics": {
+          "Simple Linear Regression": 7,
+          "Logistic Regression": 3,
+          "Multiple and Regularised Regression": 2
+        }
+      },
+      {
+        "cluster": 5,
+        "size": 7,
+        "representative_questions": [
+          "Explain the classification learning steps.",
+          "Explain the classification learning steps.",
+          "Explain the process of Supervised Learning Model.",
+          "What is supervised learning? Draw and explain classification steps in detail.",
+          "Explain Supervised Learning in detail."
+        ],
+        "closest_subtopic": "Supervised Learning: Classification and Regression / Classification Model and Learning Steps",
+        "closest_similarity": 0.806,
+        "member_nearest_subtopics": {
+          "Classification Model and Learning Steps": 5,
+          "Training a Model and Cross Validation": 1,
+          "Concept Learning": 1
+        }
+      },
+      {
+        "cluster": 11,
+        "size": 9,
+        "representative_questions": [
+          "What are the advantages of the kNN algorithm?",
+          "Explain KNN algorithm with suitable example.",
+          "What are the disadvantages of the kNN algorithm?",
+          "Discuss the kNN model in detail.",
+          "Discuss KNN model in detail."
+        ],
+        "closest_subtopic": "Supervised Learning: Classification and Regression / K-Nearest Neighbour",
+        "closest_similarity": 0.813,
+        "member_nearest_subtopics": {
+          "K-Nearest Neighbour": 9
+        }
+      },
+      {
+        "cluster": 0,
+        "size": 9,
+        "representative_questions": [
+          "What are the factors determining the effectiveness of SVM?",
+          "What are the factors determining the effectiveness of SVM?",
+          "What are the factors determining the effectiveness of SVM?",
+          "What are the strengths and weaknesses of SVM?",
+          "What is the cost of misclassification in SVM?"
+        ],
+        "closest_subtopic": "Supervised Learning: Classification and Regression / Support Vector Machine",
+        "closest_similarity": 0.814,
+        "member_nearest_subtopics": {
+          "Support Vector Machine": 9
+        }
+      },
+      {
+        "cluster": 10,
+        "size": 14,
+        "representative_questions": [
+          "Explain k-means clustering technique.",
+          "What is Clustering? Explain K-mean clustering algorithm.",
+          "Explain about Hierarchical clustering algorithm.",
+          "Explain K-mean clustering algorithm",
+          "Explain hierarchical clustering."
+        ],
+        "closest_subtopic": "Unsupervised Learning / K-Means and K-Medoids Clustering",
+        "closest_similarity": 0.82,
+        "member_nearest_subtopics": {
+          "K-Means and K-Medoids Clustering": 7,
+          "Hierarchical Clustering": 4,
+          "Density-based Clustering": 2
+        }
+      },
+      {
+        "cluster": 3,
+        "size": 16,
+        "representative_questions": [
+          "Explain Decision tree algorithm",
+          "Explain decision tree approach with suitable example.",
+          "Explain Decision Tree in details.",
+          "Discuss decision tree algorithm in detail.",
+          "Discuss the decision tree algorithm in detail."
+        ],
+        "closest_subtopic": "Supervised Learning: Classification and Regression / Decision Trees",
+        "closest_similarity": 0.822,
+        "member_nearest_subtopics": {
+          "Decision Trees": 13,
+          "Hierarchical Clustering": 2,
+          "Density-based Clustering": 1
+        }
+      },
+      {
+        "cluster": 7,
+        "size": 8,
+        "representative_questions": [
+          "What is model accuracy in reference to classification? Also Explain the performance parameters Precision, Recall and F-measure with its formula and example.",
+          "Consider the following confusion matrix of the win/loss prediction of cricket match. Calculate model accuracy and error rate, sensitivity, precision, F-measure and kappa value for the same. Actual Win Actual Loss Predicted Win 85 4 Predicted Loss 2 9",
+          "How to measure accuracy of a classification model?",
+          "Consider the following confusion matrix of the win/loss prediction of cricket match. Calculate model accuracy and error rate for the same. Actual Win Actual Loss Predicted Win 82 7 Predicted Loss 3 8",
+          "How to improve accuracy of a linear regression model?"
+        ],
+        "closest_subtopic": "Modelling and Evaluation / Evaluating Model Performance",
+        "closest_similarity": 0.835,
+        "member_nearest_subtopics": {
+          "Evaluating Model Performance": 5,
+          "Improving Model Performance": 3
+        }
+      },
+      {
+        "cluster": 12,
+        "size": 14,
+        "representative_questions": [
+          "Explain in detail, the backpropagation algorithm. What are the limitations of this algorithm?",
+          "Explain, in details, the backpropagation algorithm. What are the limitations of this algorithm?",
+          "Explain the backpropagation algorithm. What are the limitations of this algorithm?",
+          "Explain the learning process of an ANN. Explain, with example, the challenge in assigning synaptic weights for the interconnection between neurons? How can this challenge be addressed?",
+          "Explain the basic structure of a multi-layer perceptron. Explain how it can solve the XOR problem."
+        ],
+        "closest_subtopic": "Neural Network / Learning Process and Backpropagation",
+        "closest_similarity": 0.844,
+        "member_nearest_subtopics": {
+          "Learning Process and Backpropagation": 9,
+          "Biological and Artificial Neurons": 3,
+          "ANN Architecture": 1
+        }
+      },
+      {
+        "cluster": 13,
+        "size": 29,
+        "representative_questions": [
+          "Compare the different types of machine learning.",
+          "Compare Different types of Machine Learning",
+          "Define Machine learning? Briefly explain the types of learning.",
+          "What is difference between Machine Learning and Deep Learning.",
+          "Discuss different types of data in machine learning."
+        ],
+        "closest_subtopic": "Introduction to Machine Learning / Types of Machine Learning",
+        "closest_similarity": 0.856,
+        "member_nearest_subtopics": {
+          "Types of Machine Learning": 9,
+          "ML Definition, Applications and Issues": 6,
+          "Human vs Machine Learning": 5
+        }
+      }
+    ],
+    "subtopics_without_nearest_question": [
+      "Introduction to Machine Learning / Tools and Technology"
+    ]
+  }
+}

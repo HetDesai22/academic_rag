@@ -1,0 +1,420 @@
+{
+  "generated_at": "2026-09-27T17:19:53+00:00",
+  "run": {
+    "started_at": "2026-09-27T17:19:11+00:00",
+    "python": "3.14.3",
+    "random_seed": 42
+  },
+  "inputs": [
+    {
+      "file": "data/processed/questions.csv",
+      "sha256": "57afa4ffe2d7464659df0515f2e4e451c8867013827ea1c64d4dc84294193472"
+    }
+  ],
+  "column_mapping": {
+    "question_id": null,
+    "paper_id": null,
+    "university": "university",
+    "subject": "subject",
+    "subject_code": "subject_code",
+    "year": "year",
+    "exam_session": "exam_session",
+    "semester": "semester",
+    "exam_date": "exam_date",
+    "question_number": "question_no",
+    "sub_part": "sub_part",
+    "is_or_option": "is_or_option",
+    "question_text": "question",
+    "marks": "marks",
+    "source_file": "source_file",
+    "page_number": null
+  },
+  "versions": {
+    "taxonomy": "1.3.0",
+    "preprocessing": "1.1.0",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "embedding_device": "cuda",
+    "sentence_transformers": "6.1.0",
+    "torch": "2.11.0+cu128"
+  },
+  "classifier_config": {
+    "keyword_bonus": 0.05,
+    "temperature": 0.04,
+    "secondary_min_confidence": 0.55,
+    "secondary_max": 2,
+    "min_similarity": 0.55,
+    "use_review_exemplars": true
+  },
+  "llm_topic_check": {
+    "enabled": true,
+    "model": "claude-opus-5",
+    "candidates": 107,
+    "hint_candidates": 25,
+    "api_calls": 0,
+    "decisions": {
+      "confirmed": 90,
+      "adjudicated": 9,
+      "review_disagreement": 6,
+      "review_off_syllabus": 1,
+      "review_invalid_subtopic": 1
+    }
+  },
+  "taxonomy_warnings": [],
+  "duplicate_detection": {
+    "lexical": {
+      "exact_groups": 142,
+      "fuzzy_pairs": 80,
+      "semantic_pairs": 0,
+      "near_duplicate_groups": 175,
+      "rows_in_exact_groups": 313,
+      "rows_in_near_groups": 414
+    },
+    "lexical_plus_semantic": {
+      "exact_groups": 142,
+      "fuzzy_pairs": 80,
+      "semantic_pairs": 40,
+      "near_duplicate_groups": 184,
+      "rows_in_exact_groups": 313,
+      "rows_in_near_groups": 449
+    }
+  },
+  "vector_db": {
+    "mode": "metadata_refresh",
+    "added": 0,
+    "total": 1000
+  },
+  "validation_passed": true,
+  "validation_checks": {
+    "missing_question_text": 0,
+    "missing_subject": 0,
+    "empty_primary_topic": 0,
+    "empty_subtopic": 0,
+    "subject_not_in_taxonomy": 0,
+    "topic_not_in_subject_taxonomy": 0,
+    "subtopic_not_under_topic": 0,
+    "invalid_secondary_topics": 0,
+    "invalid_confidence": 0,
+    "duplicate_question_ids": 0,
+    "low_confidence_not_flagged": 0,
+    "invalid_review_required": 0
+  },
+  "validation_errors": [],
+  "total_questions": 1000,
+  "successfully_labeled": 1000,
+  "auto_accepted": 961,
+  "review_required": 39,
+  "review_reasons": {
+    "low_confidence": 25,
+    "review_disagreement": 6,
+    "llm_subtopic_disagreement": 6,
+    "review_off_syllabus": 1,
+    "review_invalid_subtopic": 1
+  },
+  "missing_questions": 0,
+  "confidence_thresholds": {
+    "high": 0.75,
+    "low": 0.45
+  },
+  "confidence_band_counts": {
+    "high": 868,
+    "medium": 107,
+    "low": 25
+  },
+  "low_confidence_count": 25,
+  "labeling_method_counts": {
+    "semantic_classification": 901,
+    "semantic+llm_confirmed": 84,
+    "semantic+llm_adjudicated": 9,
+    "semantic+llm_confirmed_subtopic_adjusted": 6
+  },
+  "questions_with_secondary_topics": 12,
+  "duplicate_count": {
+    "rows_in_exact_duplicate_groups": 313,
+    "exact_duplicate_groups": 142,
+    "rows_in_near_duplicate_groups": 449,
+    "near_duplicate_groups": 184
+  },
+  "subject_distribution": {
+    "Artificial Intelligence and Machine Learning": 250,
+    "Applied Machine Learning": 250,
+    "Introduction of Machine learning": 250,
+    "Machine Learning": 250
+  },
+  "topic_distribution": {
+    "Applied Machine Learning": {
+      "Classification and Regression": 61,
+      "Overview of Probability": 51,
+      "Neural Networks and Parameter Estimation": 37,
+      "Bayesian Concept Learning": 31,
+      "Deep Learning": 28,
+      "Introduction to Machine Learning": 27,
+      "GANs, Deep RL and Adversarial Attacks": 15
+    },
+    "Artificial Intelligence and Machine Learning": {
+      "Gradient Descent and Linear Algebra": 58,
+      "Artificial Neural Network": 48,
+      "Introduction to AI and ML": 31,
+      "Support Vector Machine": 29,
+      "Classification": 29,
+      "Dimensionality Reduction": 15,
+      "Unsupervised Learning": 13,
+      "Gradient Descent with Large Datasets": 9,
+      "Multiple Features Gradient Descent": 9,
+      "Ensemble Learning": 9
+    },
+    "Introduction of Machine learning": {
+      "Basics of Neural Network": 54,
+      "Computational and Ensemble Learning": 37,
+      "Basic Machine Learning Algorithms": 33,
+      "Logistic Regression and Support Vector Machine": 30,
+      "Introduction to Machine Learning": 29,
+      "Dimensionality Reduction": 26,
+      "Bayesian Concept of Learning": 22,
+      "Basic Concepts of Clustering": 19
+    },
+    "Machine Learning": {
+      "Supervised Learning: Classification and Regression": 54,
+      "Introduction to Machine Learning": 31,
+      "Preparing to Model": 30,
+      "Unsupervised Learning": 28,
+      "Modelling and Evaluation": 27,
+      "Neural Network": 24,
+      "Overview of Probability": 21,
+      "Bayesian Concept Learning": 19,
+      "Basics of Feature Engineering": 16
+    }
+  },
+  "subtopic_distribution": {
+    "Applied Machine Learning": {
+      "Bayesian Concept Learning": {
+        "Bayes Theorem": 15,
+        "Naive Bayes Classifier": 8,
+        "Bayesian Belief Network": 6,
+        "Concept Learning and MAP": 2
+      },
+      "Classification and Regression": {
+        "Linear and Multivariate Regression": 14,
+        "Classification Model and Learning Steps": 10,
+        "Clustering": 9,
+        "Support Vector Machine": 8,
+        "Decision Trees and Random Forest": 6,
+        "Logistic Regression": 5,
+        "K-Nearest Neighbour": 5,
+        "Association Rules": 4
+      },
+      "Deep Learning": {
+        "Convolutional Neural Networks": 8,
+        "Recurrent Neural Networks": 7,
+        "Hyperparameter Tuning and Frameworks": 5,
+        "Deep Learning Foundations": 5,
+        "Regularization and Optimization": 3
+      },
+      "GANs, Deep RL and Adversarial Attacks": {
+        "Generative Adversarial Networks": 6,
+        "Adversarial Attacks": 5,
+        "Deep Reinforcement Learning": 4
+      },
+      "Introduction to Machine Learning": {
+        "Types of Learning": 14,
+        "ML Definition and Applications": 7,
+        "Human vs Machine Learning": 4,
+        "Tools and Technology": 2
+      },
+      "Neural Networks and Parameter Estimation": {
+        "Perceptron and Early Models": 13,
+        "Backpropagation and Training": 12,
+        "Parameter Estimation (MLE and MAP)": 8,
+        "Activation Functions": 4
+      },
+      "Overview of Probability": {
+        "Evaluation and Cross Validation": 12,
+        "Probability Concepts and Random Variables": 10,
+        "Central Limit Theorem and Sampling": 10,
+        "Probability Distributions": 7,
+        "Hypothesis Testing": 5,
+        "Monte Carlo Approximation": 4,
+        "Hypothesis Space and Inductive Bias": 3
+      }
+    },
+    "Artificial Intelligence and Machine Learning": {
+      "Artificial Neural Network": {
+        "ANN Architecture and Fundamentals": 25,
+        "Neuron Models and Logic Gates": 12,
+        "Weight and Bias Initialization": 5,
+        "Backpropagation": 3,
+        "Activation Functions": 3
+      },
+      "Classification": {
+        "Logistic Regression": 9,
+        "Decision Trees": 6,
+        "Overfitting and Underfitting": 6,
+        "Classification Setup and Performance Metrics": 4,
+        "Discriminative and Generative Models": 3,
+        "Nearest Neighbour": 1
+      },
+      "Dimensionality Reduction": {
+        "Principal Component Analysis": 10,
+        "Curse of Dimensionality and Feature Reduction": 3,
+        "Latent Semantic Analysis": 2
+      },
+      "Ensemble Learning": {
+        "Random Forest": 5,
+        "AdaBoost and Ensemble Types": 4
+      },
+      "Gradient Descent and Linear Algebra": {
+        "Model Representation and Cost Function": 20,
+        "Gradient Descent": 12,
+        "Simple Linear Regression": 12,
+        "Matrix Inverse and Determinant": 8,
+        "Matrix Operations": 6
+      },
+      "Gradient Descent with Large Datasets": {
+        "Stochastic and Mini-batch Gradient Descent": 9
+      },
+      "Introduction to AI and ML": {
+        "Types of Learning": 15,
+        "AI and ML Overview": 11,
+        "Learning Task Terminology": 5
+      },
+      "Multiple Features Gradient Descent": {
+        "Feature Scaling": 4,
+        "Normal Equation": 3,
+        "Polynomial Regression": 2
+      },
+      "Support Vector Machine": {
+        "SVM Fundamentals and Max Margin": 19,
+        "Non-linear SVM Regression": 3,
+        "Slack Variables and Hinge Loss": 3,
+        "SVM Primal Formulation": 2,
+        "SVM Dual Formulation and Kernels": 2
+      },
+      "Unsupervised Learning": {
+        "K-Means Clustering": 10,
+        "Distance-based Clustering": 2,
+        "Mixture Models and EM": 1
+      }
+    },
+    "Introduction of Machine learning": {
+      "Basic Concepts of Clustering": {
+        "Clustering Concepts": 8,
+        "K-Means Clustering": 6,
+        "Hierarchical Clustering": 5
+      },
+      "Basic Machine Learning Algorithms": {
+        "Overfitting and Bias-Variance": 10,
+        "Decision Trees": 9,
+        "K-Nearest Neighbour": 8,
+        "Linear Regression": 3,
+        "Classification and Regression": 2,
+        "Collaborative Filtering": 1
+      },
+      "Basics of Neural Network": {
+        "Neural Network Fundamentals": 13,
+        "Activation Functions": 11,
+        "Neurons and Perceptron": 10,
+        "Backpropagation": 9,
+        "Deep Neural Networks": 6,
+        "Multilayer Feed Forward Networks": 5
+      },
+      "Bayesian Concept of Learning": {
+        "Naive Bayes Classifier": 10,
+        "Bayesian Learning and Bayes Theorem": 10,
+        "Bayesian Network": 2
+      },
+      "Computational and Ensemble Learning": {
+        "Ensemble Learning Concepts": 11,
+        "Bagging and Random Forest": 9,
+        "Computational Learning Theory": 9,
+        "Boosting": 8
+      },
+      "Dimensionality Reduction": {
+        "Dimensionality Reduction Concepts": 12,
+        "Feature Selection": 12,
+        "Feature Extraction and PCA": 2
+      },
+      "Introduction to Machine Learning": {
+        "Types of Learning": 10,
+        "Evaluation and Cross Validation": 9,
+        "ML Definition and Applications": 8,
+        "Hypothesis Space and Inductive Bias": 2
+      },
+      "Logistic Regression and Support Vector Machine": {
+        "SVM Fundamentals and Maximum Margin": 17,
+        "Logistic Regression": 9,
+        "Kernels and Nonlinear SVM": 3,
+        "Soft Margin SVM": 1
+      }
+    },
+    "Machine Learning": {
+      "Basics of Feature Engineering": {
+        "Feature Subset Selection": 7,
+        "Feature Transformation": 5,
+        "Features and Feature Engineering": 4
+      },
+      "Bayesian Concept Learning": {
+        "Bayes Theorem": 9,
+        "Bayesian Belief Network": 5,
+        "Naive Bayes Classifier": 4,
+        "Concept Learning": 1
+      },
+      "Introduction to Machine Learning": {
+        "Types of Machine Learning": 15,
+        "ML Definition, Applications and Issues": 12,
+        "Human vs Machine Learning": 4
+      },
+      "Modelling and Evaluation": {
+        "Training a Model and Cross Validation": 9,
+        "Evaluating Model Performance": 7,
+        "Selecting a Model": 5,
+        "Model Fitting and Interpretability": 4,
+        "Improving Model Performance": 2
+      },
+      "Neural Network": {
+        "Learning Process and Backpropagation": 8,
+        "Activation Functions": 5,
+        "Biological and Artificial Neurons": 5,
+        "Deep Learning": 4,
+        "ANN Architecture": 2
+      },
+      "Overview of Probability": {
+        "Probability Concepts": 6,
+        "Central Limit Theorem and Sampling": 5,
+        "Discrete Distributions": 5,
+        "Monte Carlo Approximation": 2,
+        "Hypothesis Testing": 2,
+        "Continuous Distributions": 1
+      },
+      "Preparing to Model": {
+        "Data Pre-processing and Dimensionality Reduction": 9,
+        "Data Quality and Remediation": 8,
+        "Types of Data": 6,
+        "Exploring Data Structure": 5,
+        "ML Activities and Workflow": 2
+      },
+      "Supervised Learning: Classification and Regression": {
+        "Decision Trees": 14,
+        "K-Nearest Neighbour": 10,
+        "Support Vector Machine": 9,
+        "Classification Model and Learning Steps": 8,
+        "Simple Linear Regression": 6,
+        "Multiple and Regularised Regression": 4,
+        "Logistic Regression": 3
+      },
+      "Unsupervised Learning": {
+        "K-Means and K-Medoids Clustering": 8,
+        "Association Rules": 7,
+        "Hierarchical Clustering": 6,
+        "Unsupervised Learning Overview": 4,
+        "Density-based Clustering": 3
+      }
+    }
+  },
+  "extraction_artifact_flags": {
+    "flag_math_artifact": 9,
+    "flag_table_data": 7,
+    "flag_has_sublabels": 26,
+    "flag_leading_fragment": 3,
+    "flag_empty": 0,
+    "flag_short": 0
+  }
+}

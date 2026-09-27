@@ -1,0 +1,41 @@
+﻿subject,period,period_index,dominant_topics,questions_in_paper
+Applied Machine Learning,W2021,4043.0,Classification and Regression (11); Bayesian Concept Learning (5); Neural Networks and Parameter Estimation (5),25
+Applied Machine Learning,S2022,4044.0,Classification and Regression (5); Deep Learning (5); Introduction to Machine Learning (5),25
+Applied Machine Learning,W2022,4045.0,Overview of Probability (6); Deep Learning (5); Classification and Regression (5),25
+Applied Machine Learning,S2023,4046.0,Classification and Regression (7); Bayesian Concept Learning (5),25
+Applied Machine Learning,W2023,4047.0,Overview of Probability (7); Classification and Regression (6),25
+Applied Machine Learning,S2024,4048.0,Classification and Regression (8); Bayesian Concept Learning (4); Deep Learning (4); Neural Networks and Parameter Estimation (4),25
+Applied Machine Learning,W2024,4049.0,Overview of Probability (8); Introduction to Machine Learning (5),25
+Applied Machine Learning,S2025,4050.0,Overview of Probability (8); Classification and Regression (4); Bayesian Concept Learning (4),25
+Applied Machine Learning,W2025,4051.0,Classification and Regression (6); Overview of Probability (6),25
+Applied Machine Learning,S2026,4052.0,Overview of Probability (7); Neural Networks and Parameter Estimation (5); Classification and Regression (5),25
+Artificial Intelligence and Machine Learning,W2021,4043.0,Gradient Descent and Linear Algebra (5); Support Vector Machine (5),25
+Artificial Intelligence and Machine Learning,S2022,4044.0,Gradient Descent and Linear Algebra (8); Artificial Neural Network (7),25
+Artificial Intelligence and Machine Learning,W2022,4045.0,Gradient Descent and Linear Algebra (8); Artificial Neural Network (7),25
+Artificial Intelligence and Machine Learning,S2023,4046.0,Classification (6); Gradient Descent and Linear Algebra (5),25
+Artificial Intelligence and Machine Learning,W2023,4047.0,Classification (5); Support Vector Machine (4),25
+Artificial Intelligence and Machine Learning,S2024,4048.0,Artificial Neural Network (6); Gradient Descent and Linear Algebra (5),25
+Artificial Intelligence and Machine Learning,W2024,4049.0,Introduction to AI and ML (7); Artificial Neural Network (6),25
+Artificial Intelligence and Machine Learning,S2025,4050.0,Gradient Descent and Linear Algebra (8); Introduction to AI and ML (4),25
+Artificial Intelligence and Machine Learning,W2025,4051.0,Gradient Descent and Linear Algebra (6); Artificial Neural Network (5),25
+Artificial Intelligence and Machine Learning,S2026,4052.0,Gradient Descent and Linear Algebra (6); Artificial Neural Network (5),25
+Introduction of Machine learning,W2021,4043.0,Basic Machine Learning Algorithms (4); Bayesian Concept of Learning (4); Introduction to Machine Learning (4); Logistic Regression and Support Vector Machine (4),25
+Introduction of Machine learning,S2022,4044.0,Basics of Neural Network (7); Computational and Ensemble Learning (5),25
+Introduction of Machine learning,W2022,4045.0,Basics of Neural Network (7); Introduction to Machine Learning (4),25
+Introduction of Machine learning,S2023,4046.0,Basics of Neural Network (8); Basic Machine Learning Algorithms (4); Computational and Ensemble Learning (4),25
+Introduction of Machine learning,W2023,4047.0,Basics of Neural Network (6); Computational and Ensemble Learning (4),25
+Introduction of Machine learning,S2024,4048.0,Logistic Regression and Support Vector Machine (5); Computational and Ensemble Learning (5),25
+Introduction of Machine learning,W2024,4049.0,Basic Machine Learning Algorithms (4); Basics of Neural Network (4); Dimensionality Reduction (4),25
+Introduction of Machine learning,S2025,4050.0,Basics of Neural Network (7); Basic Machine Learning Algorithms (3); Bayesian Concept of Learning (3); Computational and Ensemble Learning (3); Introduction to Machine Learning (3),25
+Introduction of Machine learning,W2025,4051.0,Computational and Ensemble Learning (6); Basics of Neural Network (5),25
+Introduction of Machine learning,S2026,4052.0,Basic Machine Learning Algorithms (5); Basics of Neural Network (5),25
+Machine Learning,W2021,4043.0,Supervised Learning: Classification and Regression (6); Neural Network (4); Unsupervised Learning (4),25
+Machine Learning,S2022,4044.0,Introduction to Machine Learning (6); Supervised Learning: Classification and Regression (4); Preparing to Model (4),25
+Machine Learning,W2022,4045.0,Supervised Learning: Classification and Regression (6); Unsupervised Learning (4),25
+Machine Learning,S2023,4046.0,Introduction to Machine Learning (4); Supervised Learning: Classification and Regression (4); Modelling and Evaluation (4),25
+Machine Learning,W2023,4047.0,Supervised Learning: Classification and Regression (5); Preparing to Model (4); Overview of Probability (4),25
+Machine Learning,S2024,4048.0,Supervised Learning: Classification and Regression (6); Preparing to Model (3); Introduction to Machine Learning (3); Unsupervised Learning (3),25
+Machine Learning,W2024,4049.0,Supervised Learning: Classification and Regression (6); Unsupervised Learning (4),25
+Machine Learning,S2025,4050.0,Supervised Learning: Classification and Regression (7); Preparing to Model (3); Introduction to Machine Learning (3); Unsupervised Learning (3),25
+Machine Learning,W2025,4051.0,Supervised Learning: Classification and Regression (5); Modelling and Evaluation (4); Introduction to Machine Learning (4),25
+Machine Learning,S2026,4052.0,Supervised Learning: Classification and Regression (5); Preparing to Model (4),25

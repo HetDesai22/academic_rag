@@ -1,0 +1,49 @@
+# Academic Question Intelligence - visual theme.
+# Colour language used across the app and charts:
+#   navy  #1F4E79  historical fact        amber #C98A00  forecast / model estimate
+#   rose  #B4415A  needs human review     green #2E7D5B  verified / high confidence
+
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap, sans-serif"
+headingFont = "Source Serif 4:https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&display=swap, Georgia, serif"
+codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap, monospace"
+baseFontSize = 15
+baseRadius = "medium"
+showWidgetBorder = true
+
+[theme.light]
+primaryColor = "#1F4E79"
+backgroundColor = "#FBFAF7"
+secondaryBackgroundColor = "#F1EEE7"
+textColor = "#1B2330"
+borderColor = "#E2DDD2"
+linkColor = "#1F4E79"
+dataframeHeaderBackgroundColor = "#F1EEE7"
+chartCategoricalColors = ["#3B72AD", "#2A9D8F", "#8D6CC0", "#D0654B", "#C98A00", "#6F8BA8"]
+
+[theme.light.sidebar]
+backgroundColor = "#F3F0E8"
+secondaryBackgroundColor = "#E9E4D8"
+borderColor = "#E2DDD2"
+
+[theme.dark]
+primaryColor = "#7FB0E0"
+backgroundColor = "#12161C"
+secondaryBackgroundColor = "#1B212A"
+textColor = "#E6E9EF"
+borderColor = "#2B323D"
+linkColor = "#9CC3EA"
+dataframeHeaderBackgroundColor = "#1B212A"
+chartCategoricalColors = ["#7FB0E0", "#4FC1B1", "#A68BD1", "#E07A5F", "#E3AE3C", "#8FA8C2"]
+
+[theme.dark.sidebar]
+backgroundColor = "#161B22"
+secondaryBackgroundColor = "#1F2630"
+borderColor = "#2B323D"

@@ -1,0 +1,162 @@
+# Academic Question Intelligence - central configuration.
+# Paths are relative to the project root. Secrets (API keys) live in .env, never here.
+
+random_seed: 42
+
+paths:
+  input_csv: data/processed/questions.csv           # original dataset (read-only)
+  incoming_glob: data/incoming/*.csv                # new papers added later (incremental)
+  syllabus_dir: data/syllabus
+  taxonomy_source: config/taxonomy_source.yaml
+  taxonomy_path: data/final/topic_taxonomy.json
+  cleaned_csv: data/final/questions_cleaned.csv
+  output_csv: data/final/questions_labeled.csv
+  output_json: data/final/questions.json
+  review_csv: data/review/topic_review.csv
+  validation_sample_csv: data/review/validation_sample.csv
+  cache_dir: data/cache
+  embedding_cache_dir: models/embedding_cache
+  vector_db_dir: vector_db
+  reports_dir: reports
+  figures_dir: reports/figures
+  evaluation_dir: evaluation
+  profile_report: reports/data_profile.json
+  profile_html: reports/data_profile.html
+  labeling_report: reports/topic_labeling_report.json
+  cluster_report: reports/cluster_discovery.json
+  trend_csv: reports/trend_analysis.csv
+  topic_period_csv: reports/topic_frequency_by_period.csv
+  trend_summary_json: reports/trend_summary.json
+  repeated_csv: reports/repeated_questions.csv
+  forecast_csv: reports/forecast_results.csv
+  forecast_backtest_csv: reports/forecast_backtest.csv
+  evaluation_report: reports/evaluation_report.json
+  evaluation_html: reports/evaluation_report.html
+  pipeline_state: reports/.pipeline_state.json
+  log_file: reports/pipeline.log
+
+# Column mapping: null = auto-detect. A column that cannot be found stays absent (never invented).
+columns:
+  question_id: null
+  paper_id: null
+  question_text: null
+  subject: null
+  subject_code: null
+  year: null
+  exam_session: null
+  semester: null
+  question_number: null
+  sub_part: null
+  is_or_option: null
+  marks: null
+  source_file: null
+  page_number: null
+  university: null
+  exam_date: null
+
+preprocessing:
+  version: "1.1.0"
+  near_duplicate_fuzzy_threshold: 85      # rapidfuzz ratio (0-100), plus content-word variant guard
+  near_duplicate_semantic_threshold: 0.93 # cosine similarity, plus content-word variant guard
+  min_question_chars: 8                   # shorter cleaned texts are flagged as suspicious
+
+embedding:
+  model: BAAI/bge-base-en-v1.5   # any sentence-transformers model, e.g. sentence-transformers/all-MiniLM-L6-v2
+  batch_size: 64
+  device: auto                   # auto (CUDA if available, else CPU) | cuda | cpu
+  normalize: true
+  # Instruction prefix for retrieval queries (bge convention). Set "" for models without one.
+  query_prefix: "Represent this sentence for searching relevant passages: "
+
+discovery:
+  enabled: true
+  min_cluster_size: 5
+  umap_neighbors: 15
+  umap_components: 5
+
+classifier:
+  keyword_bonus: 0.05
+  temperature: 0.04              # provisional; re-tune from calibration_by_band in the evaluation report
+  secondary_min_confidence: 0.55
+  secondary_max: 2
+  min_similarity: 0.55           # below this the question is likely off-syllabus; confidence is capped
+  use_review_exemplars: true     # human-corrected questions become extra prototypes (never validation-sample rows)
+
+confidence_thresholds:
+  high: 0.75                     # >= high -> accepted
+  low: 0.45                      # <  low  -> human review; between -> medium (LLM check if enabled)
+
+topic_llm_check:
+  enabled: true
+  model: claude-opus-5
+  effort: low
+  max_calls: 150
+  apply_to: [medium]             # bands the LLM may confirm/adjudicate
+  suggest_for: [low]             # bands that only get an LLM hint for the reviewer
+  max_tokens: 2000
+
+retrieval:
+  top_k: 10
+  min_similarity: 0.0            # drop results below this cosine similarity
+  insufficient_evidence_similarity: 0.60   # best hit below this => "insufficient evidence"
+
+rag:
+  max_context_questions: 12
+  include_statistics: true       # computed topic statistics are added to the context
+  include_forecast: true         # model forecasts (labelled as such) for forecast-type questions
+
+llm:
+  provider: anthropic            # anthropic | openai_compatible | huggingface_local | none (extractive)
+  fallback_provider: none        # used if the primary provider is unavailable
+  anthropic:
+    model: claude-opus-5
+    effort: low
+    max_tokens: 2000
+    use_server_fallbacks: true
+  openai_compatible:             # OpenAI API, Ollama, LM Studio, vLLM... (base URL / key from .env)
+    model_env: OPENAI_MODEL
+    base_url_env: OPENAI_BASE_URL
+    api_key_env: OPENAI_API_KEY
+    max_tokens: 1500
+  huggingface_local:
+    model: Qwen/Qwen2.5-0.5B-Instruct
+    max_new_tokens: 600
+
+similarity:
+  repeated_question_threshold: 0.85   # cosine: semantically similar
+  rephrased_threshold: 0.88           # cosine >= this (no conflicting key terms) => rephrased / near-identical
+  near_identical_fuzzy: 90            # rapidfuzz ratio => near-identical
+  max_pairs_per_question: 10
+
+trends:
+  period: session                # session (Winter/Summer exams) | year
+  min_appearances: 3             # fewer periods with the topic => "sporadic" (no trend claimed)
+  slope_threshold: 0.10          # questions per period
+  kendall_tau_threshold: 0.30
+  recurring_ratio: 0.80          # appears in >= 80% of periods => consistently recurring
+  recent_periods: 3
+  emerging_max_early_total: 1    # at most this many questions before the recent window
+  emerging_min_recent_appearances: 2
+  dormant_min_absent_periods: 3
+
+forecasting:
+  minimum_periods: 4             # series shorter than this get the baseline only
+  min_train_periods: 4           # first backtest origin
+  ml_min_observations: 150       # pooled observations required before Random Forest is considered
+  moving_average_window: 3
+  exp_smoothing_alpha: null      # null = fit on training data
+  appearance_threshold: 0.5      # predicted count >= this => topic predicted to appear
+  selection_metric: mae
+
+evaluation:
+  sample_size: 100
+  stratify_by: subject
+  retrieval_k: [1, 3, 5, 10]
+  llm_judge:                     # automatic evaluator (kept separate from manual evaluation)
+    enabled: true
+    model: claude-opus-5
+    effort: low
+  rag_queries: evaluation/rag_eval_queries.json
+  retrieval_paraphrases: evaluation/retrieval_paraphrase_set.json
+  paraphrase_queries: 60
+  llm_reference_labels: evaluation/llm_reference_labels.json

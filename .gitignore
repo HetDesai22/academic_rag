@@ -1,0 +1,20 @@
+# Environments & secrets (never commit)
+.venv/
+.env
+.streamlit/secrets.toml
+
+# Python / tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Regenerated caches and logs
+models/embedding_cache/
+data/cache/*.npy
+reports/pipeline.log
+reports/streamlit.log
+reports/.pipeline_state.json
+
+# Source exam-paper PDFs (third-party documents; not needed by the deployed app)
+data/raw/
+data/syllabus/*.pdf

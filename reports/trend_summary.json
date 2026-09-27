@@ -1,0 +1,345 @@
+{
+  "generated_at": "2026-09-27T17:19:46+00:00",
+  "period_unit": "session",
+  "rules": {
+    "period": "session",
+    "min_appearances": 3,
+    "slope_threshold": 0.1,
+    "kendall_tau_threshold": 0.3,
+    "recurring_ratio": 0.8,
+    "recent_periods": 3,
+    "emerging_max_early_total": 1,
+    "emerging_min_recent_appearances": 2,
+    "dormant_min_absent_periods": 3
+  },
+  "counts": {
+    "consistently_recurring": 25,
+    "increasing": 4,
+    "declining": 3,
+    "stable": 2
+  },
+  "topics_by_trend": {
+    "consistently_recurring": [
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Classification and Regression",
+        "total_questions": 61,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Neural Networks and Parameter Estimation",
+        "total_questions": 37,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Deep Learning",
+        "total_questions": 28,
+        "trend_reason": "appeared in 9 of 10 periods"
+      },
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Introduction to Machine Learning",
+        "total_questions": 27,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Gradient Descent and Linear Algebra",
+        "total_questions": 58,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Artificial Neural Network",
+        "total_questions": 48,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Introduction to AI and ML",
+        "total_questions": 31,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Classification",
+        "total_questions": 29,
+        "trend_reason": "appeared in 9 of 10 periods"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Unsupervised Learning",
+        "total_questions": 13,
+        "trend_reason": "appeared in 8 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Basics of Neural Network",
+        "total_questions": 54,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Computational and Ensemble Learning",
+        "total_questions": 37,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Basic Machine Learning Algorithms",
+        "total_questions": 33,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Logistic Regression and Support Vector Machine",
+        "total_questions": 30,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Introduction to Machine Learning",
+        "total_questions": 29,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Dimensionality Reduction",
+        "total_questions": 26,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Bayesian Concept of Learning",
+        "total_questions": 22,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Introduction of Machine learning",
+        "topic": "Basic Concepts of Clustering",
+        "total_questions": 19,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Supervised Learning: Classification and Regression",
+        "total_questions": 54,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Introduction to Machine Learning",
+        "total_questions": 31,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Preparing to Model",
+        "total_questions": 30,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Unsupervised Learning",
+        "total_questions": 28,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Modelling and Evaluation",
+        "total_questions": 27,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Neural Network",
+        "total_questions": 24,
+        "trend_reason": "appeared in 10 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Overview of Probability",
+        "total_questions": 21,
+        "trend_reason": "appeared in 9 of 10 periods"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Bayesian Concept Learning",
+        "total_questions": 19,
+        "trend_reason": "appeared in 10 of 10 periods"
+      }
+    ],
+    "declining": [
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Bayesian Concept Learning",
+        "total_questions": 31,
+        "trend_reason": "slope -0.20/period, Kendall tau -0.36"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Support Vector Machine",
+        "total_questions": 29,
+        "trend_reason": "slope -0.16/period, Kendall tau -0.31"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Gradient Descent with Large Datasets",
+        "total_questions": 9,
+        "trend_reason": "slope -0.18/period, Kendall tau -0.44"
+      }
+    ],
+    "increasing": [
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "Overview of Probability",
+        "total_questions": 51,
+        "trend_reason": "slope +0.55/period, Kendall tau +0.49"
+      },
+      {
+        "subject": "Applied Machine Learning",
+        "topic": "GANs, Deep RL and Adversarial Attacks",
+        "total_questions": 15,
+        "trend_reason": "slope +0.15/period, Kendall tau +0.34"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Dimensionality Reduction",
+        "total_questions": 15,
+        "trend_reason": "slope +0.12/period, Kendall tau +0.49"
+      },
+      {
+        "subject": "Machine Learning",
+        "topic": "Basics of Feature Engineering",
+        "total_questions": 16,
+        "trend_reason": "slope +0.11/period, Kendall tau +0.41"
+      }
+    ],
+    "stable": [
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Ensemble Learning",
+        "total_questions": 9,
+        "trend_reason": "appeared in 7 of 10 periods; no significant slope"
+      },
+      {
+        "subject": "Artificial Intelligence and Machine Learning",
+        "topic": "Multiple Features Gradient Descent",
+        "total_questions": 9,
+        "trend_reason": "appeared in 5 of 10 periods; no significant slope"
+      }
+    ]
+  },
+  "top_topics_by_subject": {
+    "Applied Machine Learning": [
+      {
+        "topic": "Classification and Regression",
+        "total_questions": 61,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Overview of Probability",
+        "total_questions": 51,
+        "trend": "increasing"
+      },
+      {
+        "topic": "Neural Networks and Parameter Estimation",
+        "total_questions": 37,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Bayesian Concept Learning",
+        "total_questions": 31,
+        "trend": "declining"
+      },
+      {
+        "topic": "Deep Learning",
+        "total_questions": 28,
+        "trend": "consistently_recurring"
+      }
+    ],
+    "Artificial Intelligence and Machine Learning": [
+      {
+        "topic": "Gradient Descent and Linear Algebra",
+        "total_questions": 58,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Artificial Neural Network",
+        "total_questions": 48,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Introduction to AI and ML",
+        "total_questions": 31,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Classification",
+        "total_questions": 29,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Support Vector Machine",
+        "total_questions": 29,
+        "trend": "declining"
+      }
+    ],
+    "Introduction of Machine learning": [
+      {
+        "topic": "Basics of Neural Network",
+        "total_questions": 54,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Computational and Ensemble Learning",
+        "total_questions": 37,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Basic Machine Learning Algorithms",
+        "total_questions": 33,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Logistic Regression and Support Vector Machine",
+        "total_questions": 30,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Introduction to Machine Learning",
+        "total_questions": 29,
+        "trend": "consistently_recurring"
+      }
+    ],
+    "Machine Learning": [
+      {
+        "topic": "Supervised Learning: Classification and Regression",
+        "total_questions": 54,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Introduction to Machine Learning",
+        "total_questions": 31,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Preparing to Model",
+        "total_questions": 30,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Unsupervised Learning",
+        "total_questions": 28,
+        "trend": "consistently_recurring"
+      },
+      {
+        "topic": "Modelling and Evaluation",
+        "total_questions": 27,
+        "trend": "consistently_recurring"
+      }
+    ]
+  }
+}

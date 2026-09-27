@@ -1,0 +1,578 @@
+{
+  "generated_at": "2026-09-27T11:30:04+00:00",
+  "notes": "Human-verified metrics and automatic (silver) metrics are reported separately.",
+  "classification_manual": {
+    "generated_at": "2026-09-27T11:30:04+00:00",
+    "sample_size": 100,
+    "verified_rows": 0,
+    "method_note": "Gold labels = human-verified predictions (reviewer saw predictions).",
+    "status": "no_verified_rows",
+    "message": "Fill the 'verified' column in the validation sample, then rerun evaluation."
+  },
+  "classification_llm_reference": {
+    "status": "ok",
+    "type": "AUTOMATIC - agreement with an LLM reference labeler (silver standard, NOT ground truth)",
+    "reference_model": "claude-opus-5",
+    "all": {
+      "n": 100,
+      "topic_agreement": 0.97,
+      "subtopic_agreement": 0.94
+    },
+    "semantic_only_labels": {
+      "n": 91,
+      "topic_agreement": 0.967,
+      "subtopic_agreement": 0.934
+    },
+    "llm_checked_labels": {
+      "n": 9,
+      "topic_agreement": 1.0,
+      "subtopic_agreement": 1.0
+    },
+    "by_confidence_band": {
+      "high": {
+        "n": 86,
+        "topic_agreement": 1.0,
+        "subtopic_agreement": 0.977
+      },
+      "low": {
+        "n": 3,
+        "topic_agreement": 0.667,
+        "subtopic_agreement": 0.333
+      },
+      "medium": {
+        "n": 11,
+        "topic_agreement": 0.818,
+        "subtopic_agreement": 0.818
+      }
+    },
+    "reference_none_of_these": 0,
+    "disagreements": [
+      {
+        "question_id": "3170724_W2025_Q3b",
+        "cleaned_question_text": "What are the different types of supervised learning? Explain them with a sample application in each area.",
+        "predicted_topic": "Introduction to Machine Learning",
+        "ref_topic": "Supervised Learning: Classification and Regression"
+      },
+      {
+        "question_id": "3171617_S2022_Q5c_OR",
+        "cleaned_question_text": "Write short note on: a) Generative Adversarial Networks b) Deep Learning",
+        "predicted_topic": "Deep Learning",
+        "ref_topic": "GANs, Deep RL and Adversarial Attacks"
+      },
+      {
+        "question_id": "3170724_W2021_Q3a",
+        "cleaned_question_text": "If 3% of electronic units manufactured by a company are defective. Find the probability that in a sample of 200 units, less than 2 bulbs are defective.",
+        "predicted_topic": "Bayesian Concept Learning",
+        "ref_topic": "Overview of Probability"
+      }
+    ]
+  },
+  "retrieval": {
+    "k_values": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "note": "Semi-automatic test sets; no manual relevance judgements.",
+    "repeat_set": {
+      "description": "Query = a question asked again in another paper; relevant = its other occurrences (lexical duplicate groups). Query itself excluded.",
+      "semantic_faiss": {
+        "mrr": 0.9838095238095238,
+        "precision@1": 0.9714285714285714,
+        "recall@1": 0.854952380952381,
+        "hit_rate@1": 0.9714285714285714,
+        "precision@3": 0.4228571428571429,
+        "recall@3": 0.9787142857142858,
+        "hit_rate@3": 1.0,
+        "precision@5": 0.26285714285714284,
+        "recall@5": 0.9905714285714285,
+        "hit_rate@5": 1.0,
+        "precision@10": 0.1354285714285714,
+        "recall@10": 0.9985714285714286,
+        "hit_rate@10": 1.0,
+        "n_queries": 175
+      },
+      "tfidf_baseline": {
+        "mrr": 0.978095238095238,
+        "precision@1": 0.96,
+        "recall@1": 0.8363809523809524,
+        "hit_rate@1": 0.96,
+        "precision@3": 0.42857142857142855,
+        "recall@3": 0.9841428571428571,
+        "hit_rate@3": 1.0,
+        "precision@5": 0.2651428571428571,
+        "recall@5": 0.9924285714285715,
+        "hit_rate@5": 1.0,
+        "precision@10": 0.1354285714285714,
+        "recall@10": 0.9985714285714286,
+        "hit_rate@10": 1.0,
+        "n_queries": 175
+      }
+    },
+    "paraphrase_set": {
+      "description": "LLM-rewritten student queries with different wording (silver standard).",
+      "generator": "claude-opus-5",
+      "semantic_faiss": {
+        "mrr": 0.743361581920904,
+        "precision@1": 0.6610169491525424,
+        "recall@1": 0.6016949152542372,
+        "hit_rate@1": 0.6610169491525424,
+        "precision@3": 0.30508474576271183,
+        "recall@3": 0.7768361581920903,
+        "hit_rate@3": 0.7966101694915254,
+        "precision@5": 0.2067796610169491,
+        "recall@5": 0.864406779661017,
+        "hit_rate@5": 0.864406779661017,
+        "precision@10": 0.11525423728813558,
+        "recall@10": 0.9576271186440678,
+        "hit_rate@10": 0.9661016949152542,
+        "n_queries": 59
+      },
+      "tfidf_baseline": {
+        "mrr": 0.3804815711595373,
+        "precision@1": 0.2711864406779661,
+        "recall@1": 0.2457627118644068,
+        "hit_rate@1": 0.2711864406779661,
+        "precision@3": 0.1638418079096045,
+        "recall@3": 0.4322033898305085,
+        "hit_rate@3": 0.4406779661016949,
+        "precision@5": 0.11864406779661019,
+        "recall@5": 0.5169491525423728,
+        "hit_rate@5": 0.5254237288135594,
+        "precision@10": 0.07288135593220336,
+        "recall@10": 0.635593220338983,
+        "hit_rate@10": 0.6440677966101694,
+        "n_queries": 59
+      },
+      "examples": [
+        {
+          "query": "what are extreme data points in a dataset and methods to handle them",
+          "source": "What is outlier? How can we take care of outliers?"
+        },
+        {
+          "query": "explain SGD optimization technique in machine learning",
+          "source": "What is Stochastic gradient descent?"
+        },
+        {
+          "query": "define machine learning, hypothesis and validation set short answers",
+          "source": "Define the following terms: 1.Machine Learning 2.Validation data set 3. Hypothesis"
+        },
+        {
+          "query": "describe the perceptron model proposed by Rosenblatt",
+          "source": "Explain Rosenblatt's perceptron model."
+        },
+        {
+          "query": "short explanation of backpropagation in neural networks",
+          "source": "Explain in brief back propagation algorithm."
+        }
+      ]
+    }
+  },
+  "rag": {
+    "n_queries": 13,
+    "generator_provider": "anthropic",
+    "generator_model": "claude-opus-5",
+    "deterministic": {
+      "refusal_accuracy": 1.0,
+      "context_keyword_precision": 0.82,
+      "citation_coverage": 0.728,
+      "evidence_cited_ratio": 0.955,
+      "grounded_rate": 1.0,
+      "answers_with_grounding_warnings": 0
+    },
+    "llm_judge": {
+      "type": "AUTOMATIC - LLM judge (silver standard, not human evaluation)",
+      "judge_model": "claude-opus-5",
+      "n_judged": 11,
+      "faithfulness_mean": 5.0,
+      "answer_relevance_mean": 5.0,
+      "context_relevance_mean": 4.909,
+      "answers_with_unsupported_claims": 0
+    },
+    "per_query": [
+      {
+        "id": "q01",
+        "query": "What questions have been asked about the backpropagation algorithm?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.818,
+        "n_evidence": 10,
+        "context_keyword_precision": 1.0,
+        "citation_coverage": 0.583,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nBackpropagation appears across all four subjects:\n\n- *Machine Learning*: a near-identical 7-mark question recurs — \"Explain in detail, the backpropagation algorithm. What are the limitations of this algorithm?\" in S2023 Q5(c) [E1], S2025 Q5(c) [E2], and S2024 Q5(c) in slightly shortened form [E4].\n- *Introduction of Machine learning*: the same limitations-based phrasing in W2022 Q4(c), 7 marks [E3]; \"Explain the principle of backpropagation algorithm.\" in S2024 Q4(c), 7 marks [E5]; and \"What is Backpropagation? List down advantages of using it in Neural Network.\" in S2026 Q4(b), 4 marks [E9].\n- *Applied Machine Learning*: \"What are the steps in the backpropagation algorithm? Why a multi-layer neural network is required?\" in W2021 Q5(a), 3 marks [E6] and again in S2022 Q4(a), 3 marks [E10]; plus \"Explain the concept of backpropagation and its role in training neural networks.\" in S2024 Q4(c), 7 marks [E7].\n- *Artificial Intelligence and Machine Learning*: \"Describe backpropagation algorithm in ANN.\" in S2023 Q3(c), 7 marks [E8].\n\n**Observed trend**\n\nThe parent neural-network topics are consistently recurring in every one of 10 periods: 'Basics of Neural Network' 54 questions, 21.6% [S1]; 'Artificial Neural Network' 48 questions, 19.2% [S2]; 'Neural Networks and Parameter Estimation' 37 questions, 14.8% [S3]; 'Neural Network' 24 questions, 9.6% [S4]. Note these statistics cover the whole topic, not backpropagation alone.\n\n**Forecast / inference**\n\nNo model forecast [F#] is included in this context, so no probability of recurrence can be stated. Reasoning only: the repeated \"explain + limitations\" 7-mark wording [E1][E2][E3][E4] suggests a stable question template, but this is inference, not a dataset-supported prediction.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All cited questions, years, subjects, marks, and statistics match the context exactly. The answer directly enumerates backpropagation questions and appropriately flags that topic-level stats are broader and that no forecast exists. Retrieved context is squarely on-topic."
+        }
+      },
+      {
+        "id": "q02",
+        "query": "Which questions on Bayes theorem appeared in AML?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.699,
+        "n_evidence": 10,
+        "context_keyword_precision": 0.8,
+        "citation_coverage": 0.833,
+        "evidence_cited_ratio": 0.9,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nBayes theorem questions in Applied Machine Learning appeared repeatedly, mostly as short definition/example items:\n\n- W2022, Q2(a), 3 marks: \"Explain Bayes theorem with example.\" [E1]\n- W2023, Q2(a), 3 marks: \"Explain Bayes' theorem with suitable example.\" [E3]\n- S2024, Q2(a), 3 marks: explain Bayes' theorem using \"prior probability,\" \"likelihood,\" and \"posterior probability\" [E5]\n- S2025, Q3(b), 4 marks: \"Explain Bayes theorem with example.\" [E2]\n- W2025, Q3(b), 4 marks: \"Explain Bayes' Rule with an appropriate example.\" [E6]\n- S2026, Q1(b), 4 marks: \"State Bayes' theorem and explain its formula.\" [E4]\n- W2021, Q3(c), 7 marks: a numerical application — exam question types A/B/C with given probabilities, asking the probability the student solves the problem and the posterior probability it was type A [E10]\n\nClosely related Bayesian items also appeared: Bayesian Belief Network short note (S2025, Q3(b), 4 marks) [E7] and an explanation with example (W2025, Q3(c), 7 marks) [E8].\n\n**Observed trend**\n\nThe parent topic 'Bayesian Concept Learning' has 31 questions (12.4% of the subject), present in 10 of 10 exams, with per-exam counts W2021=5 … S2026=1; the labelled trend is declining (slope −0.20/period, Kendall tau −0.36) [S1]. Format-wise, the retrieved items shift from a 7-mark numerical in W2021 [E10] to 3–4 mark theory questions in later periods [E1][E3][E5][E2][E6][E4].\n\n**Forecast / inference**\n\nNo model forecast [F#] is included in this context, so no prediction for future periods can be stated.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All listed questions, marks, periods and statistics match the retrieved context exactly; the format-shift observation is a reasonable summary of retrieved items. The answer directly lists Bayes theorem questions in AML, and the context is squarely on topic."
+        }
+      },
+      {
+        "id": "q03",
+        "query": "How often has K-means clustering been asked in ML over the years?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.669,
+        "n_evidence": 10,
+        "context_keyword_precision": 0.5,
+        "citation_coverage": 0.75,
+        "evidence_cited_ratio": 0.9,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nK-means/clustering questions appear repeatedly in Machine Learning papers:\n\n- W2021: difference between k-means and k-medoids approaches with a diagram, 4 marks [E5]\n- S2022: \"What is Clustering? Explain K-mean clustering algorithm\", 7 marks [E1]\n- W2022: \"Explain k-means clustering technique\", 7 marks [E4]\n- S2023: \"Explain K-mean clustering algorithm\", 4 marks [E2]\n- W2023: clustering in unsupervised learning explained in detail, 4 marks [E7]\n- S2024: strengths and weaknesses of the k-means algorithm, 3 marks [E3]\n- S2025: different clustering techniques, 3 marks [E6]; hierarchical clustering, 4 marks [E9]\n- S2026: compare various clustering algorithms with advantages and limitations, 7 marks [E8]\n\nFormats vary from plain algorithm explanation [E2][E4] to comparative/critical framing [E3][E5][E8].\n\n**Observed trend**\n\nThe parent topic 'Unsupervised Learning' totals 28 questions (11.2% of the subject's questions) and appeared in 10 of 10 exams, labelled consistently_recurring [S1]. Per-exam counts: W2021=4, S2022=1, W2022=4, S2023=2, W2023=2, S2024=3, W2024=4, S2025=3, W2025=3, S2026=2 [S1] — i.e. between 1 and 4 questions every period, with no period missing.\n\n**Forecast / inference**\n\nNo model forecast [F#] is present in the retrieved context, so I cannot give a quantified prediction. Reasoning only: given appearance in all 10 periods [S1] and K-means specifically recurring across W2021–S2026 [E1]–[E6][E8], continued appearance is plausible, but this is inference, not certainty.\n\nLimitation: the statistics are aggregated at the 'Unsupervised Learning' topic level, not a K-means-only count, and no W2024 K-means item was retrieved.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All listed exam items, marks, and statistics match the context exactly; the answer correctly notes that the stats are topic-level rather than K-means-specific and that no forecast exists. It directly answers the frequency question with per-period detail, and the retrieved context is highly relevant (nearly all items are clustering/K-means questions in Machine Learning)."
+        }
+      },
+      {
+        "id": "q04",
+        "query": "What has been asked about support vector machines in AIML since 2023?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.678,
+        "n_evidence": 10,
+        "context_keyword_precision": 0.9,
+        "citation_coverage": 0.818,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nSince 2023, SVM questions in AIML have clustered around fundamentals and max-margin concepts:\n\n- S2023: \"What are Support Vector Machines (SVMs)?\" — Q5(a), 3 marks [E1]\n- W2023: \"Derive the dual form of SVM to be used with kernals.\" — Q4(c), 7 marks [E9]\n- S2024: \"What are Support Vectors in SVMs?\" — Q5(a), 3 marks [E4]; \"Explain SVM formulation for separable training data.\" — Q5(b), 4 marks [E8]; \"Discuss non linear regression handling via SVM.\" — Q5(c), 7 marks [E10]\n- S2025: \"What are SVMs?\" and \"State few real world applications of SVM\" — both Q3(b), 4 marks [E5][E6]\n- W2025 and S2026: \"What are Support Vectors in SVMs?\" — Q3(a), 3 marks [E2][E3]\n\n(The retrieved set shows no SVM-specific item for W2024; the W2024 hit [E7] is a general ML-applications question.)\n\n**Observed trend**\n\nAcross the full dataset, SVM is a recurring topic: 29 questions, 11.6% of the subject, present in all 10 exams, with per-exam counts S2023=2, W2023=4, S2024=3, W2024=1, S2025=2, W2025=3, S2026=3; the overall trend label is declining (slope -0.16/period, Kendall tau -0.31) [S1]. Within this, the short definitional \"What are Support Vectors in SVMs?\" item recurs across S2024, W2025 and S2026 [E4][E2][E3], and question position has shifted from Q5 to Q3 [E1][E4] vs [E2][E3][E5].\n\n**Forecast / inference**\n\nThe context contains no model forecast [F#] for this topic, so no prediction can be stated. Reasoning from [S1] alone, SVM has appeared in every exam but with a declining slope — treat this as indicative only.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All listed questions, marks, positions and statistics match the retrieved context exactly; the answer correctly notes absence of a forecast and flags the W2024 item as non-SVM. Retrieved context is on-topic (SVM in AIML, 2023+), and the answer directly addresses the question."
+        }
+      },
+      {
+        "id": "q05",
+        "query": "Which topics are likely to be important for the next IML exam?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.481,
+        "n_evidence": 10,
+        "context_keyword_precision": null,
+        "citation_coverage": 0.625,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nAcross W2021–S2026, Introduction of Machine Learning papers repeatedly tested a core set of areas. Feature selection/dimensionality reduction appears often: \"What is feature selection? Why is it needed? What are the different approaches of feature selection?\" (W2021, 7 marks) [E9], \"Write down names of three approaches for feature selection\" (W2023, 3 marks) [E10], \"Write three types of approaches used for feature selection\" (S2024) [E7], filter/wrapper/embedded distinctions (W2024, 7 marks) [E3], feature relevance and redundancy measures (W2024, 3 marks) [E4], and again in S2026 [E2]. Basic algorithms recur too — kNN was asked in W2021 [E6] and S2024 [E8]. Introductory typology questions appear, e.g. \"Define three broad categories in which machine learning can be classified\" (W2022) [E5], and clustering criteria in W2022 [E1].\n\n**Observed trend**\n\nFive topics are labelled consistently_recurring, appearing in all 10 of 10 periods: Basics of Neural Network — 54 questions, 21.6% of the subject [S1]; Computational and Ensemble Learning — 37 questions, 14.8% [S2]; Basic Machine Learning Algorithms — 33 questions, 13.2% [S3]; Logistic Regression and Support Vector Machine — 30 questions, 12.0% [S4]; Introduction to Machine Learning — 29 questions, 11.6% [S5].\n\n**Forecast / inference**\n\nFor W2026 the model estimates (not guarantees): Basics of Neural Network ~5.40 questions, score 0.99, High confidence [F1]; Computational and Ensemble Learning ~3.70, Medium [F2]; Basic Machine Learning Algorithms ~3.30, Medium [F3]; Logistic Regression and SVM ~3.00, High [F4]; Introduction to Machine Learning ~2.90, High [F5]. Prioritise neural networks, then ensemble learning and core algorithms.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All cited questions, counts, percentages, trends and forecasts match the context exactly; forecasts are properly hedged. The answer directly addresses likely important topics for the next exam, and the retrieved context (subject-filtered historical questions plus stats/forecasts) is highly relevant."
+        }
+      },
+      {
+        "id": "q06",
+        "query": "Has principal component analysis been asked repeatedly?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.713,
+        "n_evidence": 10,
+        "context_keyword_precision": 1.0,
+        "citation_coverage": 0.667,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nYes. PCA appears repeatedly across both subjects.\n\nIn Artificial Intelligence and Machine Learning it recurs almost every period, usually as a 7-mark part-(c) question: W2021 [E10], S2022 [E5], W2022 [E3], S2024 [E6], W2024 [E9], S2025 [E4], W2025 [E7], S2026 [E8]. Phrasing rotates between two stable forms — \"List and explain the steps to compute Principal Component Analysis with an example\" [E3][E5][E4] and \"Explain / Write a short note on Principal component analysis method for dimensionality reduction\" [E10][E9][E7][E8] — plus a \"steps to compute PCA (PCA)\" variant [E6].\n\nIn Machine Learning it appears under Preparing to Model / Data Pre-processing: \"What is principal component analysis? How does it work? Explain.\" (W2022, 7 marks) [E2] and a shorter 3-mark \"What is principal component analysis?\" (W2024) [E1].\n\n**Observed trend**\n\nThe parent topic 'Dimensionality Reduction' in AI & ML has 15 questions, 6.0% of the subject, present in 10 of 10 exams, with a rising count in recent periods (W2023=3, S2025=2, W2025=2, S2026=2); trend label increasing, slope +0.12/period, Kendall tau +0.49 [S1]. In Machine Learning, 'Preparing to Model' is consistently_recurring — 30 questions, 12.0%, in 10 of 10 periods [S2].\n\n**Forecast / inference**\n\nNo model forecast [F#] is present in the context, so no probability can be quoted. Reasoning only: given appearance in 10/10 periods and an increasing slope [S1], a PCA-style 7-mark question is a reasonable expectation, but this is inference, not certainty.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All cited exam instances, marks, phrasings, and statistics match the context exactly; the answer directly addresses repetition of PCA and appropriately flags the absence of a forecast. Retrieved context is squarely on-topic."
+        }
+      },
+      {
+        "id": "q07",
+        "query": "What questions about convolutional and recurrent neural networks were asked?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.713,
+        "n_evidence": 10,
+        "context_keyword_precision": 0.5,
+        "citation_coverage": 0.75,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nCNN-specific questions:\n- S2024, Applied Machine Learning, Q4(b), 4 marks: \"Discuss the role of Convolutional Layers in Convolutional Neural Network (CNN)?\" [E4]\n- W2025, Applied Machine Learning, Q5(c), 7 marks: \"Explain the architecture of convolutional neural network and its applications.\" [E9]\n\nRNN-specific questions:\n- S2024, Applied Machine Learning, Q4(c), 7 marks: \"What is a Recurrent Neural Network (RNN)? How RNN differs from Feedforward Neural Network?\" [E1]\n- W2025, Introduction of Machine learning, Q4(c), 7 marks: \"Explain Recurrent Neural Network with its architecture.\" [E10]\n\nComparative:\n- S2026, Applied Machine Learning, Q3(b), 4 marks: \"Compare CNN and RNN.\" [E7]\n\nRelated deep-learning context questions include W2021 Q5(c) short notes on Multi-layer Perceptron / Deep Learning [E3], S2022 Q5(c) GANs and Deep Learning [E5], S2024 Q4(a) traditional NNs vs deep learning models [E6], S2023 \"What do you mean by deep learning?\" [E2] and W2025 Machine Learning Q5(a) [E8].\n\n**Observed trend**\n\nThe broader 'Deep Learning' topic in Applied Machine Learning is consistently recurring: 28 questions (11.2%), present in 9 of 10 exams, with S2022=5, W2022=5, S2024=4, S2026=4 [S1]. In Introduction of Machine learning, 'Basics of Neural Network' is the largest topic — 54 questions (21.6%), in 10 of 10 exams [S4]. The dataset does not provide separate CNN/RNN-level statistics, so no trend can be claimed for CNN or RNN individually.\n\n**Forecast / inference**\n\nNo model forecast [F#] is included in the context, so no prediction can be given. Reasoning only: given Deep Learning's consistent recurrence [S1], further CNN/RNN items are plausible but not certain.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 4,
+          "unsupported_claims": [],
+          "rationale": "All cited questions, marks, years and statistics match the context exactly; the answer correctly notes the absence of CNN/RNN-specific stats and forecasts. It directly answers the question by listing CNN/RNN items. Context is mostly relevant though several retrieved items are generic deep-learning rather than CNN/RNN."
+        }
+      },
+      {
+        "id": "q08",
+        "query": "Show questions on gradient descent variants for large datasets.",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.804,
+        "n_evidence": 10,
+        "context_keyword_precision": 0.5,
+        "citation_coverage": 0.769,
+        "evidence_cited_ratio": 0.8,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nQuestions specifically on gradient descent variants for large datasets appear in Artificial Intelligence and Machine Learning:\n\n- S2023, Q2(c), 7 marks: \"Describe different variants of Gradient descent to handle large data set.\" [E1]\n- W2021, Q5(b), 4 marks: \"Enlist and briefly explain gradient descent techniques for large data set.\" [E2]\n- Stochastic gradient descent definition questions, Q5(b), 4 marks, recurring in W2021 [E8], W2025 [E7] and S2026 [E9].\n\nClosely related (general gradient descent) items:\n- S2025, Q3(c), 7 marks: \"State different types of gradient descents and explain any one in detail with a suitable example.\" [E3]\n- W2021, Q4(a), 3 marks: \"What is the objective of Gradient Descent?\" [E4]\n- W2023, Q2(c), 7 marks: applying gradient descent to minimise a two-variable function [E10]\n\n**Observed trend**\n\nThe topic 'Gradient Descent with Large Datasets' has 9 questions (3.6% of the subject), appearing in 6 of 10 exams, concentrated early (W2021=2, S2022=2, W2022=2, S2023=1) then absent W2023–S2025, returning W2025=1 and S2026=1; trend label declining (slope -0.18/period, Kendall tau -0.44) [S1]. The broader 'Gradient Descent and Linear Algebra' topic is consistently recurring — 58 questions, 23.2%, in 10 of 10 exams [S2]. 'Multiple Features Gradient Descent' is stable, 9 questions across 5 of 10 exams [S3].\n\n**Forecast / inference**\n\nThe context contains no model forecast tags [F#], so no predicted appearance can be stated. Reasoning only: the large-dataset subtopic is labelled declining [S1] though it reappeared in W2025 and S2026, while the parent gradient-descent topic remains consistently examined [S2].",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All cited questions, marks, years and statistics match the context exactly; the answer directly lists gradient descent variant questions for large datasets and correctly notes absence of forecast data. Retrieved context is largely on-topic (a couple of low-similarity off-topic items)."
+        }
+      },
+      {
+        "id": "q09",
+        "query": "What numerical problems on probability distributions were asked in AML?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.615,
+        "n_evidence": 10,
+        "context_keyword_precision": 1.0,
+        "citation_coverage": 0.8,
+        "evidence_cited_ratio": 0.9,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nNumerical (computational) problems in Applied Machine Learning around probability distributions and Bayes' theorem include:\n\n- A PMF problem: 20 multiple-choice questions, 10 known answers and 10 guessed randomly, asking for the PMF of the score X and PMF(X>15) — W2021, Q2(c), 7 marks [E6].\n- The recurring exam-problem-type Bayes question (types A, B, C with probabilities 30%, 20%, 50%; 9/10, 2/10, 6/10 solved), asking the probability of solving the problem and the posterior probability it was type A — W2021 Q3(c) [E1], S2022 Q2(c) [E3], S2025 Q1(c) [E2], each 7 marks.\n- A medical-test Bayes numerical: 98% correct positive, 97% correct negative, disease prevalence 0.008, asking probability of cancer, of no cancer, and the diagnosis — S2023 Q4(b), 4 marks [E8].\n\nTheory-style (non-numerical) distribution items also recur: discrete vs continuous distribution [E5, E4, E10] and uniform vs normal distribution [E7].\n\n**Observed trend**\n\nThe 'Overview of Probability' topic appears in all 10 exam periods, 51 questions (20.4%), with an increasing trend (slope +0.55/period, Kendall tau +0.49) [S1]. 'Bayesian Concept Learning' also appears in all 10 periods, 31 questions (12.4%), but is declining (slope −0.20/period, tau −0.36) [S2]. The A/B/C exam-type numerical specifically recurred in three periods [E1, E3, E2].\n\n**Forecast / inference**\n\nNo model forecast [F#] is provided in this context, so no probability of recurrence can be stated. Reasoning only: the repeated A/B/C Bayes numerical [E1, E3, E2] and the strong, growing probability topic share [S1] suggest such numericals remain plausible, but this is inference, not certainty.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All cited items and statistics match the context exactly; the answer directly lists numerical probability/distribution problems, distinguishes theory items, and correctly notes no forecast was provided. Retrieved context is on-topic for the query."
+        }
+      },
+      {
+        "id": "q10",
+        "query": "Is overfitting a recurring topic in exam questions?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.663,
+        "n_evidence": 10,
+        "context_keyword_precision": 1.0,
+        "citation_coverage": 0.667,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nYes — overfitting appears repeatedly across multiple subjects and periods:\n\n- Machine Learning: S2024 asked for definitions and major causes of overfitting/underfitting [E1]; S2025 asked about overfitting in decision trees and how to avoid it [E2]; S2026 posed a true/false on hidden layers and underfitting [E8].\n- Introduction of Machine learning: W2021 \"Explain Overfitting…\" [E7], W2023 reasons plus remedies [E9], W2024 strategies to avoid overfitting [E3], W2025 \"Give reasons for overfitting\" [E5], S2026 compare overfitting and underfitting [E6].\n- Applied Machine Learning: S2023 distinguish overfitting/underfitting and effect on generalization [E4]; S2026 define both terms [E10].\n\nMarks are typically small (3–4 marks) [E3][E5][E6][E7][E9][E10], with larger 7-mark versions in Machine Learning [E1][E2].\n\n**Observed trend**\n\nThe parent topics are all consistently recurring: 'Modelling and Evaluation' in Machine Learning appeared in 10 of 10 exams (27 questions, 10.8%) [S1]; 'Supervised Learning: Classification and Regression' in 10 of 10 (54 questions) [S2]; 'Basic Machine Learning Algorithms' (which includes Overfitting and Bias-Variance) in Introduction of Machine learning in 10 of 10 exams (33 questions) [S3]; 'Overview of Probability' in Applied Machine Learning in 10 of 10 and labelled increasing (slope +0.55/period, tau +0.49) [S4].\n\nNote: the statistics are at topic level, not specific to overfitting, so an exact overfitting-only frequency is not in the dataset.\n\n**Forecast / inference**\n\nNo model forecast [F#] was provided. Reasoning from the above: given appearances in W2021, S2023, W2023, S2024, W2024, S2025, W2025 and S2026 [E1]–[E10], overfitting is best treated as a recurring, high-priority revision topic, though recurrence is not guaranteed.",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All citations match the retrieved entries and statistics exactly; marks, years, subjects, and topic counts/trends are accurately reported. The answer directly addresses whether overfitting recurs, and appropriately caveats that stats are topic-level and no forecast exists. Retrieved context is all overfitting-related and relevant."
+        }
+      },
+      {
+        "id": "q11",
+        "query": "What questions were asked about ensemble methods like bagging and boosting?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": false,
+        "expect_insufficient": false,
+        "refusal_correct": true,
+        "best_similarity": 0.771,
+        "n_evidence": 10,
+        "context_keyword_precision": 1.0,
+        "citation_coverage": 0.75,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nEnsemble questions cluster in *Introduction of Machine learning*:\n\n- Direct bagging/boosting: \"Explain the concept of bagging and boosting in Machine learning\" (W2022, Q5(b), 4 marks) [E1]; \"Explain the difference between bagging and boosting\" (S2024, Q5(b), 4 marks) [E2]; \"How bagging is used in Machine learning\" (S2022, Q3(a), 3 marks) [E3]; \"How Boosting is used in machine learning\" (S2022, Q3(a), 3 marks) [E4].\n- Definitional ensemble questions: \"What is Ensemble learning\" (S2023, Q5(a), 3 marks) [E5]; \"What is an Ensemble Learning\" (S2022, Q2(a), 3 marks) [E6]; \"List down various types of Ensemble learning algorithms\" (W2021, Q5(a), 3 marks) [E9].\n- Conceptual/mechanism questions: \"Explain Variance reduction and Bias reduction in the context of Ensemble Method\" (W2023, Q5(b), 4 marks [E8]; repeated W2025, Q5(a), 3 marks [E7]); \"Explain Voting and Stacking approaches for Combining Ensemble methods\" (W2023, Q5(b), 4 marks) [E10].\n\n**Observed trend**\n\nIn *Introduction of Machine learning*, the topic 'Computational and Ensemble Learning' totals 37 questions (14.8% of the subject), appearing in all 10 of 10 exam periods — labelled consistently_recurring, with per-exam counts ranging from 2 (W2021, W2022) to 6 (W2025) [S1]. In *Artificial Intelligence and Machine Learning*, 'Ensemble Learning' is smaller: 9 questions (3.6%), present in 7 of 10 periods, labelled stable with no significant slope [S2].\n\n**Forecast / inference**\n\nNo model forecast [F#] is included in this context, so no quantified prediction can be given. Reasoning only: given consistent recurrence in every period [S1], continued appearance is plausible but not certain; typical formats have been 3–4 mark short questions [E1]–[E10].",
+        "judge": {
+          "faithfulness": 5,
+          "answer_relevance": 5,
+          "context_relevance": 5,
+          "unsupported_claims": [],
+          "rationale": "All quoted questions, years, marks, and statistics match the context exactly; the answer directly addresses bagging/boosting questions and appropriately notes absence of forecast data. Retrieved context is highly relevant."
+        }
+      },
+      {
+        "id": "q12",
+        "query": "What questions were asked about B+ tree indexing in DBMS?",
+        "provider": "anthropic",
+        "model": "claude-opus-5",
+        "insufficient": true,
+        "expect_insufficient": true,
+        "refusal_correct": true,
+        "best_similarity": 0.614,
+        "n_evidence": 10,
+        "context_keyword_precision": null,
+        "citation_coverage": 0.25,
+        "evidence_cited_ratio": 1.0,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Historical evidence**\n\nThe dataset does not contain enough evidence to answer this question. It covers only Machine Learning–related subjects (Applied Machine Learning, Artificial Intelligence and Machine Learning, Introduction of Machine learning, Machine Learning) for W2021–S2026, and contains no DBMS papers and no questions on B+ tree indexing.\n\nThe closest retrieved items are tree-based *machine learning* questions, which are unrelated to database indexing: decision tree algorithm explanations [E2], [E3], [E7], [E8], decision tree node types [E4], [E5], practical issues in constructing decision trees [E6], decision tree as a classification method [E10], plus density-based clustering (DBSCAN) [E1] and data pre-processing techniques [E9].\n\n**Observed trend**\n\nNo trend on B+ trees can be computed. The available statistics concern ML topics only: 'Supervised Learning: Classification and Regression' in Machine Learning with 54 questions (21.6%) across 10 of 10 exams [S2]; 'Unsupervised Learning' with 28 questions (11.2%) across 10 of 10 exams [S1]; 'Basic Machine Learning Algorithms' in Introduction of Machine learning with 33 questions (13.2%) across 10 of 10 exams [S3]; and 'Classification' in Artificial Intelligence and Machine Learning with 29 questions (11.6%) across 9 of 10 exams [S4].\n\n**Forecast / inference**\n\nNo forecast tags are present for DBMS or B+ tree indexing, so no prediction can be offered.\n\nWhat is missing: DBMS question papers (subject coverage), and any labelled topic for indexing/B+ trees. If you need this, the dataset would have to be extended with DBMS exam papers."
+      },
+      {
+        "id": "q13",
+        "query": "Explain what was asked about TCP congestion control and sliding window protocols.",
+        "provider": "none",
+        "model": "",
+        "insufficient": true,
+        "expect_insufficient": true,
+        "refusal_correct": true,
+        "best_similarity": 0.534,
+        "n_evidence": 10,
+        "context_keyword_precision": null,
+        "citation_coverage": null,
+        "evidence_cited_ratio": null,
+        "grounded": true,
+        "warnings": [],
+        "answer": "**Insufficient evidence.** The historical dataset does not contain questions closely matching this query (best similarity 0.53 < 0.60). The dataset covers Applied Machine Learning, Artificial Intelligence and Machine Learning, Introduction of Machine learning, Machine Learning for exam periods W2021–S2026. The closest retrieved items are listed below for inspection."
+      }
+    ]
+  },
+  "forecasting": {
+    "selected_method": "historical_mean",
+    "candidate_methods": [
+      "historical_mean",
+      "moving_average",
+      "exp_smoothing",
+      "linear_trend",
+      "seasonal_mean",
+      "random_forest"
+    ],
+    "selection_metric": "mae",
+    "metrics": [
+      {
+        "method": "historical_mean",
+        "n_forecasts": 204,
+        "mae": 0.9629519607843137,
+        "rmse": 1.30698740902617,
+        "appearance_precision": 0.9607843137254902,
+        "appearance_recall": 1.0,
+        "appearance_f1": 0.98,
+        "rank_spearman_mean": 0.603416113237013
+      },
+      {
+        "method": "random_forest",
+        "n_forecasts": 204,
+        "mae": 1.0098205882352942,
+        "rmse": 1.318370781141871,
+        "appearance_precision": 0.9653465346534653,
+        "appearance_recall": 0.9948979591836735,
+        "appearance_f1": 0.9798994974874372,
+        "rank_spearman_mean": 0.5739465257588403
+      },
+      {
+        "method": "moving_average",
+        "n_forecasts": 204,
+        "mae": 1.03594068627451,
+        "rmse": 1.4238082585474223,
+        "appearance_precision": 0.9744897959183674,
+        "appearance_recall": 0.9744897959183674,
+        "appearance_f1": 0.9744897959183674,
+        "rank_spearman_mean": 0.5681972554153809
+      },
+      {
+        "method": "exp_smoothing",
+        "n_forecasts": 204,
+        "mae": 1.0648916666666668,
+        "rmse": 1.4391510671123404,
+        "appearance_precision": 0.9847715736040609,
+        "appearance_recall": 0.9897959183673469,
+        "appearance_f1": 0.9872773536895675,
+        "rank_spearman_mean": 0.5265728713986273
+      },
+      {
+        "method": "seasonal_mean",
+        "n_forecasts": 204,
+        "mae": 1.0874166666666667,
+        "rmse": 1.4791798720647766,
+        "appearance_precision": 0.9653465346534653,
+        "appearance_recall": 0.9948979591836735,
+        "appearance_f1": 0.9798994974874372,
+        "rank_spearman_mean": 0.5302114029514264
+      },
+      {
+        "method": "linear_trend",
+        "n_forecasts": 204,
+        "mae": 1.2801696078431373,
+        "rmse": 1.6831838577004978,
+        "appearance_precision": 0.9896373056994818,
+        "appearance_recall": 0.9744897959183674,
+        "appearance_f1": 0.9820051413881749,
+        "rank_spearman_mean": 0.43973721407715677
+      }
+    ],
+    "improvement_over_historical_mean_mae": 0.0,
+    "backtest_origins": [
+      "W2023",
+      "S2024",
+      "W2024",
+      "S2025",
+      "W2025",
+      "S2026"
+    ],
+    "disclaimer": "Forecasts are statistical estimates based on observed historical patterns in this dataset. They are not predictions of actual exam content and carry uncertainty."
+  }
+}

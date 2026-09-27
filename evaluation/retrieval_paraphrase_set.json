@@ -1,0 +1,491 @@
+{
+  "description": "LLM-generated paraphrase queries (silver standard). Relevant = source question + exact repeats.",
+  "generator": "claude-opus-5",
+  "items": [
+    {
+      "query_id": "3170724_S2023_Q2b",
+      "source_question": "What is outlier? How can we take care of outliers?",
+      "query": "what are extreme data points in a dataset and methods to handle them",
+      "relevant": [
+        "3170724_S2023_Q2b"
+      ]
+    },
+    {
+      "query_id": "3161710_S2026_Q5b_OR",
+      "source_question": "What is Stochastic gradient descent?",
+      "query": "explain SGD optimization technique in machine learning",
+      "relevant": [
+        "3161710_S2026_Q5b_OR",
+        "3161710_W2021_Q5b",
+        "3161710_W2025_Q5b_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_S2023_Q1a",
+      "source_question": "Define the following terms: 1.Machine Learning 2.Validation data set 3. Hypothesis",
+      "query": "define machine learning, hypothesis and validation set short answers",
+      "relevant": [
+        "3161710_S2023_Q1a"
+      ]
+    },
+    {
+      "query_id": "3170724_W2021_Q5b",
+      "source_question": "Explain Rosenblatt's perceptron model.",
+      "query": "describe the perceptron model proposed by Rosenblatt",
+      "relevant": [
+        "3170724_W2021_Q5b"
+      ]
+    },
+    {
+      "query_id": "3171617_S2026_Q4c_OR",
+      "source_question": "Explain in brief back propagation algorithm.",
+      "query": "short explanation of backpropagation in neural networks",
+      "relevant": [
+        "3171617_S2026_Q4c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_S2025_Q2c_OR",
+      "source_question": "A study is conducted in a company that employs 800 engineers. A random sample of 50 engineers reveals that the average sample age is 34.3 years. Historically, the population standard deviation of the age of the company's engineers is approximately 8 years. Construct a 98% confidence interval to estimate the average age of all the engineers in this company.",
+      "query": "numerical: 98% confidence interval for mean age sample of 50 engineers known population sd 8",
+      "relevant": [
+        "3171617_S2025_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_S2024_Q3b",
+      "source_question": "Briefly explain the concept of logistic regression. How does it differ from linear regression in terms of the predicted output?",
+      "query": "logistic regression explained and how its output differs from linear regression",
+      "relevant": [
+        "3171617_S2024_Q3b"
+      ]
+    },
+    {
+      "query_id": "3161710_W2023_Q2c_OR",
+      "source_question": "Apply gradient descent algorithm to minimize any two variables function. Use any suitable example available in the machine learning literature.",
+      "query": "solved example of gradient descent minimizing a two variable function",
+      "relevant": [
+        "3161710_W2023_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_W2021_Q4a",
+      "source_question": "Explain sum of squares due to error in multiple linear regression with example.",
+      "query": "SSE error term in multiple regression with example",
+      "relevant": [
+        "3170724_W2021_Q4a"
+      ]
+    },
+    {
+      "query_id": "3161710_S2026_Q3c_OR",
+      "source_question": "Write a short note on Principal component analysis method for dimensionality reduction.",
+      "query": "note on PCA as a technique to reduce number of features",
+      "relevant": [
+        "3161710_S2026_Q3c_OR",
+        "3161710_W2025_Q3c_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_S2024_Q4b_OR",
+      "source_question": "Describe the strengths and weaknesses of decision tree.",
+      "query": "advantages and disadvantages of decision tree classifier",
+      "relevant": [
+        "3170724_S2024_Q4b_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_W2021_Q5a",
+      "source_question": "What are the conditions of a negative slope in linear regression?",
+      "query": "when does regression line have a downward slope conditions",
+      "relevant": [
+        "3170724_W2021_Q5a"
+      ]
+    },
+    {
+      "query_id": "3171114_W2022_Q4b",
+      "source_question": "Write a short note on Single layer feed forward ANN",
+      "query": "short note on single layer feedforward neural network",
+      "relevant": [
+        "3171114_W2022_Q4b"
+      ]
+    },
+    {
+      "query_id": "3161710_S2025_Q5b",
+      "source_question": "Describe under fitting and over fitting of data with suitable example",
+      "query": "explain overfitting vs underfitting with example",
+      "relevant": [
+        "3161710_S2025_Q5b",
+        "3161710_W2024_Q5b"
+      ]
+    },
+    {
+      "query_id": "3171114_S2023_Q2c_OR",
+      "source_question": "How Dimensionality reduction is achieved by PCA.",
+      "query": "how does principal component analysis reduce number of variables in data",
+      "relevant": [
+        "3171114_S2023_Q2c_OR",
+        "3171114_W2025_Q1c"
+      ]
+    },
+    {
+      "query_id": "3161710_S2023_Q3a",
+      "source_question": "Implement Logical AND function using Mc-Culloch and Pitts neuron model.",
+      "query": "realize AND gate using MP neuron model threshold logic",
+      "relevant": [
+        "3161710_S2023_Q3a"
+      ]
+    },
+    {
+      "query_id": "3161710_S2023_Q2c",
+      "source_question": "Describe different variants of Gradient descent to handle large data set.",
+      "query": "types of gradient descent batch stochastic mini-batch for huge training data",
+      "relevant": [
+        "3161710_S2023_Q2c"
+      ]
+    },
+    {
+      "query_id": "3161710_S2026_Q1c",
+      "source_question": "With a suitable example explain how regression is helpful for experimental analysis.",
+      "query": "use of regression in experimental data analysis with example",
+      "relevant": [
+        "3161710_S2026_Q1c",
+        "3161710_W2025_Q1c"
+      ]
+    },
+    {
+      "query_id": "3171617_S2024_Q2a",
+      "source_question": "Briefly explain the concept of Bayes' theorem using the terms \"prior probability,\" \"likelihood,\" and \"posterior probability.\"",
+      "query": "explain Bayes rule prior likelihood posterior meaning",
+      "relevant": [
+        "3171617_S2024_Q2a"
+      ]
+    },
+    {
+      "query_id": "3171617_S2024_Q4c_OR",
+      "source_question": "What is a Recurrent Neural Network (RNN)? How RNN differs from Feedforward Neural Network?",
+      "query": "recurrent neural network definition and difference from feedforward network",
+      "relevant": [
+        "3171617_S2024_Q4c_OR"
+      ]
+    },
+    {
+      "query_id": "3171114_S2026_Q5b",
+      "source_question": "What is feature? Explain with the help of an example.",
+      "query": "what is a feature in machine learning explain with example",
+      "relevant": [
+        "3171114_S2026_Q5b"
+      ]
+    },
+    {
+      "query_id": "3171114_W2024_Q5c_OR",
+      "source_question": "Describe the Bagging Algorithm including its Pseudo Code, and provide advantages and disadvantages.",
+      "query": "bagging ensemble pseudo code merits and demerits",
+      "relevant": [
+        "3171114_W2024_Q5c_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_S2023_Q1c",
+      "source_question": "Draw Artificial Neuron Network Model. Describe each fundamental elements involved in ANN model.",
+      "query": "basic model of artificial neuron with diagram and its components",
+      "relevant": [
+        "3161710_S2023_Q1c"
+      ]
+    },
+    {
+      "query_id": "3171114_W2023_Q2c_OR",
+      "source_question": "A mechanical factory production line is manufacturing bolts using three machines, A, B and C. The total output, machine A is responsible for 25%, machine B for 35% and machine C for the rest. The machines that 5% of the output from machine A is defective, 4% from machine B and 2% from machine C. A bolt is chosen at random from the production line and found to be defective. What is the probability that it came from (1) Machine A (2) Machine B (3) Machine C.",
+      "query": "defective bolt from three machines probability which machine produced it Bayes numerical",
+      "relevant": [
+        "3171114_W2023_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_S2023_Q3b",
+      "source_question": "Explain Bayesian belief network and conditional independence with example.",
+      "query": "belief network and conditional independence explained with example",
+      "relevant": [
+        "3171617_S2023_Q3b"
+      ]
+    },
+    {
+      "query_id": "3170724_S2026_Q4a",
+      "source_question": "How to avoid overfitting in decision tree based classifier?",
+      "query": "ways to prevent decision tree from overfitting pruning",
+      "relevant": [
+        "3170724_S2026_Q4a"
+      ]
+    },
+    {
+      "query_id": "3170724_S2023_Q4c",
+      "source_question": "Explain the Apriori algorithm for association rule learning with an example.",
+      "query": "frequent itemset mining algorithm for association rules solved example",
+      "relevant": [
+        "3170724_S2023_Q4c",
+        "3170724_W2021_Q4c_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_S2025_Q5a_OR",
+      "source_question": "What are different clustering techniques?",
+      "query": "list types of clustering methods in data mining",
+      "relevant": [
+        "3170724_S2025_Q5a_OR"
+      ]
+    },
+    {
+      "query_id": "3171114_S2023_Q2a",
+      "source_question": "What do you mean by deep learning?",
+      "query": "define deep learning",
+      "relevant": [
+        "3171114_S2023_Q2a"
+      ]
+    },
+    {
+      "query_id": "3171617_S2024_Q2c",
+      "source_question": "Explain Naïve Bayes classifier with an example of its use in practical life.",
+      "query": "how does the naive bayes algorithm work with a real world application example",
+      "relevant": [
+        "3170724_W2025_Q3c",
+        "3171617_S2024_Q2c"
+      ]
+    },
+    {
+      "query_id": "3171114_S2024_Q3b",
+      "source_question": "Discuss the advantages and disadvantages of using feature selection.",
+      "query": "pros and cons of selecting a subset of features in machine learning",
+      "relevant": [
+        "3171114_S2024_Q3b"
+      ]
+    },
+    {
+      "query_id": "3171114_W2024_Q3b_OR",
+      "source_question": "Differentiate between feature extraction and feature selection process.",
+      "query": "difference between deriving new features and choosing existing ones",
+      "relevant": [
+        "3171114_W2024_Q3b_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_S2026_Q5c",
+      "source_question": "Given the 1-D data {2,4,5,10,12,20}, perform one iteration of K-Means clustering with K=2, using initial cluster centers 4 and 12. Assign each data point to the nearest center and compute the updated clusters.",
+      "query": "solve k means example one pass on 1D points 2 4 5 10 12 20 with seeds 4 and 12",
+      "relevant": [
+        "3171617_S2026_Q5c"
+      ]
+    },
+    {
+      "query_id": "3170724_W2024_Q5c_OR",
+      "source_question": "Explain density-based methods - DBSCAN.",
+      "query": "explain clustering based on density DBSCAN algorithm",
+      "relevant": [
+        "3170724_W2024_Q5c_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_S2022_Q2c_OR",
+      "source_question": "What is gradient descent? Explain the role of gradient descent in minimizing cost function of single and two variable functions.",
+      "query": "how gradient descent minimizes error function for one and two variable cases",
+      "relevant": [
+        "3161710_S2022_Q2c_OR",
+        "3161710_W2022_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_W2022_Q4b",
+      "source_question": "Explain the concept of Bayesian belief network.",
+      "query": "what is a bayesian belief network in machine learning",
+      "relevant": [
+        "3170724_W2022_Q4b"
+      ]
+    },
+    {
+      "query_id": "3170724_W2024_Q5a",
+      "source_question": "What are the applications of unsupervised learning?",
+      "query": "where is learning without labels used in real applications",
+      "relevant": [
+        "3170724_W2024_Q5a"
+      ]
+    },
+    {
+      "query_id": "3161710_W2024_Q2c",
+      "source_question": "What is machine learning? Explain in detail different type of learning in detail.",
+      "query": "define machine learning and describe its various learning categories",
+      "relevant": [
+        "3161710_W2024_Q2c"
+      ]
+    },
+    {
+      "query_id": "3170724_S2025_Q4c_OR",
+      "source_question": "What is overfitting in decision tree? Explain the technique to avoid the overfitting.",
+      "query": "decision tree overfitting problem and pruning methods to prevent it",
+      "relevant": [
+        "3170724_S2025_Q4c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_W2023_Q4a_OR",
+      "source_question": "Define association rule learning. Enlist the association rule mining algorithms.",
+      "query": "what is association rule mining and list its algorithms",
+      "relevant": [
+        "3171617_W2023_Q4a_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_W2024_Q1b",
+      "source_question": "What is artificial intelligence and how is it different from machine learning?",
+      "query": "AI vs ML how do they differ",
+      "relevant": [
+        "3161710_W2024_Q1b"
+      ]
+    },
+    {
+      "query_id": "3171617_S2024_Q1a",
+      "source_question": "Classify following into correct learning task: (Supervised learning, Unsupervised learning, Reinforcement learning) I. Self-driving cars. II. Predict the price of a stock in 6 months from now, on the basis of company performance measures and economic data. III. Grouping documents into different categories based on their topics.",
+      "query": "identify learning type for self driving car, stock price prediction, document grouping",
+      "relevant": [
+        "3171617_S2024_Q1a"
+      ]
+    },
+    {
+      "query_id": "3170724_W2022_Q4c_OR",
+      "source_question": "How does the apriori principle help in reducing the calculation overhead for a market basket analysis? Explain with an example.",
+      "query": "how apriori property reduces computation in basket data mining with example",
+      "relevant": [
+        "3170724_W2022_Q4c_OR",
+        "3170724_W2025_Q4c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_W2023_Q3c_OR",
+      "source_question": "Explain multiple linear regression with suitable example.",
+      "query": "regression with several independent variables explained with example",
+      "relevant": [
+        "3171617_W2023_Q3c_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_S2026_Q1b",
+      "source_question": "Enlist the applications of supervised and unsupervised machine learning.",
+      "query": "list real world uses of supervised vs unsupervised learning",
+      "relevant": [
+        "3161710_S2026_Q1b",
+        "3161710_W2025_Q1b"
+      ]
+    },
+    {
+      "query_id": "3171617_W2025_Q4a",
+      "source_question": "Discuss the learning steps of the classification model.",
+      "query": "steps involved in building and training a classifier model",
+      "relevant": [
+        "3171617_W2025_Q4a"
+      ]
+    },
+    {
+      "query_id": "3161710_S2026_Q2c_OR",
+      "source_question": "What is cost function? Explain cost function representation in single variable linear regression.",
+      "query": "define loss function and how it is written for univariate linear regression",
+      "relevant": [
+        "3161710_S2026_Q2c_OR",
+        "3161710_W2025_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_W2024_Q3c_OR",
+      "source_question": "Can the performance of the learning model improved? If yes, explain how.",
+      "query": "ways to boost accuracy of a trained ML model",
+      "relevant": [
+        "3171617_W2024_Q3c_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_W2023_Q5b",
+      "source_question": "Write the role of Generative Adversarial Network (GAN). Explain GAN structure in detail.",
+      "query": "purpose of GANs and detailed architecture of generator discriminator",
+      "relevant": [
+        "3171617_W2023_Q5b"
+      ]
+    },
+    {
+      "query_id": "3171114_W2025_Q2b",
+      "source_question": "What is Naive Bayes classifier? Explain various application of Naive Bayes classifier.",
+      "query": "naive bayes classification explanation with use cases",
+      "relevant": [
+        "3171114_W2025_Q2b"
+      ]
+    },
+    {
+      "query_id": "3171617_S2026_Q2c_OR",
+      "source_question": "A University is having student marks data. How to apply a Decision Tree to decide whether a student will pass or fail?",
+      "query": "using decision tree on student marks dataset to predict pass or fail",
+      "relevant": [
+        "3171617_S2026_Q2c_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_W2024_Q5b",
+      "source_question": "Explain the different activation function used in neural network?",
+      "query": "types of activation functions in neural networks explained",
+      "relevant": [
+        "3170724_W2024_Q5b"
+      ]
+    },
+    {
+      "query_id": "3161710_S2023_Q5a",
+      "source_question": "How is logistic regression different from linear regression",
+      "query": "compare logistic and linear regression",
+      "relevant": [
+        "3161710_S2023_Q5a",
+        "3161710_W2024_Q5a_OR"
+      ]
+    },
+    {
+      "query_id": "3170724_W2021_Q2c",
+      "source_question": "Explain SVD as a feature extraction technique with suitable example.",
+      "query": "singular value decomposition for feature extraction with example",
+      "relevant": [
+        "3170724_W2021_Q2c"
+      ]
+    },
+    {
+      "query_id": "3171114_S2024_Q5b",
+      "source_question": "Explain the difference between bagging and boosting.",
+      "query": "bagging vs boosting ensemble methods difference",
+      "relevant": [
+        "3171114_S2024_Q5b"
+      ]
+    },
+    {
+      "query_id": "3171114_W2022_Q1c",
+      "source_question": "What is machine learning? Explain any two applications of machine learning. What are the possible ethical issues of machine learning applications?",
+      "query": "define machine learning with two applications and ethical concerns",
+      "relevant": [
+        "3171114_W2022_Q1c"
+      ]
+    },
+    {
+      "query_id": "3161710_W2021_Q4a_OR",
+      "source_question": "What is the objective of Gradient Descent?",
+      "query": "purpose of gradient descent algorithm",
+      "relevant": [
+        "3161710_W2021_Q4a_OR"
+      ]
+    },
+    {
+      "query_id": "3171617_W2025_Q3b_OR",
+      "source_question": "Discuss the naive Bayes classifier with its advantages and disadvantages.",
+      "query": "naive bayes classifier pros and cons",
+      "relevant": [
+        "3171617_W2025_Q3b_OR"
+      ]
+    },
+    {
+      "query_id": "3161710_S2025_Q2c_OR",
+      "source_question": "The city's transportation department is interested in studying the relationship between the temperature and the number of passengers that ride the main bus line in order to better serve their customers. The manager recorded the temperature at the beginning of the hour, and then had a bus driver record the number of passengers that boarded the bus throughout the hour. Their findings are listed in the following table: Temperature (°C) Number of Passenger 42 173 37 149 46 185 30 123 50 201 43 174 43 175 46 188 46 186 49 198 Use the above information to obtain a least square regression equation. Predict the number of passengers when the temperature is at 45°C. Also write python program to implement the same.",
+      "query": "fit least squares line to temperature and bus passenger data, predict at 45 degrees, python code",
+      "relevant": [
+        "3161710_S2025_Q2c_OR"
+      ]
+    }
+  ]
+}

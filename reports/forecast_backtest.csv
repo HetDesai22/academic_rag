@@ -1,0 +1,1225 @@
+﻿method,subject,topic,origin_period,train_periods,actual,predicted
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,3.75
+moving_average,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,3.3333
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,4.076
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,3.5
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,3.5
+random_forest,Applied Machine Learning,Bayesian Concept Learning,W2023,4,2.0,4.2961
+historical_mean,Applied Machine Learning,Classification and Regression,W2023,4,6.0,7.0
+moving_average,Applied Machine Learning,Classification and Regression,W2023,4,6.0,5.6667
+exp_smoothing,Applied Machine Learning,Classification and Regression,W2023,4,6.0,6.806
+linear_trend,Applied Machine Learning,Classification and Regression,W2023,4,6.0,4.0
+seasonal_mean,Applied Machine Learning,Classification and Regression,W2023,4,6.0,8.0
+random_forest,Applied Machine Learning,Classification and Regression,W2023,4,6.0,5.6278
+historical_mean,Applied Machine Learning,Deep Learning,W2023,4,2.0,2.75
+moving_average,Applied Machine Learning,Deep Learning,W2023,4,2.0,3.6667
+exp_smoothing,Applied Machine Learning,Deep Learning,W2023,4,2.0,2.375
+linear_trend,Applied Machine Learning,Deep Learning,W2023,4,2.0,3.5
+seasonal_mean,Applied Machine Learning,Deep Learning,W2023,4,2.0,2.5
+random_forest,Applied Machine Learning,Deep Learning,W2023,4,2.0,2.1434
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,1.0
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,1.3333
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,1.98
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,3.0
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,1.0
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2023,4,2.0,1.566
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,3.0
+moving_average,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,3.0
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,2.972
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,1.5
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,2.5
+random_forest,Applied Machine Learning,Introduction to Machine Learning,W2023,4,2.0,2.2447
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,4.0
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,3.6667
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,3.911
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,3.0
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,4.0
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,W2023,4,4.0,4.287
+historical_mean,Applied Machine Learning,Overview of Probability,W2023,4,7.0,3.5
+moving_average,Applied Machine Learning,Overview of Probability,W2023,4,7.0,4.3333
+exp_smoothing,Applied Machine Learning,Overview of Probability,W2023,4,7.0,4.168
+linear_trend,Applied Machine Learning,Overview of Probability,W2023,4,7.0,6.5
+seasonal_mean,Applied Machine Learning,Overview of Probability,W2023,4,7.0,3.5
+random_forest,Applied Machine Learning,Overview of Probability,W2023,4,7.0,4.1281
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,5.25
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,6.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,5.0
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,6.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,5.0
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2023,4,2.0,4.9099
+historical_mean,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,2.0
+moving_average,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,2.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,5.499
+linear_trend,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,6.5
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,0.5
+random_forest,Artificial Intelligence and Machine Learning,Classification,W2023,4,5.0,2.4747
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.0
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.0
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2023,4,3.0,1.4703
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,0.5
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,0.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,0.643
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,0.5
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,0.5
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,W2023,4,2.0,1.8518
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,6.5
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,7.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,6.071
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,6.5
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,6.5
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2023,4,2.0,5.6039
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,1.75
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,1.9
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,1.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,2.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2023,4,0.0,1.6687
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,2.75
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,2.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,2.9
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,2.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,3.0
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2023,4,3.0,2.2807
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,1.0
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,0.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,0.903
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,1.5
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2023,4,1.0,1.7605
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,3.25
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,2.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,2.102
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,1.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,4.0
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,W2023,4,4.0,2.8197
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,1.0
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,0.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,1.286
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,1.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2023,4,3.0,1.7031
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,1.75
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,2.0
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,1.567
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,2.0
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,2.0
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,W2023,4,3.0,1.6749
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,3.5
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,3.3333
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,3.643
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,3.5
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,3.5
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,W2023,4,2.0,4.1035
+historical_mean,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,6.25
+moving_average,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,7.3333
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,7.896
+linear_trend,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,10.0
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,5.0
+random_forest,Introduction of Machine learning,Basics of Neural Network,W2023,4,6.0,5.5996
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,2.25
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,1.6667
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,1.991
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,1.0
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,3.0
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,W2023,4,2.0,2.8252
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,3.25
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,3.6667
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,2.784
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,4.0
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,2.0
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,W2023,4,4.0,2.5071
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.25
+moving_average,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.0
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.584
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.5
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.5
+random_forest,Introduction of Machine learning,Dimensionality Reduction,W2023,4,2.0,2.8489
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,2.75
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,2.3333
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,2.512
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,1.0
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,4.0
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,W2023,4,3.0,2.875
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,3.0
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,2.6667
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,2.02
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,1.0
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,3.0
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2023,4,3.0,2.2283
+historical_mean,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,1.25
+moving_average,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,1.3333
+exp_smoothing,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,1.1
+linear_trend,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,2.0
+seasonal_mean,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,1.0
+random_forest,Machine Learning,Basics of Feature Engineering,W2023,4,1.0,1.4978
+historical_mean,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,2.25
+moving_average,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,2.0
+exp_smoothing,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,2.001
+linear_trend,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,1.5
+seasonal_mean,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,2.5
+random_forest,Machine Learning,Bayesian Concept Learning,W2023,4,1.0,2.9654
+historical_mean,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,3.5
+moving_average,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,3.6667
+exp_smoothing,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,3.163
+linear_trend,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,3.0
+seasonal_mean,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,2.0
+random_forest,Machine Learning,Introduction to Machine Learning,W2023,4,3.0,4.2293
+historical_mean,Machine Learning,Modelling and Evaluation,W2023,4,2.0,2.75
+moving_average,Machine Learning,Modelling and Evaluation,W2023,4,2.0,3.0
+exp_smoothing,Machine Learning,Modelling and Evaluation,W2023,4,2.0,3.89
+linear_trend,Machine Learning,Modelling and Evaluation,W2023,4,2.0,4.5
+seasonal_mean,Machine Learning,Modelling and Evaluation,W2023,4,2.0,2.5
+random_forest,Machine Learning,Modelling and Evaluation,W2023,4,2.0,2.5185
+historical_mean,Machine Learning,Neural Network,W2023,4,3.0,2.5
+moving_average,Machine Learning,Neural Network,W2023,4,3.0,2.0
+exp_smoothing,Machine Learning,Neural Network,W2023,4,3.0,2.002
+linear_trend,Machine Learning,Neural Network,W2023,4,3.0,1.0
+seasonal_mean,Machine Learning,Neural Network,W2023,4,3.0,3.0
+random_forest,Machine Learning,Neural Network,W2023,4,3.0,2.9393
+historical_mean,Machine Learning,Overview of Probability,W2023,4,4.0,2.0
+moving_average,Machine Learning,Overview of Probability,W2023,4,4.0,2.6667
+exp_smoothing,Machine Learning,Overview of Probability,W2023,4,4.0,2.097
+linear_trend,Machine Learning,Overview of Probability,W2023,4,4.0,3.5
+seasonal_mean,Machine Learning,Overview of Probability,W2023,4,4.0,1.5
+random_forest,Machine Learning,Overview of Probability,W2023,4,4.0,2.318
+historical_mean,Machine Learning,Preparing to Model,W2023,4,4.0,3.0
+moving_average,Machine Learning,Preparing to Model,W2023,4,4.0,3.3333
+exp_smoothing,Machine Learning,Preparing to Model,W2023,4,4.0,3.0
+linear_trend,Machine Learning,Preparing to Model,W2023,4,4.0,3.5
+seasonal_mean,Machine Learning,Preparing to Model,W2023,4,4.0,2.5
+random_forest,Machine Learning,Preparing to Model,W2023,4,4.0,2.0504
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,5.0
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,4.6667
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,5.106
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,4.0
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,6.0
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,W2023,4,5.0,4.5063
+historical_mean,Machine Learning,Unsupervised Learning,W2023,4,2.0,2.75
+moving_average,Machine Learning,Unsupervised Learning,W2023,4,2.0,2.3333
+exp_smoothing,Machine Learning,Unsupervised Learning,W2023,4,2.0,3.216
+linear_trend,Machine Learning,Unsupervised Learning,W2023,4,2.0,2.0
+seasonal_mean,Machine Learning,Unsupervised Learning,W2023,4,2.0,4.0
+random_forest,Machine Learning,Unsupervised Learning,W2023,4,2.0,2.7517
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,3.4
+moving_average,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,3.0
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,3.1952
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,2.2
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,4.0
+random_forest,Applied Machine Learning,Bayesian Concept Learning,S2024,5,4.0,3.9872
+historical_mean,Applied Machine Learning,Classification and Regression,S2024,5,8.0,6.8
+moving_average,Applied Machine Learning,Classification and Regression,S2024,5,8.0,6.0
+exp_smoothing,Applied Machine Learning,Classification and Regression,S2024,5,8.0,6.0806
+linear_trend,Applied Machine Learning,Classification and Regression,S2024,5,8.0,4.4
+seasonal_mean,Applied Machine Learning,Classification and Regression,S2024,5,8.0,6.0
+random_forest,Applied Machine Learning,Classification and Regression,S2024,5,8.0,5.9662
+historical_mean,Applied Machine Learning,Deep Learning,S2024,5,4.0,2.6
+moving_average,Applied Machine Learning,Deep Learning,S2024,5,4.0,2.6667
+exp_smoothing,Applied Machine Learning,Deep Learning,S2024,5,4.0,2.192
+linear_trend,Applied Machine Learning,Deep Learning,S2024,5,4.0,2.6
+seasonal_mean,Applied Machine Learning,Deep Learning,S2024,5,4.0,3.0
+random_forest,Applied Machine Learning,Deep Learning,S2024,5,4.0,2.6953
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,1.2
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,2.0
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,1.998
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,3.0
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,1.0
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2024,5,2.0,1.5436
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,2.8
+moving_average,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,2.0
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,2.8748
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,1.3
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,3.5
+random_forest,Applied Machine Learning,Introduction to Machine Learning,S2024,5,2.0,2.6355
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,4.0
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,3.6667
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,3.9911
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,3.4
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,4.0
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,S2024,5,4.0,3.6336
+historical_mean,Applied Machine Learning,Overview of Probability,S2024,5,1.0,4.2
+moving_average,Applied Machine Learning,Overview of Probability,S2024,5,1.0,5.6667
+exp_smoothing,Applied Machine Learning,Overview of Probability,S2024,5,1.0,6.4528
+linear_trend,Applied Machine Learning,Overview of Probability,S2024,5,1.0,8.1
+seasonal_mean,Applied Machine Learning,Overview of Probability,S2024,5,1.0,3.5
+random_forest,Applied Machine Learning,Overview of Probability,S2024,5,1.0,3.8157
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,4.6
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,4.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,2.2296
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,3.1
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,5.5
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2024,5,6.0,3.515
+historical_mean,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,2.6
+moving_average,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,5.0499
+linear_trend,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,7.1
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,3.5
+random_forest,Artificial Intelligence and Machine Learning,Classification,S2024,5,3.0,2.1304
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,1.4
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,1.2
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,2.6
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2024,5,1.0,1.6175
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,0.8
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,1.8901
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,1.7
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,0.5
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,S2024,5,1.0,1.8006
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,5.6
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,5.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,2.3297
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,2.9
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,6.5
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2024,5,5.0,4.1457
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,1.4
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,0.11
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,1.5
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2024,5,0.0,1.4797
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.8
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.91
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.5
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.5
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2024,5,4.0,2.4911
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,1.0
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,0.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,0.9903
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,0.1
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,0.5
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2024,5,0.0,1.7832
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,3.4
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,3.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,3.5062
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,2.5
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,2.5
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,S2024,5,3.0,3.7632
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,1.4
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,1.7922
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,2.6
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2024,5,2.0,1.7401
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,2.0
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,2.3333
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,2.1744
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,2.9
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,1.5
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,S2024,5,2.0,1.8749
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,3.2
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,3.0
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,2.9696
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,2.3
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,3.5
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,S2024,5,3.0,3.3787
+historical_mean,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,6.2
+moving_average,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,7.0
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,6.1896
+linear_trend,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,8.3
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,7.5
+random_forest,Introduction of Machine learning,Basics of Neural Network,S2024,5,2.0,5.9086
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,2.2
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,2.0
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,1.9973
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,1.3
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,1.5
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,S2024,5,2.0,2.4288
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,3.4
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,3.3333
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,3.3287
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,4.3
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,4.5
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,S2024,5,5.0,3.72
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.2
+moving_average,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.3333
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.3472
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.2
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.0
+random_forest,Introduction of Machine learning,Dimensionality Reduction,S2024,5,4.0,2.1894
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,2.8
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,2.6667
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,2.8642
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,1.9
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,1.5
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,S2024,5,2.0,2.7623
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,3.0
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,2.3333
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,2.902
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,1.8
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,3.0
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2024,5,5.0,2.7127
+historical_mean,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.2
+moving_average,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.3333
+exp_smoothing,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.09
+linear_trend,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.5
+seasonal_mean,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.5
+random_forest,Machine Learning,Basics of Feature Engineering,S2024,5,2.0,1.3481
+historical_mean,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,2.0
+moving_average,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,1.6667
+exp_smoothing,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,1.1001
+linear_trend,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,0.8
+seasonal_mean,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,2.0
+random_forest,Machine Learning,Bayesian Concept Learning,S2024,5,2.0,1.7355
+historical_mean,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,3.4
+moving_average,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,2.6667
+exp_smoothing,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,3.1467
+linear_trend,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,2.8
+seasonal_mean,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,5.0
+random_forest,Machine Learning,Introduction to Machine Learning,S2024,5,3.0,3.868
+historical_mean,Machine Learning,Modelling and Evaluation,S2024,5,2.0,2.6
+moving_average,Machine Learning,Modelling and Evaluation,S2024,5,2.0,3.0
+exp_smoothing,Machine Learning,Modelling and Evaluation,S2024,5,2.0,2.567
+linear_trend,Machine Learning,Modelling and Evaluation,S2024,5,2.0,3.2
+seasonal_mean,Machine Learning,Modelling and Evaluation,S2024,5,2.0,3.0
+random_forest,Machine Learning,Modelling and Evaluation,S2024,5,2.0,2.225
+historical_mean,Machine Learning,Neural Network,S2024,5,2.0,2.6
+moving_average,Machine Learning,Neural Network,S2024,5,2.0,2.3333
+exp_smoothing,Machine Learning,Neural Network,S2024,5,2.0,2.9002
+linear_trend,Machine Learning,Neural Network,S2024,5,2.0,2.0
+seasonal_mean,Machine Learning,Neural Network,S2024,5,2.0,2.0
+random_forest,Machine Learning,Neural Network,S2024,5,2.0,2.5919
+historical_mean,Machine Learning,Overview of Probability,S2024,5,2.0,2.4
+moving_average,Machine Learning,Overview of Probability,S2024,5,2.0,3.0
+exp_smoothing,Machine Learning,Overview of Probability,S2024,5,2.0,3.6352
+linear_trend,Machine Learning,Overview of Probability,S2024,5,2.0,4.5
+seasonal_mean,Machine Learning,Overview of Probability,S2024,5,2.0,2.5
+random_forest,Machine Learning,Overview of Probability,S2024,5,2.0,2.3232
+historical_mean,Machine Learning,Preparing to Model,S2024,5,3.0,3.2
+moving_average,Machine Learning,Preparing to Model,S2024,5,3.0,3.3333
+exp_smoothing,Machine Learning,Preparing to Model,S2024,5,3.0,3.6128
+linear_trend,Machine Learning,Preparing to Model,S2024,5,3.0,4.1
+seasonal_mean,Machine Learning,Preparing to Model,S2024,5,3.0,3.5
+random_forest,Machine Learning,Preparing to Model,S2024,5,3.0,3.0538
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,5.0
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,5.0
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,5.0742
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,4.4
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,4.0
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,S2024,5,6.0,3.7876
+historical_mean,Machine Learning,Unsupervised Learning,S2024,5,3.0,2.6
+moving_average,Machine Learning,Unsupervised Learning,S2024,5,3.0,2.6667
+exp_smoothing,Machine Learning,Unsupervised Learning,S2024,5,3.0,2.6713
+linear_trend,Machine Learning,Unsupervised Learning,S2024,5,3.0,1.7
+seasonal_mean,Machine Learning,Unsupervised Learning,S2024,5,3.0,1.5
+random_forest,Machine Learning,Unsupervised Learning,S2024,5,3.0,2.81
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.5
+moving_average,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.6667
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.6172
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.0
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.0
+random_forest,Applied Machine Learning,Bayesian Concept Learning,W2024,6,2.0,3.3923
+historical_mean,Applied Machine Learning,Classification and Regression,W2024,6,4.0,7.0
+moving_average,Applied Machine Learning,Classification and Regression,W2024,6,4.0,7.0
+exp_smoothing,Applied Machine Learning,Classification and Regression,W2024,6,4.0,7.6259
+linear_trend,Applied Machine Learning,Classification and Regression,W2024,6,4.0,6.0
+seasonal_mean,Applied Machine Learning,Classification and Regression,W2024,6,4.0,7.3333
+random_forest,Applied Machine Learning,Classification and Regression,W2024,6,4.0,5.6494
+historical_mean,Applied Machine Learning,Deep Learning,W2024,6,2.0,2.8333
+moving_average,Applied Machine Learning,Deep Learning,W2024,6,2.0,2.3333
+exp_smoothing,Applied Machine Learning,Deep Learning,W2024,6,2.0,2.9152
+linear_trend,Applied Machine Learning,Deep Learning,W2024,6,2.0,3.5333
+seasonal_mean,Applied Machine Learning,Deep Learning,W2024,6,2.0,2.3333
+random_forest,Applied Machine Learning,Deep Learning,W2024,6,2.0,2.6648
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,1.3333
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,2.0
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,1.9998
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,2.9333
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,1.3333
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2024,6,2.0,1.8078
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,2.6667
+moving_average,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,2.0
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,2.7873
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,1.2667
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,2.3333
+random_forest,Applied Machine Learning,Introduction to Machine Learning,W2024,6,5.0,2.86
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,4.0
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,4.0
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,3.9991
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,3.6
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,4.0
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,W2024,6,2.0,3.996
+historical_mean,Applied Machine Learning,Overview of Probability,W2024,6,8.0,3.6667
+moving_average,Applied Machine Learning,Overview of Probability,W2024,6,8.0,4.0
+exp_smoothing,Applied Machine Learning,Overview of Probability,W2024,6,8.0,3.4077
+linear_trend,Applied Machine Learning,Overview of Probability,W2024,6,8.0,4.6667
+seasonal_mean,Applied Machine Learning,Overview of Probability,W2024,6,8.0,4.6667
+random_forest,Applied Machine Learning,Overview of Probability,W2024,6,8.0,4.1577
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,4.8333
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,4.3053
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,4.5333
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,4.0
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2024,6,6.0,3.945
+historical_mean,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,2.6667
+moving_average,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,4.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,3.3997
+linear_trend,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,5.8667
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,2.0
+random_forest,Artificial Intelligence and Machine Learning,Classification,W2024,6,4.0,2.429
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.3333
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.18
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.9333
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.6667
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2024,6,1.0,1.9154
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,0.8333
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,1.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,0.9515
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,1.5333
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,W2024,6,0.0,0.882
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,5.5
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,5.1455
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,3.4
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,5.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2024,6,5.0,4.5901
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,1.1667
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,0.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,0.011
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,1.3333
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2024,6,0.0,0.9122
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,3.0
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,3.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,3.019
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,3.4
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,3.0
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2024,6,7.0,2.7941
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,0.8333
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,0.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,0.099
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,1.3333
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2024,6,0.0,0.9207
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,3.3333
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,3.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,3.1519
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,2.5333
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,4.0
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,W2024,6,1.0,3.2446
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,1.5
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,2.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,1.813
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,2.6
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,1.6667
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2024,6,1.0,2.2717
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,2.0
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,2.0
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,2.1046
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,2.6
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,2.3333
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,W2024,6,2.0,1.959
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,3.1667
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,3.0
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,2.9818
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,2.4667
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,3.0
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,W2024,6,4.0,3.3534
+historical_mean,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,5.5
+moving_average,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,5.3333
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,2.419
+linear_trend,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,4.8
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,5.3333
+random_forest,Introduction of Machine learning,Basics of Neural Network,W2024,6,4.0,4.8897
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,2.1667
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,2.0
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,1.9992
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,1.4667
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,2.6667
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,W2024,6,2.0,2.0264
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,3.6667
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,4.3333
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,4.1235
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,5.0667
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,2.6667
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,W2024,6,3.0,4.2113
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,2.5
+moving_average,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,3.0
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,2.8059
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,3.4
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,2.3333
+random_forest,Introduction of Machine learning,Dimensionality Reduction,W2024,6,4.0,2.3537
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,2.6667
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,2.0
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,2.4243
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,1.6667
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,3.6667
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,W2024,6,3.0,2.6884
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,3.3333
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,3.3333
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,4.7902
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,3.5333
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,3.0
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2024,6,3.0,3.0478
+historical_mean,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.3333
+moving_average,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.6667
+exp_smoothing,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.447
+linear_trend,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.9333
+seasonal_mean,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.0
+random_forest,Machine Learning,Basics of Feature Engineering,W2024,6,3.0,1.733
+historical_mean,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,2.0
+moving_average,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,1.6667
+exp_smoothing,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,1.7924
+linear_trend,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,1.2
+seasonal_mean,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,2.0
+random_forest,Machine Learning,Bayesian Concept Learning,W2024,6,1.0,2.1165
+historical_mean,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,3.3333
+moving_average,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,3.3333
+exp_smoothing,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,3.132
+linear_trend,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,2.7333
+seasonal_mean,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,2.3333
+random_forest,Machine Learning,Introduction to Machine Learning,W2024,6,2.0,3.4727
+historical_mean,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.5
+moving_average,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.6667
+exp_smoothing,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.3584
+linear_trend,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.6
+seasonal_mean,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.3333
+random_forest,Machine Learning,Modelling and Evaluation,W2024,6,3.0,2.754
+historical_mean,Machine Learning,Neural Network,W2024,6,2.0,2.5
+moving_average,Machine Learning,Neural Network,W2024,6,2.0,2.3333
+exp_smoothing,Machine Learning,Neural Network,W2024,6,2.0,2.1606
+linear_trend,Machine Learning,Neural Network,W2024,6,2.0,1.8
+seasonal_mean,Machine Learning,Neural Network,W2024,6,2.0,3.0
+random_forest,Machine Learning,Neural Network,W2024,6,2.0,2.8508
+historical_mean,Machine Learning,Overview of Probability,W2024,6,1.0,2.3333
+moving_average,Machine Learning,Overview of Probability,W2024,6,1.0,2.6667
+exp_smoothing,Machine Learning,Overview of Probability,W2024,6,1.0,2.5133
+linear_trend,Machine Learning,Overview of Probability,W2024,6,1.0,3.5333
+seasonal_mean,Machine Learning,Overview of Probability,W2024,6,1.0,2.3333
+random_forest,Machine Learning,Overview of Probability,W2024,6,1.0,2.6749
+historical_mean,Machine Learning,Preparing to Model,W2024,6,3.0,3.1667
+moving_average,Machine Learning,Preparing to Model,W2024,6,3.0,3.3333
+exp_smoothing,Machine Learning,Preparing to Model,W2024,6,3.0,3.25
+linear_trend,Machine Learning,Preparing to Model,W2024,6,3.0,3.6667
+seasonal_mean,Machine Learning,Preparing to Model,W2024,6,3.0,3.0
+random_forest,Machine Learning,Preparing to Model,W2024,6,3.0,3.2327
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.1667
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.0
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.4202
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.2667
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.6667
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,W2024,6,6.0,5.0741
+historical_mean,Machine Learning,Unsupervised Learning,W2024,6,4.0,2.6667
+moving_average,Machine Learning,Unsupervised Learning,W2024,6,4.0,2.3333
+exp_smoothing,Machine Learning,Unsupervised Learning,W2024,6,4.0,2.7699
+linear_trend,Machine Learning,Unsupervised Learning,W2024,6,4.0,2.2667
+seasonal_mean,Machine Learning,Unsupervised Learning,W2024,6,4.0,3.3333
+random_forest,Machine Learning,Unsupervised Learning,W2024,6,4.0,2.5106
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,3.2857
+moving_average,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,2.6667
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,2.9103
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,2.2857
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,4.0
+random_forest,Applied Machine Learning,Bayesian Concept Learning,S2025,7,4.0,3.579
+historical_mean,Applied Machine Learning,Classification and Regression,S2025,7,4.0,6.5714
+moving_average,Applied Machine Learning,Classification and Regression,S2025,7,4.0,6.0
+exp_smoothing,Applied Machine Learning,Classification and Regression,S2025,7,4.0,5.0352
+linear_trend,Applied Machine Learning,Classification and Regression,S2025,7,4.0,4.5714
+seasonal_mean,Applied Machine Learning,Classification and Regression,S2025,7,4.0,6.6667
+random_forest,Applied Machine Learning,Classification and Regression,S2025,7,4.0,4.7005
+historical_mean,Applied Machine Learning,Deep Learning,S2025,7,3.0,2.7143
+moving_average,Applied Machine Learning,Deep Learning,S2025,7,3.0,2.6667
+exp_smoothing,Applied Machine Learning,Deep Learning,S2025,7,3.0,2.5491
+linear_trend,Applied Machine Learning,Deep Learning,S2025,7,3.0,2.8571
+seasonal_mean,Applied Machine Learning,Deep Learning,S2025,7,3.0,3.3333
+random_forest,Applied Machine Learning,Deep Learning,S2025,7,3.0,2.4059
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,1.4286
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,2.0
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,2.0
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,2.8571
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,1.3333
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2025,7,2.0,1.8402
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,3.0
+moving_average,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,3.0
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,3.0086
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,3.0
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,3.0
+random_forest,Applied Machine Learning,Introduction to Machine Learning,S2025,7,2.0,2.8392
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,3.7143
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,3.3333
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,2.1999
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,2.5714
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,4.0
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,S2025,7,2.0,3.7344
+historical_mean,Applied Machine Learning,Overview of Probability,S2025,7,8.0,4.2857
+moving_average,Applied Machine Learning,Overview of Probability,S2025,7,8.0,5.3333
+exp_smoothing,Applied Machine Learning,Overview of Probability,S2025,7,8.0,5.2446
+linear_trend,Applied Machine Learning,Overview of Probability,S2025,7,8.0,6.8571
+seasonal_mean,Applied Machine Learning,Overview of Probability,S2025,7,8.0,2.6667
+random_forest,Applied Machine Learning,Overview of Probability,S2025,7,8.0,3.8965
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,5.0
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,4.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,4.9757
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,5.2857
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,5.6667
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2025,7,3.0,5.7285
+historical_mean,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,2.8571
+moving_average,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,3.8799
+linear_trend,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,5.7143
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,3.3333
+random_forest,Artificial Intelligence and Machine Learning,Classification,S2025,7,3.0,2.7041
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.2857
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.162
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.5714
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2025,7,2.0,1.4219
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,0.7143
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,0.8563
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,0.8571
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,0.6667
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,S2025,7,2.0,0.5285
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,5.4286
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,5.131
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,3.7143
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,6.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2025,7,8.0,5.7024
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,1.0
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,0.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,0.0011
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2025,7,0.0,0.4282
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,3.5714
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,4.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,6.6891
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,5.5714
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,3.0
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2025,7,4.0,3.4484
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.7143
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.0099
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.3333
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2025,7,0.0,0.6542
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,3.0
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,2.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,1.6456
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,1.4286
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,2.6667
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,S2025,7,2.0,3.1003
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,1.4286
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,2.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,1.7317
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,2.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,1.3333
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2025,7,1.0,1.9924
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,2.0
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,2.3333
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,2.0628
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,2.4286
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,1.6667
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,S2025,7,2.0,1.8502
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.2857
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.0
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.3735
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.1429
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.3333
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,S2025,7,3.0,3.336
+historical_mean,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,5.2857
+moving_average,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,4.0
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,3.8419
+linear_trend,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,4.1429
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,5.6667
+random_forest,Introduction of Machine learning,Basics of Neural Network,S2025,7,7.0,5.1187
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,2.1429
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,2.0
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,1.9998
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,1.5714
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,1.6667
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,S2025,7,3.0,2.035
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,3.5714
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,4.0
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,3.6741
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,4.2857
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,4.6667
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,S2025,7,3.0,4.0448
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,2.7143
+moving_average,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,3.3333
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,2.9253
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,4.0
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,2.6667
+random_forest,Introduction of Machine learning,Dimensionality Reduction,S2025,7,2.0,2.2787
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,2.7143
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,2.6667
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,2.7235
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,2.1429
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,1.6667
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,S2025,7,3.0,2.6265
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.2857
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.6667
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.4634
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.2857
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.6667
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2025,7,2.0,3.2274
+historical_mean,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,1.5714
+moving_average,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,2.0
+exp_smoothing,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,2.4784
+linear_trend,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,2.7143
+seasonal_mean,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,1.6667
+random_forest,Machine Learning,Basics of Feature Engineering,S2025,7,2.0,1.5457
+historical_mean,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,1.8571
+moving_average,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,1.3333
+exp_smoothing,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,1.3081
+linear_trend,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,0.8571
+seasonal_mean,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,2.0
+random_forest,Machine Learning,Bayesian Concept Learning,S2025,7,1.0,1.702
+historical_mean,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,3.1429
+moving_average,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,2.6667
+exp_smoothing,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,3.0188
+linear_trend,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,2.1429
+seasonal_mean,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,4.3333
+random_forest,Machine Learning,Introduction to Machine Learning,S2025,7,3.0,3.2438
+historical_mean,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.5714
+moving_average,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.3333
+exp_smoothing,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.4867
+linear_trend,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.8571
+seasonal_mean,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.6667
+random_forest,Machine Learning,Modelling and Evaluation,S2025,7,2.0,2.731
+historical_mean,Machine Learning,Neural Network,S2025,7,2.0,2.4286
+moving_average,Machine Learning,Neural Network,S2025,7,2.0,2.3333
+exp_smoothing,Machine Learning,Neural Network,S2025,7,2.0,2.0321
+linear_trend,Machine Learning,Neural Network,S2025,7,2.0,1.7143
+seasonal_mean,Machine Learning,Neural Network,S2025,7,2.0,2.0
+random_forest,Machine Learning,Neural Network,S2025,7,2.0,2.4567
+historical_mean,Machine Learning,Overview of Probability,S2025,7,2.0,2.1429
+moving_average,Machine Learning,Overview of Probability,S2025,7,2.0,2.3333
+exp_smoothing,Machine Learning,Overview of Probability,S2025,7,2.0,1.4319
+linear_trend,Machine Learning,Overview of Probability,S2025,7,2.0,2.4286
+seasonal_mean,Machine Learning,Overview of Probability,S2025,7,2.0,2.3333
+random_forest,Machine Learning,Overview of Probability,S2025,7,2.0,2.1376
+historical_mean,Machine Learning,Preparing to Model,S2025,7,3.0,3.1429
+moving_average,Machine Learning,Preparing to Model,S2025,7,3.0,3.3333
+exp_smoothing,Machine Learning,Preparing to Model,S2025,7,3.0,3.125
+linear_trend,Machine Learning,Preparing to Model,S2025,7,3.0,3.4286
+seasonal_mean,Machine Learning,Preparing to Model,S2025,7,3.0,3.3333
+random_forest,Machine Learning,Preparing to Model,S2025,7,3.0,3.0877
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,5.2857
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,5.6667
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,5.5361
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,5.7143
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,4.6667
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,S2025,7,7.0,5.5046
+historical_mean,Machine Learning,Unsupervised Learning,S2025,7,3.0,2.8571
+moving_average,Machine Learning,Unsupervised Learning,S2025,7,3.0,3.0
+exp_smoothing,Machine Learning,Unsupervised Learning,S2025,7,3.0,3.1826
+linear_trend,Machine Learning,Unsupervised Learning,S2025,7,3.0,3.1429
+seasonal_mean,Machine Learning,Unsupervised Learning,S2025,7,3.0,2.0
+random_forest,Machine Learning,Unsupervised Learning,S2025,7,3.0,2.8661
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,3.375
+moving_average,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,3.3333
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,3.3924
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,2.8929
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,2.75
+random_forest,Applied Machine Learning,Bayesian Concept Learning,W2025,8,3.0,3.2038
+historical_mean,Applied Machine Learning,Classification and Regression,W2025,8,6.0,6.25
+moving_average,Applied Machine Learning,Classification and Regression,W2025,8,6.0,5.3333
+exp_smoothing,Applied Machine Learning,Classification and Regression,W2025,8,6.0,4.3106
+linear_trend,Applied Machine Learning,Classification and Regression,W2025,8,6.0,3.7857
+seasonal_mean,Applied Machine Learning,Classification and Regression,W2025,8,6.0,6.5
+random_forest,Applied Machine Learning,Classification and Regression,W2025,8,6.0,5.2361
+historical_mean,Applied Machine Learning,Deep Learning,W2025,8,2.0,2.75
+moving_average,Applied Machine Learning,Deep Learning,W2025,8,2.0,3.0
+exp_smoothing,Applied Machine Learning,Deep Learning,W2025,8,2.0,2.7295
+linear_trend,Applied Machine Learning,Deep Learning,W2025,8,2.0,2.9643
+seasonal_mean,Applied Machine Learning,Deep Learning,W2025,8,2.0,2.25
+random_forest,Applied Machine Learning,Deep Learning,W2025,8,2.0,2.6676
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,1.5
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,2.0
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,2.0
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,2.7857
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,1.5
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",W2025,8,1.0,1.9039
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,2.875
+moving_average,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,3.0
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,2.9077
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,2.5
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,3.0
+random_forest,Applied Machine Learning,Introduction to Machine Learning,W2025,8,3.0,2.6531
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,3.5
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,2.6667
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,2.02
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,2.0
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,3.5
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,W2025,8,4.0,3.1561
+historical_mean,Applied Machine Learning,Overview of Probability,W2025,8,6.0,4.75
+moving_average,Applied Machine Learning,Overview of Probability,W2025,8,6.0,5.6667
+exp_smoothing,Applied Machine Learning,Overview of Probability,W2025,8,6.0,6.8125
+linear_trend,Applied Machine Learning,Overview of Probability,W2025,8,6.0,8.0714
+seasonal_mean,Applied Machine Learning,Overview of Probability,W2025,8,6.0,5.5
+random_forest,Applied Machine Learning,Overview of Probability,W2025,8,6.0,5.1726
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,4.75
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,5.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,4.3154
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,4.2143
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,4.5
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,W2025,8,5.0,5.3048
+historical_mean,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,2.875
+moving_average,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,3.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,3.176
+linear_trend,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,5.0714
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,2.5
+random_forest,Artificial Intelligence and Machine Learning,Classification,W2025,8,3.0,2.578
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.375
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.2458
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.8571
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.5
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,W2025,8,2.0,1.5892
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,0.875
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,0.9707
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,1.4643
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,0.75
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,W2025,8,1.0,0.6033
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,5.75
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,6.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,5.4179
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,5.4286
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,5.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,W2025,8,6.0,6.2093
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,0.875
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,0.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,0.0001
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,W2025,8,1.0,0.4149
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,3.625
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,5.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,4.4522
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,5.2857
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,4.0
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,W2025,8,1.0,4.1234
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,0.625
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,0.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,0.001
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,W2025,8,2.0,0.6063
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,2.875
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,2.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,1.9463
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,1.3214
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,3.25
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,W2025,8,3.0,2.8906
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.375
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.6585
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.6429
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.5
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,W2025,8,1.0,1.6999
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,2.0
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,2.0
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,2.0377
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,2.3214
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,2.25
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,W2025,8,2.0,1.849
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,3.25
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,3.3333
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,3.2615
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,3.0357
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,3.25
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,W2025,8,2.0,2.9822
+historical_mean,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,5.5
+moving_average,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,4.3333
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,6.6842
+linear_trend,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,5.2857
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,5.0
+random_forest,Introduction of Machine learning,Basics of Neural Network,W2025,8,5.0,5.9185
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.25
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.3333
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.6999
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.1429
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.5
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,W2025,8,2.0,2.0354
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,3.5
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,3.6667
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,3.4067
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,3.8214
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,2.75
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,W2025,8,6.0,3.1866
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,2.625
+moving_average,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,3.3333
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,2.8328
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,3.3214
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,2.75
+random_forest,Introduction of Machine learning,Dimensionality Reduction,W2025,8,2.0,2.9
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,2.75
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,2.6667
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,2.8064
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,2.4286
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,3.5
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,W2025,8,3.0,2.7579
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,3.125
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,3.3333
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,3.1707
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,2.6429
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,3.0
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,W2025,8,3.0,3.3094
+historical_mean,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,1.625
+moving_average,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,2.3333
+exp_smoothing,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,2.1562
+linear_trend,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,2.6429
+seasonal_mean,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,1.5
+random_forest,Machine Learning,Basics of Feature Engineering,W2025,8,1.0,1.9058
+historical_mean,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,1.75
+moving_average,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,1.3333
+exp_smoothing,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,1.0713
+linear_trend,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,0.6786
+seasonal_mean,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,1.75
+random_forest,Machine Learning,Bayesian Concept Learning,W2025,8,3.0,1.7682
+historical_mean,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,3.125
+moving_average,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,2.6667
+exp_smoothing,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,3.0169
+linear_trend,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,2.3214
+seasonal_mean,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,2.25
+random_forest,Machine Learning,Introduction to Machine Learning,W2025,8,4.0,3.3797
+historical_mean,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.5
+moving_average,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.3333
+exp_smoothing,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.3894
+linear_trend,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.5
+seasonal_mean,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.5
+random_forest,Machine Learning,Modelling and Evaluation,W2025,8,4.0,2.6464
+historical_mean,Machine Learning,Neural Network,W2025,8,3.0,2.375
+moving_average,Machine Learning,Neural Network,W2025,8,3.0,2.0
+exp_smoothing,Machine Learning,Neural Network,W2025,8,3.0,2.0064
+linear_trend,Machine Learning,Neural Network,W2025,8,3.0,1.6786
+seasonal_mean,Machine Learning,Neural Network,W2025,8,3.0,2.75
+random_forest,Machine Learning,Neural Network,W2025,8,3.0,2.2553
+historical_mean,Machine Learning,Overview of Probability,W2025,8,1.0,2.125
+moving_average,Machine Learning,Overview of Probability,W2025,8,1.0,1.6667
+exp_smoothing,Machine Learning,Overview of Probability,W2025,8,1.0,1.8421
+linear_trend,Machine Learning,Overview of Probability,W2025,8,1.0,2.2857
+seasonal_mean,Machine Learning,Overview of Probability,W2025,8,1.0,2.0
+random_forest,Machine Learning,Overview of Probability,W2025,8,1.0,2.1872
+historical_mean,Machine Learning,Preparing to Model,W2025,8,1.0,3.125
+moving_average,Machine Learning,Preparing to Model,W2025,8,1.0,3.0
+exp_smoothing,Machine Learning,Preparing to Model,W2025,8,1.0,3.0625
+linear_trend,Machine Learning,Preparing to Model,W2025,8,1.0,3.2857
+seasonal_mean,Machine Learning,Preparing to Model,W2025,8,1.0,3.0
+random_forest,Machine Learning,Preparing to Model,W2025,8,1.0,3.0199
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,5.5
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,6.3333
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,5.7896
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,6.4643
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,5.75
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,W2025,8,5.0,5.4116
+historical_mean,Machine Learning,Unsupervised Learning,W2025,8,3.0,2.875
+moving_average,Machine Learning,Unsupervised Learning,W2025,8,3.0,3.3333
+exp_smoothing,Machine Learning,Unsupervised Learning,W2025,8,3.0,3.1461
+linear_trend,Machine Learning,Unsupervised Learning,W2025,8,3.0,3.1429
+seasonal_mean,Machine Learning,Unsupervised Learning,W2025,8,3.0,3.5
+random_forest,Machine Learning,Unsupervised Learning,W2025,8,3.0,2.5188
+historical_mean,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,3.3333
+moving_average,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,3.0
+exp_smoothing,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,3.2747
+linear_trend,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,2.8333
+seasonal_mean,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,4.0
+random_forest,Applied Machine Learning,Bayesian Concept Learning,S2026,9,1.0,3.6304
+historical_mean,Applied Machine Learning,Classification and Regression,S2026,9,5.0,6.2222
+moving_average,Applied Machine Learning,Classification and Regression,S2026,9,5.0,4.6667
+exp_smoothing,Applied Machine Learning,Classification and Regression,S2026,9,5.0,5.4932
+linear_trend,Applied Machine Learning,Classification and Regression,S2026,9,5.0,4.2222
+seasonal_mean,Applied Machine Learning,Classification and Regression,S2026,9,5.0,6.0
+random_forest,Applied Machine Learning,Classification and Regression,S2026,9,5.0,5.9391
+historical_mean,Applied Machine Learning,Deep Learning,S2026,9,4.0,2.6667
+moving_average,Applied Machine Learning,Deep Learning,S2026,9,4.0,2.3333
+exp_smoothing,Applied Machine Learning,Deep Learning,S2026,9,4.0,2.4377
+linear_trend,Applied Machine Learning,Deep Learning,S2026,9,4.0,2.5833
+seasonal_mean,Applied Machine Learning,Deep Learning,S2026,9,4.0,3.25
+random_forest,Applied Machine Learning,Deep Learning,S2026,9,4.0,2.9545
+historical_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,1.4444
+moving_average,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,1.6667
+exp_smoothing,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,1.1
+linear_trend,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,2.2778
+seasonal_mean,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,1.5
+random_forest,Applied Machine Learning,"GANs, Deep RL and Adversarial Attacks",S2026,9,2.0,1.3985
+historical_mean,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,2.8889
+moving_average,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,3.3333
+exp_smoothing,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,2.917
+linear_trend,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,2.6389
+seasonal_mean,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,2.75
+random_forest,Applied Machine Learning,Introduction to Machine Learning,S2026,9,1.0,2.8758
+historical_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,3.5556
+moving_average,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,2.6667
+exp_smoothing,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,3.2461
+linear_trend,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,2.5556
+seasonal_mean,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,3.5
+random_forest,Applied Machine Learning,Neural Networks and Parameter Estimation,S2026,9,5.0,3.9701
+historical_mean,Applied Machine Learning,Overview of Probability,S2026,9,7.0,4.8889
+moving_average,Applied Machine Learning,Overview of Probability,S2026,9,7.0,7.3333
+exp_smoothing,Applied Machine Learning,Overview of Probability,S2026,9,7.0,6.2081
+linear_trend,Applied Machine Learning,Overview of Probability,S2026,9,7.0,7.8889
+seasonal_mean,Applied Machine Learning,Overview of Probability,S2026,9,7.0,4.0
+random_forest,Applied Machine Learning,Overview of Probability,S2026,9,7.0,4.5855
+historical_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,4.7778
+moving_average,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,4.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,4.4523
+linear_trend,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,4.4444
+seasonal_mean,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,5.0
+random_forest,Artificial Intelligence and Machine Learning,Artificial Neural Network,S2026,9,5.0,5.0085
+historical_mean,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,2.8889
+moving_average,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,3.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,3.0352
+linear_trend,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,4.6389
+seasonal_mean,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,3.25
+random_forest,Artificial Intelligence and Machine Learning,Classification,S2026,9,3.0,2.7629
+historical_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,1.4444
+moving_average,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,1.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,1.5238
+linear_trend,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,2.0278
+seasonal_mean,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,1.25
+random_forest,Artificial Intelligence and Machine Learning,Dimensionality Reduction,S2026,9,2.0,1.5407
+historical_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,0.8889
+moving_average,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,0.9736
+linear_trend,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,1.3889
+seasonal_mean,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,1.0
+random_forest,Artificial Intelligence and Machine Learning,Ensemble Learning,S2026,9,1.0,0.5784
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,5.7778
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,6.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,5.4761
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,5.6111
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,6.5
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent and Linear Algebra,S2026,9,6.0,5.2787
+historical_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.8889
+moving_average,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.3333
+exp_smoothing,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.9
+linear_trend,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.0
+seasonal_mean,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.75
+random_forest,Artificial Intelligence and Machine Learning,Gradient Descent with Large Datasets,S2026,9,1.0,0.8054
+historical_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,3.3333
+moving_average,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,4.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,3.2279
+linear_trend,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,3.75
+seasonal_mean,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,3.25
+random_forest,Artificial Intelligence and Machine Learning,Introduction to AI and ML,S2026,9,1.0,3.4354
+historical_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,0.7778
+moving_average,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,0.6667
+exp_smoothing,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,1.8001
+linear_trend,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,0.3611
+seasonal_mean,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,0.25
+random_forest,Artificial Intelligence and Machine Learning,Multiple Features Gradient Descent,S2026,9,2.0,0.9495
+historical_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,2.8889
+moving_average,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,2.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,2.5785
+linear_trend,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,1.7222
+seasonal_mean,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,2.5
+random_forest,Artificial Intelligence and Machine Learning,Support Vector Machine,S2026,9,3.0,2.8788
+historical_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.3333
+moving_average,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.0
+exp_smoothing,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.5927
+linear_trend,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.4167
+seasonal_mean,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.25
+random_forest,Artificial Intelligence and Machine Learning,Unsupervised Learning,S2026,9,1.0,1.6322
+historical_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,2.0
+moving_average,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,2.0
+exp_smoothing,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,2.0226
+linear_trend,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,2.25
+seasonal_mean,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,1.75
+random_forest,Introduction of Machine learning,Basic Concepts of Clustering,S2026,9,1.0,2.0565
+historical_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,3.1111
+moving_average,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,3.0
+exp_smoothing,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,2.883
+linear_trend,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,2.5278
+seasonal_mean,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,3.25
+random_forest,Introduction of Machine learning,Basic Machine Learning Algorithms,S2026,9,5.0,2.843
+historical_mean,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,5.4444
+moving_average,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,5.3333
+exp_smoothing,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,5.271
+linear_trend,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,5.1111
+seasonal_mean,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,6.0
+random_forest,Introduction of Machine learning,Basics of Neural Network,S2026,9,5.0,6.0364
+historical_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.2222
+moving_average,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.3333
+exp_smoothing,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.2403
+linear_trend,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.0556
+seasonal_mean,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.0
+random_forest,Introduction of Machine learning,Bayesian Concept of Learning,S2026,9,2.0,2.0512
+historical_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,3.7778
+moving_average,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,4.0
+exp_smoothing,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,4.1847
+linear_trend,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,4.8611
+seasonal_mean,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,4.25
+random_forest,Introduction of Machine learning,Computational and Ensemble Learning,S2026,9,3.0,3.9345
+historical_mean,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.5556
+moving_average,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.6667
+exp_smoothing,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.7495
+linear_trend,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.8889
+seasonal_mean,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.5
+random_forest,Introduction of Machine learning,Dimensionality Reduction,S2026,9,3.0,2.6631
+historical_mean,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,2.7778
+moving_average,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,3.0
+exp_smoothing,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,2.8645
+linear_trend,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,2.6111
+seasonal_mean,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,2.0
+random_forest,Introduction of Machine learning,Introduction to Machine Learning,S2026,9,4.0,2.5716
+historical_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,3.1111
+moving_average,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,2.6667
+exp_smoothing,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,3.1366
+linear_trend,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,2.6944
+seasonal_mean,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,3.25
+random_forest,Introduction of Machine learning,Logistic Regression and Support Vector Machine,S2026,9,2.0,3.2534
+historical_mean,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,1.5556
+moving_average,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,2.0
+exp_smoothing,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,1.6573
+linear_trend,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,2.1389
+seasonal_mean,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,1.75
+random_forest,Machine Learning,Basics of Feature Engineering,S2026,9,2.0,1.8308
+historical_mean,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,1.8889
+moving_average,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,1.6667
+exp_smoothing,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,2.0977
+linear_trend,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,1.4722
+seasonal_mean,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,1.75
+random_forest,Machine Learning,Bayesian Concept Learning,S2026,9,2.0,1.6116
+historical_mean,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,3.2222
+moving_average,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,3.0
+exp_smoothing,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,3.1152
+linear_trend,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,2.8889
+seasonal_mean,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,4.0
+random_forest,Machine Learning,Introduction to Machine Learning,S2026,9,2.0,3.1958
+historical_mean,Machine Learning,Modelling and Evaluation,S2026,9,3.0,2.6667
+moving_average,Machine Learning,Modelling and Evaluation,S2026,9,3.0,3.0
+exp_smoothing,Machine Learning,Modelling and Evaluation,S2026,9,3.0,2.7115
+linear_trend,Machine Learning,Modelling and Evaluation,S2026,9,3.0,3.1667
+seasonal_mean,Machine Learning,Modelling and Evaluation,S2026,9,3.0,2.5
+random_forest,Machine Learning,Modelling and Evaluation,S2026,9,3.0,2.5767
+historical_mean,Machine Learning,Neural Network,S2026,9,2.0,2.4444
+moving_average,Machine Learning,Neural Network,S2026,9,2.0,2.3333
+exp_smoothing,Machine Learning,Neural Network,S2026,9,2.0,2.8013
+linear_trend,Machine Learning,Neural Network,S2026,9,2.0,2.1111
+seasonal_mean,Machine Learning,Neural Network,S2026,9,2.0,2.0
+random_forest,Machine Learning,Neural Network,S2026,9,2.0,2.3406
+historical_mean,Machine Learning,Overview of Probability,S2026,9,3.0,2.0
+moving_average,Machine Learning,Overview of Probability,S2026,9,3.0,1.3333
+exp_smoothing,Machine Learning,Overview of Probability,S2026,9,3.0,1.3368
+linear_trend,Machine Learning,Overview of Probability,S2026,9,3.0,1.75
+seasonal_mean,Machine Learning,Overview of Probability,S2026,9,3.0,2.25
+random_forest,Machine Learning,Overview of Probability,S2026,9,3.0,1.6906
+historical_mean,Machine Learning,Preparing to Model,S2026,9,4.0,2.8889
+moving_average,Machine Learning,Preparing to Model,S2026,9,4.0,2.3333
+exp_smoothing,Machine Learning,Preparing to Model,S2026,9,4.0,2.0312
+linear_trend,Machine Learning,Preparing to Model,S2026,9,4.0,2.3056
+seasonal_mean,Machine Learning,Preparing to Model,S2026,9,4.0,3.25
+random_forest,Machine Learning,Preparing to Model,S2026,9,4.0,2.9288
+historical_mean,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,5.4444
+moving_average,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,6.0
+exp_smoothing,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,5.7106
+linear_trend,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,6.0278
+seasonal_mean,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,5.25
+random_forest,Machine Learning,Supervised Learning: Classification and Regression,S2026,9,5.0,5.7086
+historical_mean,Machine Learning,Unsupervised Learning,S2026,9,2.0,2.8889
+moving_average,Machine Learning,Unsupervised Learning,S2026,9,2.0,3.3333
+exp_smoothing,Machine Learning,Unsupervised Learning,S2026,9,2.0,3.1169
+linear_trend,Machine Learning,Unsupervised Learning,S2026,9,2.0,3.1389
+seasonal_mean,Machine Learning,Unsupervised Learning,S2026,9,2.0,2.25
+random_forest,Machine Learning,Unsupervised Learning,S2026,9,2.0,2.6492
