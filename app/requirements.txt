@@ -1,19 +1,21 @@
 # Streamlit Community Cloud dependencies (runtime of app/app.py only).
 # Streamlit Cloud reads this file because it sits next to the entrypoint; the root requirements.txt
 # is for the full local pipeline (PDF extraction, clustering, tests, CUDA torch).
+# torch is pinned to the CPU build (Streamlit Cloud has no GPU); the rest are ranges so pip can
+# resolve them for the Python version selected in the app's Advanced settings (3.11-3.13 tested: 3.11).
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.11.0+cpu
-sentence-transformers==6.1.0
-transformers==5.17.0
-faiss-cpu==1.15.1
-streamlit==1.64.0
-plotly==7.1.0
-pandas==3.0.6
-numpy==2.5.3
-scipy==1.18.1
-scikit-learn==1.9.1
-RapidFuzz==3.14.6
-PyYAML==6.0.3
-python-dotenv==1.2.3
-anthropic==1.8.0
-openai==3.19.2
+sentence-transformers>=5.0,<7
+transformers>=4.51
+faiss-cpu>=1.9,<2
+streamlit>=1.50,<2
+plotly>=6.0
+pandas>=2.2,<4
+numpy>=2.0,<3
+scipy>=1.13
+scikit-learn>=1.5
+RapidFuzz>=3.9
+PyYAML>=6.0
+python-dotenv>=1.0
+anthropic>=1.0
+openai>=1.40
